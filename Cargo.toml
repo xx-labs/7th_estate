@@ -1,0 +1,58 @@
+[package]
+name = "seventh-estate"
+version = "1.0.0"
+authors = ["Christopher Vatcher <>"]
+edition = "2018"
+
+[lib]
+crate-type = ["rlib", "cdylib"]
+
+[dependencies]
+# Program Dependencies
+log = { version = "0.4", features = ["max_level_debug", "release_max_level_warn"] }
+stderrlog = "0.4.3"
+clap = "2.33.0"
+rpassword = "4.0.3"
+
+# Serialization/Deserialization
+serde = { version = "*", features = ["derive"] }
+serde_json = "*"
+serde_yaml = "*"
+csv = "1.1"
+strum = "0.17.1"
+strum_macros = "0.17.1"
+
+# DateTime Manipulation
+chrono = { version = "0.4.10", features = ["serde"] }
+
+# Binary Manipulation
+hex = "0.4.0"
+hex-literal = "0.2.1"
+base64 = "0.11.0"
+
+# Utilities
+lazy_static = "1.4.0"
+itertools = "0.8.2"
+typename = "0.1.2"
+
+# Cryptographic Primitives
+secrecy = "0.6.0"
+getrandom = "0.1.13"
+rand = "0.7.3"
+rand_chacha = "0.2.1"
+
+block-padding = "0.1.5"
+block-modes = "0.3.3"
+aes-soft = "0.3.3"
+aes-ctr = "0.3.0"
+cmac = "0.2.0"
+sha2 = "0.8.0"
+chacha20-poly1305-aead = "0.1.2"
+
+#ed25519 = "0.2.0"
+signatory = "0.17.0"
+signatory-dalek = "0.17.0"
+
+scrypt = "0.2.0"
+# BROKEN/ABANDONED: rusty_secrets = "0.2.2"
+threshold-secret-sharing = "0.2.2"

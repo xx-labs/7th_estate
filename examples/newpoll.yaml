@@ -1,0 +1,8 @@
+---
+poll_identifier: "Example Poll"
+poll_trustees:
+ - identifier: "alice@example.com"
+ - identifier: "bob@example.com"
+ - identifier: "carol@example.com"
+num_ballots: 100
+num_decoys: 10
