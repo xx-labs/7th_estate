@@ -31,7 +31,7 @@ poll can be announced only after the ballots are mailed, making
 interference all but impossible.
 
 For a more complete introduction, see the
-[Grassroots Democracy Booklet](Grassroots Democracy Booklet.pdf).
+[Grassroots Democracy Booklet](Grassroots%20Democracy%20Booklet.pdf).
 
 To learn more about the underlying cryptography, statistics, proofs
 and other background, see closely related ideas developed as part of
@@ -82,32 +82,32 @@ Briefly, here is the sequence of events, identified by the
 results.
 
 ```
-new: Initialize the election definition
+new: Create a new poll
  examples/example.yaml.secure (changed in later steps also)
 
-bind-roster: Bind the roster of voters
+bind-roster: Bind the roster of voters to the poll
  examples/example.yaml.secure
 
-step 1: Publishing initial columns
+step 1: Generate initial commitments
  examples/ExamplePoll/committed_plane_*.csv
  examples/ExamplePoll/committed_roster.csv
  examples/ExamplePoll/committed_summands.yaml
 
-step 2: Summand draw
+step 2: Generate drawn summands
  examples/ExamplePoll/drawn_summands.yaml
 
-step 3: Ballot and voter random pairing
+step 3: Generate address labels and ballot information
  examples/addresses.csv
  examples/ballots.csv
 
-step 4: Audits and ballot distribution
+step 4: Record audited (spoiled) ballots
  examples/ExamplePoll/print_audit_plane_*.csv
  examples/ExamplePoll/print_audit_plane_*_keys.csv
 
-step 5: Ballot casting
+step 5: Ballot casting (the demo script chooses random votes)
  examples/votes.csv
 
-step 6: Post voted columns on blockchain
+step 6: Record votes
  examples/ExamplePoll/vote_plane_*.csv
  examples/ExamplePoll/vote_plane_*_keys.csv
 
