@@ -37,6 +37,7 @@ To learn more about the underlying cryptography, statistics, proofs
 and other background, see closely related ideas developed as part of
 [Random-Sample Voting](https://rsvoting.org/):
 
+* [Random-Sample Voting - More democratic, better quality, and far lower cost](https://rsvoting.org/whitepaper/white_paper.pdf) White Paper by David Chaum
 * [Random Sample Voting: Security Proof](https://rsvoting.org/cryptographic_protocols/proof_summary.pdf),
 Editors: David Chaum, Aggelos Kiayias, Douglas Wikström, Bingsheng, Zhang Summary: Jeremy Clark
 * [Verifable Randomness Pillar Technical Summary](https://rsvoting.org/random_beacon/random_beacon_summary.pdf),
