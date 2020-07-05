@@ -15,6 +15,7 @@ SEVENTH_ESTATE_BINARY=${SEVENTH_ESTATE_BINARY:-./seventh-estate}
 cp one-trustee-poll.yaml example.yaml
 cp roster.csv example-roster.csv
 
+recordstep init
 ${SEVENTH_ESTATE_BINARY} new --config example.yaml
 recordstep new
 ${SEVENTH_ESTATE_BINARY} bind-roster --config example.yaml.secure --roster example-roster.csv
@@ -60,3 +61,8 @@ ${SEVENTH_ESTATE_BINARY} step7 --config example.yaml.secure --seed ffeeddccbbaa9
 recordstep step7
 ${SEVENTH_ESTATE_BINARY} step8 --config example.yaml.secure
 recordstep step8
+
+echo "Here are the valid votes. We tally the vote ourselves."
+grep ,Voted, ExamplePoll/final_plane_04.csv | sort -t , -k +3
+
+# Note: you'll need to do one final `git add example.out` and commit it for the output written after that final recordstep
