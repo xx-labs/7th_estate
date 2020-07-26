@@ -2,13 +2,14 @@
 
 ## Overview
 Seventh Estate empowers grassroots democracy. With modern advances in
-cryptography, Anyone can now prove that a majority of the country
-agrees with a particular petition statement.  The technique offers
+cryptography, anyone can now prove that a majority of the country
+agrees with a particular petition statement (assuming that it is
+indeed popular).  The technique offers
 the best of surveys, initiatives, juries, protests, and petitions,
 while overcoming their shortcomings in demonstrating the public will.
 
-With it, anyone can now for the first time irrefutably prove that a
-majority would sign on to particular petition language.  All that’s
+With it, anyone can now for the first time provide comprehensive evidence
+that a majority would sign on to particular petition language.  All that’s
 needed is about $1,000 worth of supplies and a postal mailing list
 for the country or region.
 
@@ -17,12 +18,12 @@ un-manipulatable.  Those receiving ballots are given time to research
 and submit their decision securely online. They know that their input
 is significant because of the limited sample size. They also know
 that it will be counted correctly, because the security is
-superior to that of conventional automated election systems. In fact,
+far superior to that of conventional election systems. In fact,
 observers can verify that those creating and mailing the paper
 ballots cannot influence selection, manipulate outcomes, or link
 responses to addresses. Vote-buying, an unsolved problem in all other
-current non-polling- place balloting, is effectively solved by decoy
-ballots. Economic incentives can be provided to those casting ballots
+current non-polling-place balloting, is effectively solved by *decoy ballots*.
+Economic incentives can be provided to those casting ballots
 without any possible linkage to their response.
 
 The needed supplies are readily available and have already been
@@ -33,7 +34,10 @@ interference all but impossible.
 For a more complete introduction, see the
 [Grassroots Democracy Booklet](Grassroots%20Democracy%20Booklet.pdf).
 
-To learn more about the underlying cryptography, statistics, proofs
+For an explanatory diagram and specifics on how it works, see the
+[7th Estate Technical Diagram Explanation](7th%20estate%20technical%20description%20v1.pdf)
+
+To learn much more about the underlying cryptography, statistics, proofs
 and other background, see closely related ideas developed as part of
 [Random-Sample Voting](https://rsvoting.org/):
 
@@ -65,7 +69,10 @@ successfully and learn the command-line options available.
 
 ## Run the Demo
 
-`cd` to the examples folder, and run
+The following commands work from the command line in a Linux terminal.
+(On Windows, the commands in `examples/example.cmd` will be helpful.)
+
+Change directory to the `examples` folder, and run
 
 `SEVENTH_ESTATE_BINARY=../target/debug/seventh-estate ./example-debug.sh 2>&1 | tee example.out`
 
