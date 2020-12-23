@@ -53,6 +53,10 @@ by David Chaum, Jeremy Clark, Neal McBurnett, Nan Yang
 * [Real World Crypto 2016 Trial Report](https://github.com/rsvoting/publications/blob/master/trials/rwc-2016-demo-report.md)
 * [Crypto 2015 Trial Report](https://github.com/rsvoting/publications/blob/master/trials/crypto-2015-demo-report.md)
 
+
+## Trello Board
+To contribute to this project, you can find more info on the public Trello board at https://trello.com/b/SVVzvVEv/voting
+
 ## Installation
 
 Clone this repository as described at
