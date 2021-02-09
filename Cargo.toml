@@ -56,3 +56,12 @@ signatory-dalek = "0.17.0"
 scrypt = "0.2.0"
 # BROKEN/ABANDONED: rusty_secrets = "0.2.2"
 threshold-secret-sharing = "0.2.2"
+
+# Print Ballot
+printpdf = "0.3.2"
+
+# Blockchain/Merkle tree
+merkletree = "0.21.0"
+rust-crypto = "0.2.36"
+typenum = "1.11.2"
+bincode = "1.3.1"

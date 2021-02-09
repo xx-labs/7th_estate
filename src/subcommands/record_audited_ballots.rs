@@ -4,6 +4,7 @@
 //! audit and records them as part of the secured poll configuration.
 
 use super::*;
+use crate::blockchain::commit;
 
 #[derive(Debug, Clone, Deserialize)]
 pub struct AuditedBallotRecord {
@@ -105,6 +106,8 @@ pub fn record_audited_ballots(pollconf_filename: &str, audited_ballots_filename:
     serde_yaml::to_writer(
         File::create(pollconf_path)?,
         &secured_poll_configuration)?;
+
+    blockchain::commit(pollconf);
 
     Ok(())
 }
