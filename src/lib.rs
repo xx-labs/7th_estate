@@ -27,6 +27,9 @@ use summands::*;
 
 pub mod voter_selection;
 
+pub mod blockchain;
+use blockchain::*;
+
 pub mod ballots;
 use ballots::*;
 

@@ -7,7 +7,7 @@
 
 use super::*;
 use crate::voter_selection::select_voters;
-
+use crate::ballots::print;
 
 #[derive(Debug, Clone, Serialize)]
 pub struct AddressLabel {
@@ -115,6 +115,7 @@ pub fn generate_print_files(pollconf_filename: &str, addresses_filename: &str, b
     let mut csvwriter = csv::Writer::from_path(ballots_path)?;
     ballots.iter()
         .for_each(|ballot| {
+            print::print_ballot(&ballot); 
             let record = CompleteBallotRow {
                 serial: string_from_ballotserial(&ballot.serial, pollconf.num_ballots),
                 choice1_votecode: string_from_votecode(&ballot.choice1.votecode),
@@ -127,7 +128,6 @@ pub fn generate_print_files(pollconf_filename: &str, addresses_filename: &str, b
         });
 
     // No need to update the poll state since this is not a public operation.
-
     Ok(())
 }
 
