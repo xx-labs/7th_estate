@@ -15,39 +15,29 @@ pub struct CryptoSha3Algorithm(Sha3);
 
 pub struct CryptoHashData{
     hasher: CryptoSha3Algorithm,
-    data: Vec<CryptoSHA3256Hash>
+    data: Vec<String>
 }
 
 impl CryptoHashData {
-    pub fn new() -> CryptoHashData {
+    pub fn new(newdata: Vec<String>) -> CryptoHashData {
         CryptoHashData {
             hasher: CryptoSha3Algorithm::new(),
-            data: Vec::<CryptoSHA3256Hash>::new()
+            data: newdata
         }
     }
-    pub fn push(&mut self, data: &[u8]) {
-        self.hasher.write(data);
-        self.data.push(self.hasher.hash());
-        self.hasher.reset();
+    pub fn push(&mut self, data: String) {
+        self.data.push(data);
+    }
+    pub fn push_vec(&mut self, data: Vec<String>) {
+        for d in data.into_iter() {
+            self.push(d);
+        }
     }
 
-    pub fn add(&mut self, array: Vec<u8>){
-        self.push(&(*array)[..]);
-    }
-
-    pub fn add_vec(&mut self, array: Vec<Vec<u8>>) {
-        array.into_iter()
-            .for_each(|voter| {
-                self.add(voter);
-            })
-    }
-
-    pub fn complete(&mut self) {
-        let data_size = self.data.len() as f64;
-        let tree_size = (2 as i32).pow(data_size.log2().ceil() as u32) as usize;
-        
-        for _ in data_size as usize .. tree_size as usize {
-            self.push(&[0]);
+    pub fn pad(&mut self){
+        let size = self.data.len();
+        for _ in size .. size.next_power_of_two() {
+            self.data.push(String::from("\0"));
         }
     }
 }
@@ -78,7 +68,7 @@ impl Hasher for CryptoSha3Algorithm {
 
 impl Algorithm<CryptoSHA3256Hash> for CryptoSha3Algorithm {
     #[inline]
-    fn hash(&mut self) -> CryptoSHA3256Hash {
+    fn hash(&mut self) -> [u8; 32] {
         let mut h = [0u8; 32];
         self.0.result(&mut h);
         h
@@ -88,6 +78,14 @@ impl Algorithm<CryptoSHA3256Hash> for CryptoSha3Algorithm {
     fn reset(&mut self) {
         self.0.reset();
     }
+}
+
+pub fn pad_to_power_2(mut v: Vec<String>) -> Vec<String> {
+    let size = v.len();
+    for _ in size .. size.next_power_of_two() {
+        v.push(String::from("\0"));
+    }
+    v
 }
 
 pub fn new_tree(hashed: CryptoHashData) -> Result<MerkleRoot> {

@@ -3,7 +3,7 @@
 //! Post/read information to/from blockchain
 //! Information posted is a merkle root
 
-use crate::blockchain::merkle::{CryptoSHA3256Hash, MerkleRoot, new_tree, validate, CryptoHashData};
+use crate::blockchain::merkle::{CryptoSHA3256Hash, MerkleRoot, new_tree, validate, CryptoHashData, pad_to_power_2};
 use crate::Result;
 use crate::voter_roster::VoterRoster;
 use crate::ballots::untagged::BallotSerial;
@@ -37,29 +37,41 @@ pub fn commit (pollconf: PollConfiguration) -> bool {
         serde_yaml::from_str(serialized_roster).unwrap()
     };
 
-    // Serialize roster into Vec<u8>
-    let serialized_roster = roster.records.into_iter()
+    // Get voter info
+    let roster = roster.records.into_iter()
         .map(|voter| {
-            bincode::serialize(&voter).unwrap()
-        }).collect::<Vec<Vec<u8>>>();
+            serde_yaml::to_string(&voter).unwrap()
+        }).collect();
+    let roster = pad_to_power_2(roster);
+    /*
+    let copy_data = &roster;
+    for v in copy_data.into_iter() {
+        println!("{}:{}", v, v.len()); 
+    }
+    */
+
 
     // Re-construct the audited ballots.
-    let audited_ballots: Vec<BallotSerial> = {
-        pollconf.audited_ballots.clone().unwrap().iter()
-            .map(|serial| usize::from_str_radix(serial, 10).unwrap())
-            .collect()
-    };
+    let audited_ballots: Vec<String> = pollconf.audited_ballots.iter()
+        .map(|audited| {
+            serde_yaml::to_string(&audited).unwrap()
+        }).collect();
+    
+    let mut data = CryptoHashData::new(roster);
+    data.push_vec(audited_ballots);
+    data.pad();
+    
+    let merkle_tree = new_tree(data).unwrap();
+    println!("Root {}", hex::encode(merkle_tree.root()));
 
-    // Serialize audited ballots into [u8]
-    let serialized_audited = audited_ballots.into_iter()
-    .map(|ballot| {
-        ballot as u8
-    }).collect();
-
+    panic!("done");
+    /*
     let mut serialized_data = CryptoHashData::new();
     serialized_data.add_vec(serialized_roster);
     serialized_data.add(serialized_audited);
     serialized_data.complete();
-
+    
     post_on_chain(serialized_data)
+    */
+    true
 }
