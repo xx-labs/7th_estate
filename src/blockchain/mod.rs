@@ -6,4 +6,4 @@
 pub mod blockchain;
 pub use blockchain::*;
 
-mod merkle;
+pub mod merkle;

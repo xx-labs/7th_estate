@@ -1,3 +1,4 @@
+
 use merkletree::merkle::MerkleTree;
 use merkletree::store::VecStore;
 use merkletree::proof::Proof;
@@ -16,6 +17,10 @@ pub struct CryptoSha3Algorithm(Sha3);
 pub struct CryptoHashData{
     hasher: CryptoSha3Algorithm,
     data: Vec<String>
+}
+
+pub fn slice_as_hash(xs: &[u8]) -> &[u8; 32] {
+    slice_as_array!(xs, [u8; 32]).expect("bad hash length")
 }
 
 impl CryptoHashData {
@@ -80,25 +85,54 @@ impl Algorithm<CryptoSHA3256Hash> for CryptoSha3Algorithm {
     }
 }
 
-pub fn pad_to_power_2(mut v: Vec<String>) -> Vec<String> {
-    let size = v.len();
-    for _ in size .. size.next_power_of_two() {
-        v.push(String::from("\0"));
+fn get_hash (a: &mut CryptoSha3Algorithm, v: &String) -> [u8; 32] {
+    a.reset();
+    a.write(v.as_bytes());
+    let b = a.hash();
+
+    a.reset();
+    a.write(&[0x00]);
+    a.write(&b);
+    let b = a.hash();
+    b
+}
+
+fn get_leaf_index(t: &MerkleRoot, hash: CryptoSHA3256Hash) -> Option<usize>{
+    let leafs = t.leafs();
+
+    for i in 0..leafs {
+        let e = t.read_at(i).unwrap();
+        if e == hash {
+            return Some(i)
+        }
     }
-    v
+    None
 }
 
 pub fn new_tree(hashed: CryptoHashData) -> Result<MerkleRoot> {
     Ok(MerkleTree::from_data(hashed.data)? as MerkleRoot)
 }
 
-pub fn validate(t: MerkleRoot, proof_item: CryptoSHA3256Hash) -> Result<bool> {
-    let generated_proof = t.gen_proof(0).unwrap();
+pub fn get_path(t: MerkleRoot, data: String) -> Option<Proof<CryptoSHA3256Hash>> {
+    let proof_item = get_hash(&mut CryptoSha3Algorithm::default(), &data);
+    if let Some(index) = get_leaf_index(&t, proof_item) {
+        let proof = t.gen_proof(index).unwrap();
+        return Some(proof)
+    }
+    None
+}
+
+pub fn validate(lemma: Vec<String>, path: Vec<usize>, data: String) -> Result<bool> {
+    let lemma: Vec<CryptoSHA3256Hash> = lemma.into_iter().map(|l| {
+        let decode = hex::decode(l).unwrap();
+        *slice_as_hash(&decode)
+    }).collect();
+
     let proof: Proof<CryptoSHA3256Hash> = Proof::new::<U0, U0>(
         None,
-        generated_proof.lemma().to_owned(),
-        generated_proof.path().to_owned(),
-    )
-    .unwrap();
-    Ok(proof.validate_with_data::<CryptoSha3Algorithm>(&proof_item).unwrap())
+        lemma,
+        path,
+    ).unwrap();
+
+    Ok(proof.validate_with_data::<CryptoSha3Algorithm>(&data).unwrap())
 }
