@@ -10,16 +10,17 @@
 
 use signatory::ed25519;
 use signatory::encoding::{Encode, Decode, Base64};
-use signatory::public_key::PublicKeyed;
+// use signatory::public_key::PublicKey;
 use signatory::signature::{Signer};
-use signatory_dalek::{Ed25519Signer};
+use signatory_sodiumoxide::{Ed25519Signer};
+
 use super::{Result, Base64String};
 
 /// Generate a key pair for signing and signature verification.
 pub fn new_signing_key() -> Result<(Base64String, Base64String)> {
     let seed = ed25519::Seed::generate();
     let signer = Ed25519Signer::from(&seed);
-    let pk = signer.public_key()?;
+    let pk = signatory::ed25519::PublicKey::from(&signer);
     
     Ok((Base64String(seed.encode_to_string(&Base64::default()).unwrap()),
         Base64String(pk.encode_to_string(&Base64::default()).unwrap())))
