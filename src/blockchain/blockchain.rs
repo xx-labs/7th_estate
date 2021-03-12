@@ -3,12 +3,11 @@
 //! Post/read information to/from blockchain
 //! Information posted is a merkle root
 
-use crate::blockchain::merkle::{CryptoSHA3256Hash, MerkleRoot, new_tree, validate, CryptoHashData};
+use crate::blockchain::merkle::{CryptoSHA3256Hash, new_tree, CryptoHashData};
 use crate::Result;
 use crate::voter_roster::VoterRoster;
 use crate::poll_configuration::PollConfiguration;
 use crate::planes::Plane;
-use crate::NUMBER_OF_PLANES;
 use crate::debug;
 
 // returns block #
@@ -45,33 +44,20 @@ pub fn commit (pollconf: PollConfiguration, planes: Vec<Plane>) -> bool {
     let mut data = CryptoHashData::new(roster);
     data.push_vec(audited_ballots);
    
-    
-    // Serialize plane columns
-    // Each column of each plane serialized into a yaml string and added as a leaf
-    let mut serialized_planes: Vec<String> = Vec::with_capacity(NUMBER_OF_PLANES * 3);   
     planes.into_iter().for_each(|plane|
-    {
-        let mut col1: Vec<String> = Vec::with_capacity(pollconf.num_ballots);
-        // let mut col2: Vec<String> = Vec::with_capacity(pollconf.num_ballots); // This is before voting, so column 2 is empty
-        let mut col3: Vec<String> = Vec::with_capacity(pollconf.num_ballots);
-        
+    {        
         plane.rows.into_iter().for_each(|row|
         {
             let ser_row = row.serializable(pollconf.num_ballots);
-            col1.push(ser_row.col1);
-            // col2.push(ser_row.col2);
-            col3.push(ser_row.col3);
+
+            // Each row entry is a leaf
+            data.push(ser_row.col1);
+            data.push(ser_row.col3);
         });
-
-        serialized_planes.push(serde_yaml::to_string(&col1).unwrap());
-        // serialized_planes.push(serde_yaml::to_string(&col2).unwrap());
-        serialized_planes.push(serde_yaml::to_string(&col3).unwrap());
     });
-
-    data.push_vec(serialized_planes);
     data.pad();
 
     let merkle_tree = new_tree(data).unwrap();
-    debug!("Root posted on blockchain {}", hex::encode(merkle_tree.root()));
+    debug!("Root: {}", hex::encode(merkle_tree.root()));
     post(merkle_tree.root()).unwrap()    
 }

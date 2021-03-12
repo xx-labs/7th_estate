@@ -13,11 +13,8 @@ use typenum::U0;
 pub type MerkleRoot = MerkleTree<CryptoSHA3256Hash, CryptoSha3Algorithm, VecStore<CryptoSHA3256Hash>>;
 pub type CryptoSHA3256Hash = [u8; 32];
 pub struct CryptoSha3Algorithm(Sha3);
+pub struct CryptoHashData(Vec<String>);
 
-pub struct CryptoHashData{
-    hasher: CryptoSha3Algorithm,
-    data: Vec<String>
-}
 
 pub fn slice_as_hash(xs: &[u8]) -> &[u8; 32] {
     slice_as_array!(xs, [u8; 32]).expect("bad hash length")
@@ -25,13 +22,10 @@ pub fn slice_as_hash(xs: &[u8]) -> &[u8; 32] {
 
 impl CryptoHashData {
     pub fn new(newdata: Vec<String>) -> CryptoHashData {
-        CryptoHashData {
-            hasher: CryptoSha3Algorithm::new(),
-            data: newdata
-        }
+        CryptoHashData(newdata)
     }
     pub fn push(&mut self, data: String) {
-        self.data.push(data);
+        self.0.push(data);
     }
     pub fn push_vec(&mut self, data: Vec<String>) {
         for d in data.into_iter() {
@@ -40,9 +34,9 @@ impl CryptoHashData {
     }
 
     pub fn pad(&mut self){
-        let size = self.data.len();
+        let size = self.0.len();
         for _ in size .. size.next_power_of_two() {
-            self.data.push(String::from("\0"));
+            self.0.push(String::from("\0"));
         }
     }
 }
@@ -110,7 +104,7 @@ fn get_leaf_index(t: &MerkleRoot, hash: CryptoSHA3256Hash) -> Option<usize>{
 }
 
 pub fn new_tree(hashed: CryptoHashData) -> Result<MerkleRoot> {
-    Ok(MerkleTree::from_data(hashed.data)? as MerkleRoot)
+    Ok(MerkleTree::from_data(hashed.0)? as MerkleRoot)
 }
 
 pub fn get_path(t: MerkleRoot, data: String) -> Option<Proof<CryptoSHA3256Hash>> {
