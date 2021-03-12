@@ -1,6 +1,5 @@
-
 use merkletree::merkle::MerkleTree;
-use merkletree::store::VecStore;
+use merkletree::store::{Store, VecStore};
 use merkletree::proof::Proof;
 use crate::Result;
 use crypto::digest::Digest;
@@ -9,6 +8,9 @@ use merkletree::hash::Algorithm;
 use std::hash::Hasher;
 
 use typenum::U0;
+
+use std::fs::File;
+use std::io::{Write, Read, BufReader, BufRead};
 
 pub type MerkleRoot = MerkleTree<CryptoSHA3256Hash, CryptoSha3Algorithm, VecStore<CryptoSHA3256Hash>>;
 pub type CryptoSHA3256Hash = [u8; 32];
@@ -129,4 +131,53 @@ pub fn validate(lemma: Vec<String>, path: Vec<usize>, data: String) -> Result<bo
     ).unwrap();
 
     Ok(proof.validate_with_data::<CryptoSha3Algorithm>(&data).unwrap())
+}
+
+pub fn store_tree(tree: MerkleRoot, path: String) -> Result<()> {
+    // Open file for writing
+    let mut output_file = File::create(path)?;
+
+    // Get tree data
+    let t_data = tree.data().unwrap();
+
+    // Serialize tree data (hashes) into Vec of hex encoded strings
+    let mut ser_data = Vec::with_capacity(t_data.len());
+    for d in t_data.into_iter() {
+        ser_data.push(hex::encode(d));
+    }
+
+    // Load Vec<String> into YAML array
+    let ser_data = serde_yaml::to_string(&ser_data).unwrap();
+
+    // Write YAML array to file
+    Ok(write!(output_file, "{}", ser_data)?)
+}
+
+pub fn load_tree(path: String) -> Result<MerkleRoot> {
+    // Open file for reading
+    let mut input_file = File::open(path)?;
+
+
+    // Load tree as one string -> YAML array
+    let mut ser_data: String = String::new();
+    input_file.read_to_string(&mut ser_data)?;
+
+    // Load yaml array into Vec<String> of hashes
+    let tree_data: Vec<String> = serde_yaml::from_str(&ser_data).unwrap();
+
+    // Create new VecStore and push each hash into it
+    let mut v_store: VecStore<[u8; 32]> = VecStore::new(tree_data.len()).unwrap();
+    tree_data.into_iter().for_each(|d| {
+        // Decode hash into bytes
+        let d = hex::decode(d).unwrap();
+
+        // Load bytes into VecStore
+        v_store.push(*slice_as_hash(&d)).unwrap();
+    });
+
+    // Reconstruct tree from VecStore with hashes
+    let leafs = (v_store.len() + 1) / 2 as usize;
+    let reconstructed: MerkleTree<[u8; 32], CryptoSha3Algorithm, VecStore<_>> = MerkleTree::from_data_store(v_store, leafs)?;
+
+    Ok(reconstructed)
 }
