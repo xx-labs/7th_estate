@@ -9,10 +9,10 @@ pub fn sign_document(pollconf_filename: &str, document_filename: &str) -> Result
     let document_path = Path::new(document_filename);
 
     // Read poll configuration file.
-    let mut secured_poll_configuration = read_poll_configuration_file(pollconf_filename)?;
+    let secured_poll_configuration = read_poll_configuration_file(pollconf_filename)?;
 
     // Reconstruct the Poll Master Key from the trustee passwords.
-    let (poll_master_key, aead_pmk) = read_poll_master_key(&secured_poll_configuration);
+    let (_, aead_pmk) = read_poll_master_key(&secured_poll_configuration);
 
     // Decrypt poll configuration state.
     let pollconf_aead_values = secured_poll_configuration.encrypted_poll_configuration.values()?;

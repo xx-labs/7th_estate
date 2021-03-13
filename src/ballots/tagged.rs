@@ -27,6 +27,7 @@ pub struct TaggedBallotChoice {
     choice: TaggedChoiceValue
 }
 
+#[allow(dead_code)]
 pub struct TaggedBallot {
     serial: TaggedSerial,
     choice1: TaggedBallotChoice,

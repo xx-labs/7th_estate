@@ -12,10 +12,12 @@ use crate::debug;
 
 // returns block #
 pub fn retrieve_from_chain(value: Vec<u8>) -> u64 {
+    let _value = value;
     0
 }
 
 fn post(data: CryptoSHA3256Hash) -> Result<bool> {
+    let _data = data;
     Ok(true)
 }
 

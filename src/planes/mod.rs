@@ -2,7 +2,7 @@
 //!
 
 use serde::{Serialize, Deserialize};
-use crate::ballots::{BallotSerial, VoteCode, TaggedChoiceValue};
+use crate::ballots::{BallotSerial, VoteCode};
 /*
 use crate::ballots::{
     string_from_ballotserial,

@@ -14,7 +14,7 @@ pub struct KDFString(pub String);
 pub struct KDFValues {
     pub salt: Vec<u8>
 }
-
+/*
 impl KDFString {
     pub fn from_values(values: KDFValues) -> KDFString {
         let salt64 = base64::encode(&values.salt);
@@ -29,7 +29,7 @@ impl KDFString {
         Ok(KDFValues { salt: salt })
     }
 }
-
+*/
 
 /// Derive a key from a password using randomly generated KDF inputs.
 pub fn kdf(password: &str) -> Result<(Vec<u8>, KDFValues)> {
