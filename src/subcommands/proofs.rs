@@ -3,9 +3,10 @@
 
 use super::*;
 use crate::blockchain::merkle::*;
+use std::io::Read;
 
-#[derive(Serialize)]
-struct GeneratedProof {
+#[derive(Serialize, Deserialize)]
+pub struct GeneratedProof {
     data: String,
     lemma: Vec<String>,
     path: Vec<usize>
@@ -37,5 +38,25 @@ pub fn generate_proof(path: &str, data: &str) -> Result<()>{
     let ser_data = serde_yaml::to_string(&ser_data)?;
     println!("{}", ser_data);
 
+    Ok(())
+}
+
+pub fn validate_proof(proof_path: &str) -> Result<()> {
+    // Open file for reading
+    let mut input_file = File::open(String::from(proof_path))?;
+
+
+    // Load tree as one string -> YAML array
+    let mut ser_data: String = String::new();
+    input_file.read_to_string(&mut ser_data)?;
+
+    // Load yaml array into Vec<String> of hashes
+    let tree_data: GeneratedProof = serde_yaml::from_str(&ser_data).unwrap();
+
+    if !validate(tree_data.lemma, tree_data.path, tree_data.data)?{
+        panic!("Wrong proof of inclusion");
+    }
+
+    println!("Proof of inclusion validated correctly");
     Ok(())
 }

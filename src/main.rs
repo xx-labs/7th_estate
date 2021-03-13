@@ -186,6 +186,14 @@ fn main() -> Result<(), Exception> {
                 .value_name("STRING")
                 .help("Data to generate proof of.")
                 .required(true)))
+        .subcommand(SubCommand::with_name("validate")
+            .about("Validate proof of inclusion given in YAML format.")
+            .arg(Arg::with_name("inclusion_proof")
+                .short("p")
+                .long("proof")
+                .value_name("FILE")
+                .help("Proof of inclusion in YAML format (Given by gen subcommand).")
+                .required(true)))
         .get_matches();
 
     stderrlog::new().verbosity(4).init().unwrap();
@@ -250,6 +258,11 @@ fn main() -> Result<(), Exception> {
             generate_proof(
                 arguments.value_of("merkle_tree").unwrap(),
                 arguments.value_of("data").unwrap())?;
+
+        },
+        ("validate", Some(arguments)) => {
+            validate_proof(
+                arguments.value_of("inclusion_proof").unwrap())?;
 
         }
         _ => ()
