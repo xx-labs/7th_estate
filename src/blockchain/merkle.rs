@@ -81,6 +81,7 @@ impl Algorithm<CryptoSHA3256Hash> for CryptoSha3Algorithm {
     }
 }
 
+// Get hash of String of data
 fn get_hash (a: &mut CryptoSha3Algorithm, v: &String) -> [u8; 32] {
     a.reset();
     a.write(v.as_bytes());
@@ -93,11 +94,15 @@ fn get_hash (a: &mut CryptoSha3Algorithm, v: &String) -> [u8; 32] {
     b
 }
 
+// Search in a tree for leaf index of a given hash
 fn get_leaf_index(t: &MerkleRoot, hash: CryptoSHA3256Hash) -> Option<usize>{
     let leafs = t.leafs();
 
+    // Iterate tree leafs
     for i in 0..leafs {
         let e = t.read_at(i).unwrap();
+
+        // If leaf == hash, return index
         if e == hash {
             return Some(i)
         }
@@ -105,31 +110,47 @@ fn get_leaf_index(t: &MerkleRoot, hash: CryptoSHA3256Hash) -> Option<usize>{
     None
 }
 
+// Create new tree from array of data
+// Size of data MUST be power of 2
 pub fn new_tree(hashed: CryptoHashData) -> Result<MerkleRoot> {
     Ok(MerkleTree::from_data(hashed.0)? as MerkleRoot)
 }
 
+// Get merkle path for a String of data
+// Returns Proof struct if data in tree
 pub fn get_path(t: MerkleRoot, data: String) -> Option<Proof<CryptoSHA3256Hash>> {
+    // Hash input data
     let proof_item = get_hash(&mut CryptoSha3Algorithm::default(), &data);
+
+    // Get leaf index of hashed data
     if let Some(index) = get_leaf_index(&t, proof_item) {
+
+        // If hashed data in leafs, return Proof
         let proof = t.gen_proof(index).unwrap();
         return Some(proof)
     }
+
+    // Data not in tree
     None
 }
 
+
+// Validate proof of inclusion
 pub fn validate(lemma: Vec<String>, path: Vec<usize>, data: String) -> Result<bool> {
+    // Decode hash Strings into [u8; 32] bytes 
     let lemma: Vec<CryptoSHA3256Hash> = lemma.into_iter().map(|l| {
         let decode = hex::decode(l).unwrap();
         *slice_as_hash(&decode)
     }).collect();
 
+    // Generate Proof struct with given Lemma and Path
     let proof: Proof<CryptoSHA3256Hash> = Proof::new::<U0, U0>(
         None,
         lemma,
         path,
     ).unwrap();
 
+    // Return proof result
     Ok(proof.validate_with_data::<CryptoSha3Algorithm>(&data).unwrap())
 }
 

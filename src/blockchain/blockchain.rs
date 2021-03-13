@@ -57,7 +57,11 @@ pub fn commit (pollconf: PollConfiguration, planes: Vec<Plane>) -> bool {
     });
     data.pad();
 
+
+    // Create new tree with Vec of data
     let merkle_tree = new_tree(data).unwrap();
     debug!("Root: {}", hex::encode(merkle_tree.root()));
+
+    // Post root to blockchain
     post(merkle_tree.root()).unwrap()    
 }
