@@ -120,9 +120,7 @@ pub fn new_tree(hashed: CryptoHashData) -> Result<MerkleRoot> {
 // Returns Proof struct if data in tree
 pub fn get_path(t: MerkleRoot, data: String) -> Result<Proof<CryptoSHA3256Hash>> {
     // Hash input data
-    println!("{}", data);
     let proof_item = get_hash(&mut CryptoSha3Algorithm::default(), &data);
-    println!("{}", hex::encode(proof_item));
 
     // Get leaf index of hashed data
     let index = get_leaf_index(&t, proof_item)?;

@@ -4,7 +4,6 @@
 //! audit and records them as part of the secured poll configuration.
 
 use super::*;
-use crate::blockchain::commit;
 
 #[derive(Debug, Clone, Deserialize)]
 pub struct AuditedBallotRecord {

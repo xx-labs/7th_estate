@@ -173,7 +173,7 @@ fn main() -> Result<(), Exception> {
                 .help("File for which to generate a signature.")
                 .required(true)))
         .subcommand(SubCommand::with_name("gen")
-            .about("Generate proof of inclusion for data.")
+            .about("Generate proof of inclusion for data in YAML format.")
             .arg(Arg::with_name("merkle_tree")
                 .short("m")
                 .long("merkle")
