@@ -172,6 +172,20 @@ fn main() -> Result<(), Exception> {
                 .value_name("FILE")
                 .help("File for which to generate a signature.")
                 .required(true)))
+        .subcommand(SubCommand::with_name("gen")
+            .about("Generate proof of inclusion for data.")
+            .arg(Arg::with_name("merkle_tree")
+                .short("m")
+                .long("merkle")
+                .value_name("FILE")
+                .help("Merkle tree in YAML format.")
+                .required(true))
+            .arg(Arg::with_name("data")
+                .short("d")
+                .long("data")
+                .value_name("STRING")
+                .help("Data to generate proof of.")
+                .required(true)))
         .get_matches();
 
     stderrlog::new().verbosity(4).init().unwrap();
@@ -232,6 +246,12 @@ fn main() -> Result<(), Exception> {
                 arguments.value_of("poll_configuration").unwrap(),
                 arguments.value_of("file").unwrap())?;
         },
+        ("gen", Some(arguments)) => {
+            generate_proof(
+                arguments.value_of("merkle_tree").unwrap(),
+                arguments.value_of("data").unwrap())?;
+
+        }
         _ => ()
     }
 

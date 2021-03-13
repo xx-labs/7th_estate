@@ -107,7 +107,7 @@ pub fn record_audited_ballots(pollconf_filename: &str, audited_ballots_filename:
         File::create(pollconf_path)?,
         &secured_poll_configuration)?;
 
-    blockchain::commit(pollconf, column_planes);
+    blockchain::commit(pollconf, column_planes)?;
 
     Ok(())
 }

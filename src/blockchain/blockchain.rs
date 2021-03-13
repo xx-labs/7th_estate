@@ -3,7 +3,7 @@
 //! Post/read information to/from blockchain
 //! Information posted is a merkle root
 
-use crate::blockchain::merkle::{CryptoSHA3256Hash, new_tree, CryptoHashData};
+use crate::blockchain::merkle::{CryptoSHA3256Hash, new_tree, CryptoHashData, store_tree};
 use crate::Result;
 use crate::voter_roster::VoterRoster;
 use crate::poll_configuration::PollConfiguration;
@@ -19,7 +19,7 @@ fn post(data: CryptoSHA3256Hash) -> Result<bool> {
     Ok(true)
 }
 
-pub fn commit (pollconf: PollConfiguration, planes: Vec<Plane>) -> bool {
+pub fn commit (pollconf: PollConfiguration, planes: Vec<Plane>) -> Result<bool> {
     // Re-construct roster
     let roster: VoterRoster = {
         let encoded_roster = pollconf.voter_roster.clone().unwrap();
@@ -31,15 +31,14 @@ pub fn commit (pollconf: PollConfiguration, planes: Vec<Plane>) -> bool {
     // Get voter info
     let roster = roster.records.into_iter()
         .map(|voter| {
-            serde_yaml::to_string(&voter).unwrap()
+            let ser_v = serde_yaml::to_string(&voter).unwrap();
+            println!("{}", ser_v);
+            ser_v
         }).collect();
 
 
     // Re-construct the audited ballots.
-    let audited_ballots: Vec<String> = pollconf.audited_ballots.iter()
-        .map(|audited| {
-            serde_yaml::to_string(&audited).unwrap()
-        }).collect();
+    let audited_ballots = pollconf.audited_ballots.to_owned().unwrap();
     
     let mut data = CryptoHashData::new(roster);
     data.push_vec(audited_ballots);
@@ -62,6 +61,9 @@ pub fn commit (pollconf: PollConfiguration, planes: Vec<Plane>) -> bool {
     let merkle_tree = new_tree(data).unwrap();
     debug!("Root: {}", hex::encode(merkle_tree.root()));
 
+    // Store full tree in file
+    store_tree(&merkle_tree, String::from("merkle.yaml"))?;
+
     // Post root to blockchain
-    post(merkle_tree.root()).unwrap()    
+    post(merkle_tree.root())
 }

@@ -10,12 +10,12 @@ use std::hash::Hasher;
 use typenum::U0;
 
 use std::fs::File;
-use std::io::{Write, Read, BufReader, BufRead};
+use std::io::{Write, Read}; //, BufReader, BufRead};
 
 pub type MerkleRoot = MerkleTree<CryptoSHA3256Hash, CryptoSha3Algorithm, VecStore<CryptoSHA3256Hash>>;
 pub type CryptoSHA3256Hash = [u8; 32];
 pub struct CryptoSha3Algorithm(Sha3);
-pub struct CryptoHashData(Vec<String>);
+pub struct CryptoHashData(pub Vec<String>);
 
 
 pub fn slice_as_hash(xs: &[u8]) -> &[u8; 32] {
@@ -95,7 +95,7 @@ fn get_hash (a: &mut CryptoSha3Algorithm, v: &String) -> [u8; 32] {
 }
 
 // Search in a tree for leaf index of a given hash
-fn get_leaf_index(t: &MerkleRoot, hash: CryptoSHA3256Hash) -> Option<usize>{
+fn get_leaf_index(t: &MerkleRoot, hash: CryptoSHA3256Hash) -> Result<usize>{
     let leafs = t.leafs();
 
     // Iterate tree leafs
@@ -104,10 +104,10 @@ fn get_leaf_index(t: &MerkleRoot, hash: CryptoSHA3256Hash) -> Option<usize>{
 
         // If leaf == hash, return index
         if e == hash {
-            return Some(i)
+            return Ok(i)
         }
     }
-    None
+    panic!("Data not found in tree");
 }
 
 // Create new tree from array of data
@@ -118,20 +118,19 @@ pub fn new_tree(hashed: CryptoHashData) -> Result<MerkleRoot> {
 
 // Get merkle path for a String of data
 // Returns Proof struct if data in tree
-pub fn get_path(t: MerkleRoot, data: String) -> Option<Proof<CryptoSHA3256Hash>> {
+pub fn get_path(t: MerkleRoot, data: String) -> Result<Proof<CryptoSHA3256Hash>> {
     // Hash input data
+    println!("{}", data);
     let proof_item = get_hash(&mut CryptoSha3Algorithm::default(), &data);
+    println!("{}", hex::encode(proof_item));
 
     // Get leaf index of hashed data
-    if let Some(index) = get_leaf_index(&t, proof_item) {
-
-        // If hashed data in leafs, return Proof
-        let proof = t.gen_proof(index).unwrap();
-        return Some(proof)
-    }
-
-    // Data not in tree
-    None
+    let index = get_leaf_index(&t, proof_item)?;
+    
+    // If hashed data in leafs, return Proof
+    let proof = t.gen_proof(index).unwrap();
+    
+    Ok(proof)
 }
 
 
@@ -154,7 +153,8 @@ pub fn validate(lemma: Vec<String>, path: Vec<usize>, data: String) -> Result<bo
     Ok(proof.validate_with_data::<CryptoSha3Algorithm>(&data).unwrap())
 }
 
-pub fn store_tree(tree: MerkleRoot, path: String) -> Result<()> {
+// Store tree in YAML file
+pub fn store_tree(tree: &MerkleRoot, path: String) -> Result<()> {
     // Open file for writing
     let mut output_file = File::create(path)?;
 
@@ -174,6 +174,8 @@ pub fn store_tree(tree: MerkleRoot, path: String) -> Result<()> {
     Ok(write!(output_file, "{}", ser_data)?)
 }
 
+
+// Load tree from YAML file
 pub fn load_tree(path: String) -> Result<MerkleRoot> {
     // Open file for reading
     let mut input_file = File::open(path)?;
