@@ -12,10 +12,12 @@
 //! * Ballot Information (CSV)
 use clap::{Arg, App, SubCommand};
 use seventh_estate::subcommands::*;
+use tokio;
 
 type Exception = Box<dyn std::error::Error + 'static>;
 
-fn main() -> Result<(), Exception> {
+#[tokio::main]
+async fn main() -> Result<(), Exception> {
     let matches = App::new("Seventh-Estate")
         .about("Seventh-Estate Poll Manager")
         .version("1.0")

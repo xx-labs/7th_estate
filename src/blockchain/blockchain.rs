@@ -10,18 +10,83 @@ use crate::poll_configuration::PollConfiguration;
 use crate::planes::Plane;
 use crate::debug;
 
+use web3::types::{BlockNumber, Address, TransactionParameters, U256, CallRequest};
+use web3::signing::Key;
+use hex;
+use secp256k1::SecretKey;
+use web3::signing::SecretKeyRef;
+use std::fs::File;
+use serde::{Serialize, Deserialize};
+
+#[derive(Debug, Clone, Serialize, Deserialize)]
+struct NetworkConfig {
+    node: String,
+    key: String,
+}
+
 // returns block #
 pub fn retrieve_from_chain(value: Vec<u8>) -> u64 {
     let _value = value;
     0
 }
 
-fn post(data: CryptoSHA3256Hash) -> Result<bool> {
-    let _data = data;
-    Ok(true)
+// Load blockchain network configurations
+fn load_xxn() -> Result<NetworkConfig>{
+    let config = "examples/xxn_config.yaml";
+    let config = File::open(config)?;
+    let config: NetworkConfig  = serde_yaml::from_reader(config).expect("Error loading XXN config file");
+
+    Ok(config)
 }
 
-pub fn commit (pollconf: PollConfiguration, planes: Vec<Plane>) -> Result<bool> {
+fn post(data: CryptoSHA3256Hash) -> Result<()> {
+    let config = load_xxn()?;
+    let key = SecretKey::from_slice(&hex::decode(config.key)?)?;
+    let key = SecretKeyRef::new(&key);
+    let pub_addr: Address = key.address();
+    let uri = config.node;
+
+    let req = CallRequest {
+        from: None,
+        to: None,
+        gas: None,
+        gas_price: None,
+        value: None,
+        data: None
+    };
+
+
+    let transport = web3::transports::Http::new(&uri).unwrap();
+    let web3 = web3::Web3::new(transport);
+    
+    let send = async {
+        let block_number = web3.eth().block_number().await.expect("Error getting last block number");
+        let gas = web3.eth().estimate_gas(req, Some(BlockNumber::Number(block_number))).await.expect("Error getting gas value");
+
+
+        let params = TransactionParameters {
+            nonce: None,
+            to: Some(pub_addr),
+            gas_price: None,
+            chain_id: None,
+            data: data.into(),
+            value: U256::zero(),
+            gas: gas
+        };
+
+        let signed = web3.accounts().sign_transaction(params, key).await.expect("Error signing transaction");
+        let transaction = signed.raw_transaction;
+        let sent = web3.eth().send_raw_transaction(transaction.into()).await.expect("Error sending transaction");
+        debug!("Transaction Hash: {:?}", sent);
+
+    };
+
+    web3::block_on(send);
+
+    Ok(())   
+}
+
+pub fn commit (pollconf: PollConfiguration, planes: Vec<Plane>) -> Result<()> {
     // Re-construct roster
     let roster: VoterRoster = {
         let encoded_roster = pollconf.voter_roster.clone().unwrap();
@@ -34,7 +99,6 @@ pub fn commit (pollconf: PollConfiguration, planes: Vec<Plane>) -> Result<bool> 
     let roster = roster.records.into_iter()
         .map(|voter| {
             let ser_v = serde_yaml::to_string(&voter).unwrap();
-            println!("{}", ser_v);
             ser_v
         }).collect();
 

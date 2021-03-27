@@ -32,7 +32,6 @@ fn test_root() {
     let t = new_tree(data).unwrap();
 
     assert_eq!("5873a2bee359c763dc3adb0d44d72fe4fff49114f5fc02a7505c8ee61aa4c184", hex::encode(t.root()));
-
 }
 
 #[test]
