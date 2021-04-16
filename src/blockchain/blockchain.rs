@@ -40,12 +40,18 @@ fn load_xxn() -> Result<NetworkConfig>{
 }
 
 fn post(data: CryptoSHA3256Hash) -> Result<()> {
+    // Load configuration file
     let config = load_xxn()?;
+
+    // Get private key from config
     let key = SecretKey::from_slice(&hex::decode(config.key)?)?;
     let key = SecretKeyRef::new(&key);
+    
+    // Get public address of private key
     let pub_addr: Address = key.address();
     let uri = config.node;
 
+    // Placeholder request to be used to estimate gas
     let req = CallRequest {
         from: None,
         to: None,
@@ -55,34 +61,37 @@ fn post(data: CryptoSHA3256Hash) -> Result<()> {
         data: None
     };
 
-
+    // Start web3 class
     let transport = web3::transports::Http::new(&uri).unwrap();
     let web3 = web3::Web3::new(transport);
     
     let send = async {
+        // Get last block and estimate gas
         let block_number = web3.eth().block_number().await.expect("Error getting last block number");
         let gas = web3.eth().estimate_gas(req, Some(BlockNumber::Number(block_number))).await.expect("Error getting gas value");
 
-
+        // Build transaction with data to post
         let params = TransactionParameters {
             nonce: None,
-            to: Some(pub_addr),
+            to: Some(pub_addr), // Send to own address
             gas_price: None,
             chain_id: None,
-            data: data.into(),
+            data: data.into(), // Data to be posted
             value: U256::zero(),
             gas: gas
         };
 
+        // Sign transaction before posting
         let signed = web3.accounts().sign_transaction(params, key).await.expect("Error signing transaction");
         let transaction = signed.raw_transaction;
+
+        // Send signed transaction
         let sent = web3.eth().send_raw_transaction(transaction.into()).await.expect("Error sending transaction");
         debug!("Transaction Hash: {:?}", sent);
 
     };
 
     web3::block_on(send);
-
     Ok(())   
 }
 
@@ -106,20 +115,27 @@ pub fn commit (pollconf: PollConfiguration, planes: Vec<Plane>) -> Result<()> {
     // Re-construct the audited ballots.
     let audited_ballots = pollconf.audited_ballots.to_owned().unwrap();
     
+    // Start vec of data for the tree
+    // Push roster
     let mut data = CryptoHashData::new(roster);
+
+    // Push audited ballots
     data.push_vec(audited_ballots);
    
+    // Push planes
     planes.into_iter().for_each(|plane|
     {        
         plane.rows.into_iter().for_each(|row|
         {
             let ser_row = row.serializable(pollconf.num_ballots);
 
-            // Each row entry is a leaf
+            // Each row cell is a leaf
             data.push(ser_row.col1);
             data.push(ser_row.col3);
         });
     });
+
+    // After all data is in vec, pad it to be pow 2
     data.pad();
 
 
@@ -127,7 +143,7 @@ pub fn commit (pollconf: PollConfiguration, planes: Vec<Plane>) -> Result<()> {
     let merkle_tree = new_tree(data).unwrap();
     debug!("Root: {}", hex::encode(merkle_tree.root()));
 
-    // Store full tree in file
+    // Store full tree in file, to be later used for proof of inclusions
     store_tree(&merkle_tree, String::from("merkle.yaml"))?;
 
     // Post root to blockchain
