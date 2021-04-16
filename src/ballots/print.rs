@@ -61,7 +61,7 @@ and sell this vote!";
 
 
 fn add_text(layer: &PdfLayerReference, text: &Text){
-    layer.use_text(text.text.to_string(), text.size, text.startx, text.starty, &text.font);
+    layer.use_text(text.text.to_string(), text.size as f64, text.startx, text.starty, &text.font);
 }
 
 fn make_circle(radius: Pt, startx: Pt, starty: Pt) -> Line{
@@ -150,9 +150,9 @@ pub fn print_ballot(ballot: &Ballot){
 
     // Start instructions text section
     current_layer.begin_text_section();
-        current_layer.set_font(&font_text, instructions_text.size);
+        current_layer.set_font(&font_text, instructions_text.size as f64);
         current_layer.set_text_cursor(instructions_text.startx, instructions_text.starty);
-        current_layer.set_line_height(6);
+        current_layer.set_line_height(6.0);
         
         // Write lines of instructions
         instructions_text.text.lines()
@@ -164,9 +164,9 @@ pub fn print_ballot(ballot: &Ballot){
     
     // Start ballot serial/vote code section
     current_layer.begin_text_section();
-        current_layer.set_font(&font_title, ballot_serial.size);
+        current_layer.set_font(&font_title, ballot_serial.size as f64);
         current_layer.set_text_cursor(ballot_serial.startx, ballot_serial.starty);
-        current_layer.set_line_height(10);
+        current_layer.set_line_height(10.0);
         
         // Write Ballot Serial
         current_layer.write_text(ballot_serial.text, &font_title);

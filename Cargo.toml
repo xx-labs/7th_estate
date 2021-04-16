@@ -1,7 +1,7 @@
 [package]
 name = "seventh-estate"
-version = "1.0.0"
-authors = ["Christopher Vatcher <>"]
+version = "1.0.1"
+authors = ["Christopher Vatcher <>", "Renato Cruz"]
 edition = "2018"
 
 [lib]
@@ -50,8 +50,10 @@ sha2 = "0.8.0"
 chacha20-poly1305-aead = "0.1.2"
 
 #ed25519 = "0.2.0"
-signatory = "0.17.0"
-signatory-dalek = "0.17.0"
+signatory = "0.22.0"
+signatory-sodiumoxide = "0.22.0"
+# signatory-dalek = "0.99.0"
+# ed25519-dalek = "1.0.1"
 
 scrypt = "0.2.0"
 # BROKEN/ABANDONED: rusty_secrets = "0.2.2"
@@ -65,3 +67,9 @@ merkletree = "0.21.0"
 rust-crypto = "0.2.36"
 typenum = "1.11.2"
 bincode = "1.3.1"
+slice_as_array = "1.1.0"
+web3 = "0.15.0"
+futures = "0.3"
+tokio = {version = "0.2", features = ["full"]}
+ethereum-tx-sign = "3.0.4"
+secp256k1 = "0.20.1"

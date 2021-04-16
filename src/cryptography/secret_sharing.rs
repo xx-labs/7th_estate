@@ -54,10 +54,15 @@ impl ShamirSecretSharing {
         self.threshold = threshold; self
     }
 
-    pub fn with_majority_threshold(mut self) -> Self {
+    pub fn with_majority_threshold(self) -> Self {
         assert!(0 < self.share_count);
+        let threshold = (self.share_count / 2) + (1 - (self.share_count % 2));
+        self.with_threshold(threshold)
+        /*
         self.threshold = (self.share_count / 2) + (1 - (self.share_count % 2));
         self
+        */
+
     }
     
     pub fn share(&self, secret: &Secret) -> Vec<SecretShare> {

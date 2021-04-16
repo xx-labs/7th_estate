@@ -1,6 +1,7 @@
 //! # Seventh Estate Poll System
 
 use log::*;
+#[macro_use] extern crate slice_as_array;
 
 const NUMBER_OF_PLANES: usize = 50;
 
@@ -28,7 +29,6 @@ use summands::*;
 pub mod voter_selection;
 
 pub mod blockchain;
-use blockchain::*;
 
 pub mod ballots;
 use ballots::*;

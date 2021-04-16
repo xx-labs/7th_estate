@@ -42,6 +42,7 @@ impl PlaneRecord {
     }
 
     pub fn serializable(self: &Self, num_ballots: usize) -> PlaneRecordFileRow {
+        let _num_ballots = num_ballots;
         PlaneRecordFileRow {
             col1: match &self.col1 {
                 Column1Entry::Entry(svc) => svc.clone(),

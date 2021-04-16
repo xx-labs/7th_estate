@@ -43,3 +43,5 @@ pub use generate_poll_revelations::*;
 pub mod sign;
 pub use sign::*;
 
+pub mod proofs;
+pub use proofs::*;

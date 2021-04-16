@@ -12,10 +12,12 @@
 //! * Ballot Information (CSV)
 use clap::{Arg, App, SubCommand};
 use seventh_estate::subcommands::*;
+use tokio;
 
 type Exception = Box<dyn std::error::Error + 'static>;
 
-fn main() -> Result<(), Exception> {
+#[tokio::main]
+async fn main() -> Result<(), Exception> {
     let matches = App::new("Seventh-Estate")
         .about("Seventh-Estate Poll Manager")
         .version("1.0")
@@ -172,6 +174,28 @@ fn main() -> Result<(), Exception> {
                 .value_name("FILE")
                 .help("File for which to generate a signature.")
                 .required(true)))
+        .subcommand(SubCommand::with_name("gen")
+            .about("Generate proof of inclusion for data in YAML format.")
+            .arg(Arg::with_name("merkle_tree")
+                .short("m")
+                .long("merkle")
+                .value_name("FILE")
+                .help("Merkle tree in YAML format.")
+                .required(true))
+            .arg(Arg::with_name("data")
+                .short("d")
+                .long("data")
+                .value_name("STRING")
+                .help("Data to generate proof of.")
+                .required(true)))
+        .subcommand(SubCommand::with_name("validate")
+            .about("Validate proof of inclusion given in YAML format.")
+            .arg(Arg::with_name("inclusion_proof")
+                .short("p")
+                .long("proof")
+                .value_name("FILE")
+                .help("Proof of inclusion in YAML format (Given by gen subcommand).")
+                .required(true)))
         .get_matches();
 
     stderrlog::new().verbosity(4).init().unwrap();
@@ -232,6 +256,17 @@ fn main() -> Result<(), Exception> {
                 arguments.value_of("poll_configuration").unwrap(),
                 arguments.value_of("file").unwrap())?;
         },
+        ("gen", Some(arguments)) => {
+            generate_proof(
+                arguments.value_of("merkle_tree").unwrap(),
+                arguments.value_of("data").unwrap())?;
+
+        },
+        ("validate", Some(arguments)) => {
+            validate_proof(
+                arguments.value_of("inclusion_proof").unwrap())?;
+
+        }
         _ => ()
     }
 

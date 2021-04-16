@@ -19,9 +19,11 @@ impl FastDiceRoller {
         }
     }
 
+    /*
     pub fn append_bytes(&mut self, stream: &[u8]) {
         self.byte_stream.extend_from_slice(stream);
     }
+    */
 
     pub fn next(&mut self) -> Option<u8> {
         let byte: u8 = *self.byte_stream.get(self.byte_counter)?;
@@ -50,11 +52,12 @@ impl FastDiceRoller {
         }
         Some(c)
     }
-
+    /*
     pub fn random_interval(&mut self, min: i128, max: i128) -> Option<i128> {
         assert!(min < max);
         let range_max: u128 = (max - min) as u128;
         let value: u128 = self.random(range_max)?;
         Some((value as i128) - min)
     }
+    */
 }
