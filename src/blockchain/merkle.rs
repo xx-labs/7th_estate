@@ -15,6 +15,8 @@ use std::io::{Write, Read}; //, BufReader, BufRead};
 pub type MerkleRoot = MerkleTree<CryptoSHA3256Hash, CryptoSha3Algorithm, VecStore<CryptoSHA3256Hash>>;
 pub type CryptoSHA3256Hash = [u8; 32];
 pub struct CryptoSha3Algorithm(Sha3);
+
+#[derive(Debug)]
 pub struct CryptoHashData(pub Vec<String>);
 
 
@@ -35,9 +37,21 @@ impl CryptoHashData {
         }
     }
 
+    /// This is to pad data array to power of 2 -> Balanced tree
+    /// Minimum size is 2
+    /// ```
+    /// use seventh_estate::blockchain::merkle::*;
+    /// let data = vec![String::from("TEST")];
+    /// let mut data = CryptoHashData::new(data);
+    /// data.pad();
+    /// 
+    /// assert_eq!(vec![String::from("TEST"), String::from("\0")], data.0);
+    /// ```
     pub fn pad(&mut self){
         let size = self.0.len();
-        for _ in size .. size.next_power_of_two() {
+        let next_size = if size == 1 { 2 } else { size.next_power_of_two() };
+
+        for _ in size .. next_size {
             self.0.push(String::from("\0"));
         }
     }

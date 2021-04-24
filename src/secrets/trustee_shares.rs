@@ -102,15 +102,19 @@ pub fn read_trustee_password(trustee: &str) -> String {
 }
 
 
-/// Encrypt trustee share data and protect it via password.
+/// Encrypt/Decrypt trustee share data and protect it via password.
 ///
 /// # Examples
 ///
 /// ```
+/// use seventh_estate::secrets::trustee_shares::{encrypt_trustee_share, decrypt_trustee_share};
+/// use seventh_estate::cryptography::AEADString;
+/// 
 /// let share: Vec<u8> = vec![1, 2, 3, 4];
 /// let encrypted_share: AEADString = encrypt_trustee_share("password", "trustee", share).unwrap();
+/// 
 /// let decrypted_share: Vec<u8> = decrypt_trustee_share("password", "trustee", encrypted_share).unwrap();
-/// assert_eq!(share, decrypted_share);
+/// assert_eq!(vec![1, 2, 3, 4], decrypted_share);
 /// ```
 pub fn encrypt_trustee_share(password: &str, identity: &str, share: Vec<u8>) -> Result<AEADString> {
     let (key, params) = kdf(password)?;
@@ -122,16 +126,6 @@ pub fn encrypt_trustee_share(password: &str, identity: &str, share: Vec<u8>) -> 
                      share)?))
 }
 
-/// Decrypt trustee share data protected via password.
-///
-/// # Examples
-///
-/// ```
-/// let share: Vec<u8> = vec![1, 2, 3, 4];
-/// let encrypted_share: AEADString = AEADString("".to_owned());
-/// let decrypted_share: Vec<u8> = decrypt_trust_share("password", "trustee", encrypted_share).unwrap();
-/// assert_eq!(share, decrypted_share);
-/// ```
 pub fn decrypt_trustee_share(password: &str, identity: &str, encrypted_share: AEADString) -> Result<Vec<u8>> {
     let values: AEADValues = encrypted_share.values()?;
     let aad_values: Vec<&str> = str::from_utf8(&values.aad)?.split("-").collect();
