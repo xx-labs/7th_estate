@@ -41,8 +41,8 @@ const _A6: FileSize = FileSize {
 };
 
 // Text to be printed to PDF file
+pub const BALLOTS_PATH: &str = "ballots/";
 const BALLOT_SIZE: FileSize = _A5;
-const BALLOTS_PATH: &str = "ballots/";
 const TITLE_TEXT: &str = "YES/NO Ballot";
 const INST_TITLE: &str = "Instructions";
 const INST_TEXT: &str = 
@@ -92,7 +92,7 @@ fn make_dir() -> Result<(), std::io::Error>{
     }
 }
 
-pub fn print_ballot(ballot: &Ballot){
+pub fn print_ballot(ballot: &Ballot) -> () {
 
     // Create ballots dir
     make_dir().unwrap();
@@ -182,7 +182,7 @@ pub fn print_ballot(ballot: &Ballot){
     make_choice(ballot.choice2, &current_layer, &font_text);
 
     // Save document
-    doc.save(&mut file_writer).unwrap();
+    doc.save(&mut file_writer).unwrap()
 }
 
 fn make_choice(choice: BallotChoice, layer: &PdfLayerReference, font: &IndirectFontRef){

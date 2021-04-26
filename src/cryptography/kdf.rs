@@ -47,6 +47,7 @@ pub fn kdf(password: &str) -> Result<(Vec<u8>, KDFValues)> {
 /// # Examples
 ///
 /// ```
+/// use seventh_estate::cryptography::{kdf, kdf_with_params};
 /// let password = "password";
 /// let (key, params) = kdf(password).unwrap();
 /// let verified_key = kdf_with_params(password, &params).unwrap();

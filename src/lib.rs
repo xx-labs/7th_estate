@@ -8,7 +8,7 @@ const NUMBER_OF_PLANES: usize = 50;
 type Exception = Box<dyn std::error::Error>;
 type Result<T> = std::result::Result<T, Exception>;
 
-mod cryptography;
+pub mod cryptography;
 use cryptography::*;
 
 pub mod secrets;

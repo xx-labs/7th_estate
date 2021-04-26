@@ -39,7 +39,7 @@ fn load_xxn() -> Result<NetworkConfig>{
     Ok(config)
 }
 
-fn post(data: CryptoSHA3256Hash) -> Result<()> {
+pub fn post(data: CryptoSHA3256Hash) -> Result<()> {
     // Load configuration file
     let config = load_xxn()?;
 

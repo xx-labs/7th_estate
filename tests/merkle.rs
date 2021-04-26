@@ -1,4 +1,6 @@
 use seventh_estate::blockchain::merkle::*;
+use std::path::Path;
+use std::fs;
 
 #[test]
 fn test_validate() {
@@ -25,8 +27,8 @@ fn test_root() {
         "$chacha20_poly1305_aead$GZm76RMgPAkMQMki$R1ptNzZSTWdQQWtNUU1raQ==$OFz4Z9GNmg==$6MzPD1MV07tqNG+JCYkp6Q==$".to_string(),
         "13, 20, 35, 43, 58, 69, 73, 77, 81, 88, 93, 96"                                                          .to_string(),
     ];
-
-    let mut data = CryptoHashData::new(data);
+    println!("{:?}", data);
+    let mut data = CryptoHashData::new(data);    
     data.pad();
 
     let t = new_tree(data).unwrap();
@@ -68,4 +70,54 @@ fn test_get_path() {
     assert_eq!(c_lemma, lemma);
     assert_eq!(vec![0, 1, 0], path);
     
+}
+
+#[test]
+#[should_panic]
+fn test_data_not_in_tree() {
+    let data = vec![
+        "Colombier,Gerri,7 Del Sol Lane,Philadelphia,PA,19160"                                                    .to_string(),
+        "64: 86961-67106-91541-74973"                                                                             .to_string(),
+        "Not Voted"                                                                                               .to_string(),
+        "$chacha20_poly1305_aead$GZm76RMgPAkMQMki$R1ptNzZSTWdQQWtNUU1raQ==$OFz4Z9GNmg==$6MzPD1MV07tqNG+JCYkp6Q==$".to_string(),
+        "13, 20, 35, 43, 58, 69, 73, 77, 81, 88, 93, 96"                                                          .to_string(),
+    ];
+
+    let mut data = CryptoHashData::new(data);
+    data.push(String::from("More Data"));
+    data.push_vec(vec![String::from("Vec data")]);
+    data.pad();
+
+    let t = new_tree(data).unwrap();
+    let _p = get_path(t, "Data not present".to_string());
+}
+
+#[test]
+fn test_store_load_tree() {
+    // Build new tree with dummy data
+    let data = vec![
+        "Colombier,Gerri,7 Del Sol Lane,Philadelphia,PA,19160"                                                    .to_string(),
+        "64: 86961-67106-91541-74973"                                                                             .to_string(),
+        "Not Voted"                                                                                               .to_string(),
+        "$chacha20_poly1305_aead$GZm76RMgPAkMQMki$R1ptNzZSTWdQQWtNUU1raQ==$OFz4Z9GNmg==$6MzPD1MV07tqNG+JCYkp6Q==$".to_string(),
+        "13, 20, 35, 43, 58, 69, 73, 77, 81, 88, 93, 96"                                                          .to_string(),
+    ];
+    let filename = "test_merkle.yaml";
+
+    let mut data = CryptoHashData::new(data);
+    data.pad();
+
+    let t1 = new_tree(data).unwrap();
+    let root1 = t1.root();
+
+    // Store tree in file
+    store_tree(&t1, String::from(filename)).unwrap();
+    assert_eq!(true, Path::new(filename).exists());
+
+    // Load saved file and compare contents
+    let t2 = load_tree(String::from(filename)).unwrap();
+    assert_eq!(t2.root(), root1);
+
+    // Delete test file
+    fs::remove_file(filename).unwrap();
 }
