@@ -27,7 +27,8 @@ pub struct PollConfiguration {
     pub drawn_summands_seed: Option<String>,
     pub audited_columns_seed: Option<String>,
     pub audited_ballots: Option<Vec<String>>,
-    pub votes: Option<Vec<VoteCode>>
+    pub votes: Option<Vec<VoteCode>>,
+    pub question: String
 }
 
 #[derive(Debug, Clone, Serialize, Deserialize)]

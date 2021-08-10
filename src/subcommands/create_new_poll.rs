@@ -47,6 +47,7 @@ pub fn create_new_poll(pollconf_filename: &str) -> Result<()> {
         signing_key: private_key,
         num_ballots: new_poll_configuration.num_ballots,
         num_decoys: new_poll_configuration.num_decoys,
+        question: new_poll_configuration.question,
         voter_roster: None,
         voter_roster_size: 0,
         voter_privacy: true,

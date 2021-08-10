@@ -13,6 +13,7 @@ pub struct NewPollConfiguration {
     pub poll_identifier: String,
     pub poll_trustees: Vec<NewPollConfigurationTrustee>,
     pub num_ballots: usize,
-    pub num_decoys: usize
+    pub num_decoys: usize,
+    pub question: String
 }
 
