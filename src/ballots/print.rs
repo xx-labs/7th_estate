@@ -43,7 +43,7 @@ const _A6: FileSize = FileSize {
 // Text to be printed to PDF file
 pub const BALLOTS_PATH: &str = "ballots/";
 const BALLOT_SIZE: FileSize = _A5;
-const TITLE_TEXT: &str = "YES/NO Ballot";
+//const TITLE_TEXT: &str = "YES/NO Ballot";
 const INST_TITLE: &str = "Instructions";
 const INST_TEXT: &str = 
 "vote online by\n
@@ -92,7 +92,7 @@ fn make_dir() -> Result<(), std::io::Error>{
     }
 }
 
-pub fn print_ballot(ballot: &Ballot) -> () {
+pub fn print_ballot(ballot: &Ballot, question: &str) -> () {
 
     // Create ballots dir
     make_dir().unwrap();
@@ -110,9 +110,9 @@ pub fn print_ballot(ballot: &Ballot) -> () {
     let font_text = doc.add_builtin_font(BuiltinFont::Courier).unwrap();
 
     let title: Text = Text {
-        text: TITLE_TEXT.to_string(), 
-        size: 30, 
-        startx: Mm(30.0), 
+        text: question.to_string(), 
+        size: 20, 
+        startx: Mm(10.0), 
         starty: BALLOT_SIZE.height - Mm(20.0),
         font: &font_title,
     };
