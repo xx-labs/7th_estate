@@ -6,3 +6,4 @@ poll_trustees:
  - identifier: "carol@example.com"
 num_ballots: 100
 num_decoys: 10
+question: "Are you vaccinated for Covid19?"
