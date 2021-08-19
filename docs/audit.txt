@@ -1,0 +1,10000 @@
+---
+position: 0
+voter_info:
+  last_name: McKie
+  first_name: Sioux
+  street_address: 29053 Bay Plaza
+  city: Dallas
+  state: TX
+  zip_code: "75367"
+
+---
+position: 1
+voter_info:
+  last_name: Suffield
+  first_name: Kary
+  street_address: 97564 Independence Terrace
+  city: El Paso
+  state: TX
+  zip_code: "88530"
+
+---
+position: 2
+voter_info:
+  last_name: Charnick
+  first_name: Hulda
+  street_address: 1745 Spaight Street
+  city: Boca Raton
+  state: FL
+  zip_code: "33432"
+
+---
+position: 3
+voter_info:
+  last_name: Courtman
+  first_name: Raychel
+  street_address: 8374 Fordem Hill
+  city: Detroit
+  state: MI
+  zip_code: "48242"
+
+---
+position: 4
+voter_info:
+  last_name: Baistow
+  first_name: Anatole
+  street_address: 3 Hoffman Crossing
+  city: Tucson
+  state: AZ
+  zip_code: "85737"
+
+---
+position: 5
+voter_info:
+  last_name: Horsted
+  first_name: Ernst
+  street_address: 9188 Emmet Center
+  city: Pittsburgh
+  state: PA
+  zip_code: "15255"
+
+---
+position: 6
+voter_info:
+  last_name: Luisetti
+  first_name: Sheena
+  street_address: 165 Sunfield Hill
+  city: Panama City
+  state: FL
+  zip_code: "32412"
+
+---
+position: 7
+voter_info:
+  last_name: Eivers
+  first_name: Mikel
+  street_address: 694 Crescent Oaks Avenue
+  city: Little Rock
+  state: AR
+  zip_code: "72209"
+
+---
+position: 8
+voter_info:
+  last_name: Tregian
+  first_name: Minta
+  street_address: 20 Debs Pass
+  city: Los Angeles
+  state: CA
+  zip_code: "90010"
+
+---
+position: 9
+voter_info:
+  last_name: Denisard
+  first_name: Jane
+  street_address: 5 Vernon Junction
+  city: San Francisco
+  state: CA
+  zip_code: "94159"
+
+---
+position: 10
+voter_info:
+  last_name: Foale
+  first_name: Dale
+  street_address: 86071 Bartillon Circle
+  city: Sacramento
+  state: CA
+  zip_code: "95852"
+
+---
+position: 11
+voter_info:
+  last_name: Rust
+  first_name: Esme
+  street_address: 64645 Bunting Parkway
+  city: Anaheim
+  state: CA
+  zip_code: "92805"
+
+---
+position: 12
+voter_info:
+  last_name: Andreia
+  first_name: Blayne
+  street_address: 5 Mcbride Road
+  city: Rochester
+  state: NY
+  zip_code: "14683"
+
+---
+position: 13
+voter_info:
+  last_name: Brach
+  first_name: Vicky
+  street_address: 6 Schmedeman Court
+  city: Lake Worth
+  state: FL
+  zip_code: "33467"
+
+---
+position: 14
+voter_info:
+  last_name: Winsor
+  first_name: Kile
+  street_address: 68846 Daystar Drive
+  city: Denver
+  state: CO
+  zip_code: "80235"
+
+---
+position: 15
+voter_info:
+  last_name: Tyne
+  first_name: Roxana
+  street_address: 22 Linden Crossing
+  city: Elmira
+  state: NY
+  zip_code: "14905"
+
+---
+position: 16
+voter_info:
+  last_name: Yosevitz
+  first_name: Alberik
+  street_address: 79 Eagan Avenue
+  city: Dallas
+  state: TX
+  zip_code: "75265"
+
+---
+position: 17
+voter_info:
+  last_name: Necolds
+  first_name: Hurleigh
+  street_address: 2245 Lien Lane
+  city: Oklahoma City
+  state: OK
+  zip_code: "73119"
+
+---
+position: 18
+voter_info:
+  last_name: Clail
+  first_name: Marquita
+  street_address: 6 Dawn Lane
+  city: Salem
+  state: OR
+  zip_code: "97312"
+
+---
+position: 19
+voter_info:
+  last_name: Wheowall
+  first_name: Gerek
+  street_address: 03222 Delaware Road
+  city: Dayton
+  state: OH
+  zip_code: "45454"
+
+---
+position: 20
+voter_info:
+  last_name: Bartelli
+  first_name: Adriane
+  street_address: 2 Maple Place
+  city: Cedar Rapids
+  state: IA
+  zip_code: "52405"
+
+---
+position: 21
+voter_info:
+  last_name: Tures
+  first_name: Gifford
+  street_address: 6965 Holmberg Way
+  city: Vero Beach
+  state: FL
+  zip_code: "32964"
+
+---
+position: 22
+voter_info:
+  last_name: Andrin
+  first_name: Lilah
+  street_address: 47551 Beilfuss Park
+  city: Anaheim
+  state: CA
+  zip_code: "92825"
+
+---
+position: 23
+voter_info:
+  last_name: Jouhan
+  first_name: Florrie
+  street_address: 88538 Crescent Oaks Lane
+  city: Dallas
+  state: TX
+  zip_code: "75277"
+
+---
+position: 24
+voter_info:
+  last_name: Melarkey
+  first_name: Massimiliano
+  street_address: 7 Anzinger Pass
+  city: Cambridge
+  state: MA
+  zip_code: "2142"
+
+---
+position: 25
+voter_info:
+  last_name: Lockier
+  first_name: Devinne
+  street_address: 0 Delaware Way
+  city: New York City
+  state: NY
+  zip_code: "10249"
+
+---
+position: 26
+voter_info:
+  last_name: Causton
+  first_name: Minni
+  street_address: 27 Vernon Hill
+  city: Springfield
+  state: IL
+  zip_code: "62723"
+
+---
+position: 27
+voter_info:
+  last_name: Snow
+  first_name: Wallis
+  street_address: 8678 Cottonwood Parkway
+  city: Denver
+  state: CO
+  zip_code: "80255"
+
+---
+position: 28
+voter_info:
+  last_name: Sammars
+  first_name: Kathi
+  street_address: 9034 Reindahl Junction
+  city: Dallas
+  state: TX
+  zip_code: "75287"
+
+---
+position: 29
+voter_info:
+  last_name: Whitwood
+  first_name: Lorene
+  street_address: 18 Holmberg Plaza
+  city: Topeka
+  state: KS
+  zip_code: "66642"
+
+---
+position: 30
+voter_info:
+  last_name: Klimkowski
+  first_name: Daphne
+  street_address: 5 Shasta Crossing
+  city: Cincinnati
+  state: OH
+  zip_code: "45254"
+
+---
+position: 31
+voter_info:
+  last_name: Kember
+  first_name: Keven
+  street_address: 97 Nova Street
+  city: Bradenton
+  state: FL
+  zip_code: "34210"
+
+---
+position: 32
+voter_info:
+  last_name: Arzu
+  first_name: Johan
+  street_address: 674 Riverside Center
+  city: Long Beach
+  state: CA
+  zip_code: "90840"
+
+---
+position: 33
+voter_info:
+  last_name: Jertz
+  first_name: Tomas
+  street_address: 8 Roth Road
+  city: Boca Raton
+  state: FL
+  zip_code: "33499"
+
+---
+position: 34
+voter_info:
+  last_name: Very
+  first_name: Terese
+  street_address: 2685 Kensington Center
+  city: Louisville
+  state: KY
+  zip_code: "40256"
+
+---
+position: 35
+voter_info:
+  last_name: Braunthal
+  first_name: Phillida
+  street_address: 92 Parkside Lane
+  city: Olympia
+  state: WA
+  zip_code: "98506"
+
+---
+position: 36
+voter_info:
+  last_name: Bridson
+  first_name: Emmie
+  street_address: 62 Orin Drive
+  city: Silver Spring
+  state: MD
+  zip_code: "20918"
+
+---
+position: 37
+voter_info:
+  last_name: Robbie
+  first_name: Kele
+  street_address: 64140 Dayton Avenue
+  city: Panama City
+  state: FL
+  zip_code: "32412"
+
+---
+position: 38
+voter_info:
+  last_name: Dibner
+  first_name: Maryrose
+  street_address: 8959 Shoshone Road
+  city: Lynchburg
+  state: VA
+  zip_code: "24503"
+
+---
+position: 39
+voter_info:
+  last_name: Olennikov
+  first_name: Clarie
+  street_address: 86971 Milwaukee Drive
+  city: Las Vegas
+  state: NV
+  zip_code: "89130"
+
+---
+position: 40
+voter_info:
+  last_name: Demange
+  first_name: Dyane
+  street_address: 611 Ronald Regan Way
+  city: Birmingham
+  state: AL
+  zip_code: "35231"
+
+---
+position: 41
+voter_info:
+  last_name: Bourges
+  first_name: Olwen
+  street_address: 00264 Mitchell Lane
+  city: San Antonio
+  state: TX
+  zip_code: "78291"
+
+---
+position: 42
+voter_info:
+  last_name: Sollime
+  first_name: Jillane
+  street_address: 5 Springview Way
+  city: Knoxville
+  state: TN
+  zip_code: "37931"
+
+---
+position: 43
+voter_info:
+  last_name: Danilowicz
+  first_name: Leodora
+  street_address: 3 Rigney Crossing
+  city: Memphis
+  state: TN
+  zip_code: "38104"
+
+---
+position: 44
+voter_info:
+  last_name: Harlin
+  first_name: Torrey
+  street_address: 4441 Clarendon Road
+  city: Macon
+  state: GA
+  zip_code: "31210"
+
+---
+position: 45
+voter_info:
+  last_name: Wood
+  first_name: Tammara
+  street_address: 1139 Lunder Trail
+  city: Miami
+  state: FL
+  zip_code: "33175"
+
+---
+position: 46
+voter_info:
+  last_name: Geertje
+  first_name: Connie
+  street_address: 60 Portage Hill
+  city: Denton
+  state: TX
+  zip_code: "76205"
+
+---
+position: 47
+voter_info:
+  last_name: Cutteridge
+  first_name: Marylou
+  street_address: 5361 Nevada Circle
+  city: Charleston
+  state: WV
+  zip_code: "25313"
+
+---
+position: 48
+voter_info:
+  last_name: Dods
+  first_name: Noemi
+  street_address: 4 Crest Line Lane
+  city: Migrate
+  state: KY
+  zip_code: "41905"
+
+---
+position: 49
+voter_info:
+  last_name: Spurrior
+  first_name: Debbi
+  street_address: 10 Emmet Drive
+  city: Salt Lake City
+  state: UT
+  zip_code: "84125"
+
+---
+position: 50
+voter_info:
+  last_name: McGoon
+  first_name: Nicolai
+  street_address: 3 Crescent Oaks Terrace
+  city: New York City
+  state: NY
+  zip_code: "10270"
+
+---
+position: 51
+voter_info:
+  last_name: Innis
+  first_name: Terri-jo
+  street_address: 8981 Kinsman Court
+  city: Clearwater
+  state: FL
+  zip_code: "34629"
+
+---
+position: 52
+voter_info:
+  last_name: McKeady
+  first_name: Gabriellia
+  street_address: 07 Maple Wood Street
+  city: Fort Wayne
+  state: IN
+  zip_code: "46862"
+
+---
+position: 53
+voter_info:
+  last_name: Record
+  first_name: Locke
+  street_address: 0 Longview Street
+  city: Louisville
+  state: KY
+  zip_code: "40280"
+
+---
+position: 54
+voter_info:
+  last_name: Server
+  first_name: Alfonse
+  street_address: 9818 Lunder Drive
+  city: Colorado Springs
+  state: CO
+  zip_code: "80910"
+
+---
+position: 55
+voter_info:
+  last_name: Broadberrie
+  first_name: Cassi
+  street_address: 20 Northridge Parkway
+  city: San Jose
+  state: CA
+  zip_code: "95138"
+
+---
+position: 56
+voter_info:
+  last_name: Whitlaw
+  first_name: Hulda
+  street_address: 49 Corben Street
+  city: Washington
+  state: DC
+  zip_code: "20546"
+
+---
+position: 57
+voter_info:
+  last_name: Drewet
+  first_name: Pavel
+  street_address: 7 Tomscot Drive
+  city: Huntington
+  state: WV
+  zip_code: "25705"
+
+---
+position: 58
+voter_info:
+  last_name: Euler
+  first_name: Wait
+  street_address: 8059 Hollow Ridge Hill
+  city: Las Vegas
+  state: NV
+  zip_code: "89155"
+
+---
+position: 59
+voter_info:
+  last_name: Ritzman
+  first_name: Marillin
+  street_address: 5 Bluestem Way
+  city: Syracuse
+  state: NY
+  zip_code: "13205"
+
+---
+position: 60
+voter_info:
+  last_name: "Van T'Hoog"
+  first_name: Pancho
+  street_address: 43431 Texas Court
+  city: Boise
+  state: ID
+  zip_code: "83732"
+
+---
+position: 61
+voter_info:
+  last_name: Caveill
+  first_name: Erena
+  street_address: 50262 Spaight Plaza
+  city: Pittsburgh
+  state: PA
+  zip_code: "15274"
+
+---
+position: 62
+voter_info:
+  last_name: Egre
+  first_name: Foss
+  street_address: 2 Roxbury Hill
+  city: Austin
+  state: TX
+  zip_code: "78783"
+
+---
+position: 63
+voter_info:
+  last_name: Fiske
+  first_name: Sandi
+  street_address: 324 Kropf Center
+  city: Winter Haven
+  state: FL
+  zip_code: "33884"
+
+---
+position: 64
+voter_info:
+  last_name: Yansons
+  first_name: Deeann
+  street_address: 2284 Ridge Oak Point
+  city: Washington
+  state: DC
+  zip_code: "20392"
+
+---
+position: 65
+voter_info:
+  last_name: Druhan
+  first_name: Alanah
+  street_address: 648 Macpherson Alley
+  city: Provo
+  state: UT
+  zip_code: "84605"
+
+---
+position: 66
+voter_info:
+  last_name: Scatcher
+  first_name: Darnall
+  street_address: 707 Lindbergh Lane
+  city: Des Moines
+  state: IA
+  zip_code: "50936"
+
+---
+position: 67
+voter_info:
+  last_name: Mungin
+  first_name: Amy
+  street_address: 27222 Fisk Hill
+  city: San Diego
+  state: CA
+  zip_code: "92170"
+
+---
+position: 68
+voter_info:
+  last_name: Lynam
+  first_name: Eli
+  street_address: 5391 Rusk Crossing
+  city: Elizabeth
+  state: NJ
+  zip_code: "7208"
+
+---
+position: 69
+voter_info:
+  last_name: Melia
+  first_name: Goddard
+  street_address: 08 Browning Circle
+  city: Greensboro
+  state: NC
+  zip_code: "27425"
+
+---
+position: 70
+voter_info:
+  last_name: Emps
+  first_name: Hanna
+  street_address: 73348 Nevada Alley
+  city: Irvine
+  state: CA
+  zip_code: "92619"
+
+---
+position: 71
+voter_info:
+  last_name: Tuminelli
+  first_name: Francklin
+  street_address: 2 Corben Plaza
+  city: Silver Spring
+  state: MD
+  zip_code: "20910"
+
+---
+position: 72
+voter_info:
+  last_name: Longina
+  first_name: Elena
+  street_address: 32549 Summerview Park
+  city: Chula Vista
+  state: CA
+  zip_code: "91913"
+
+---
+position: 73
+voter_info:
+  last_name: Alanbrooke
+  first_name: Hilarius
+  street_address: 371 Bluestem Center
+  city: Dayton
+  state: OH
+  zip_code: "45454"
+
+---
+position: 74
+voter_info:
+  last_name: Sanches
+  first_name: Lydon
+  street_address: 8 Springview Trail
+  city: Colorado Springs
+  state: CO
+  zip_code: "80940"
+
+---
+position: 75
+voter_info:
+  last_name: Carlton
+  first_name: Ragnar
+  street_address: 11020 East Circle
+  city: El Paso
+  state: TX
+  zip_code: "88579"
+
+---
+position: 76
+voter_info:
+  last_name: Battill
+  first_name: Shalom
+  street_address: 64 Hazelcrest Park
+  city: Washington
+  state: DC
+  zip_code: "20370"
+
+---
+position: 77
+voter_info:
+  last_name: Dobkin
+  first_name: Marcy
+  street_address: 9 Boyd Court
+  city: Lehigh Acres
+  state: FL
+  zip_code: "33972"
+
+---
+position: 78
+voter_info:
+  last_name: Dunkley
+  first_name: Sammie
+  street_address: 60671 Spohn Drive
+  city: Boca Raton
+  state: FL
+  zip_code: "33487"
+
+---
+position: 79
+voter_info:
+  last_name: Gounod
+  first_name: Reinwald
+  street_address: 984 Thackeray Plaza
+  city: Miami
+  state: FL
+  zip_code: "33190"
+
+---
+position: 80
+voter_info:
+  last_name: Hitcham
+  first_name: Hynda
+  street_address: 0649 Walton Alley
+  city: Oklahoma City
+  state: OK
+  zip_code: "73167"
+
+---
+position: 81
+voter_info:
+  last_name: Cracker
+  first_name: Shellysheldon
+  street_address: 8 Havey Hill
+  city: Columbus
+  state: OH
+  zip_code: "43226"
+
+---
+position: 82
+voter_info:
+  last_name: MacLaig
+  first_name: Britt
+  street_address: 55279 Hoffman Circle
+  city: Texarkana
+  state: TX
+  zip_code: "75507"
+
+---
+position: 83
+voter_info:
+  last_name: Kohnen
+  first_name: Farley
+  street_address: 85 Garrison Crossing
+  city: Dayton
+  state: OH
+  zip_code: "45490"
+
+---
+position: 84
+voter_info:
+  last_name: Philott
+  first_name: Rainer
+  street_address: 0799 Prairie Rose Park
+  city: Amarillo
+  state: TX
+  zip_code: "79171"
+
+---
+position: 85
+voter_info:
+  last_name: Surgeoner
+  first_name: Ode
+  street_address: 66 Northland Avenue
+  city: Philadelphia
+  state: PA
+  zip_code: "19131"
+
+---
+position: 86
+voter_info:
+  last_name: Offa
+  first_name: Tallie
+  street_address: 73229 Tony Circle
+  city: New York City
+  state: NY
+  zip_code: "10014"
+
+---
+position: 87
+voter_info:
+  last_name: Firmager
+  first_name: Selle
+  street_address: 069 Mcbride Way
+  city: Cincinnati
+  state: OH
+  zip_code: "45249"
+
+---
+position: 88
+voter_info:
+  last_name: Keep
+  first_name: Tonya
+  street_address: 6048 Del Sol Center
+  city: Chicago
+  state: IL
+  zip_code: "60686"
+
+---
+position: 89
+voter_info:
+  last_name: Chessman
+  first_name: Leonora
+  street_address: 596 Barby Street
+  city: San Antonio
+  state: TX
+  zip_code: "78285"
+
+---
+position: 90
+voter_info:
+  last_name: Rodmell
+  first_name: Agathe
+  street_address: 397 Bartelt Point
+  city: Flushing
+  state: NY
+  zip_code: "11388"
+
+---
+position: 91
+voter_info:
+  last_name: Hepher
+  first_name: Corinna
+  street_address: 0 Londonderry Junction
+  city: Peoria
+  state: IL
+  zip_code: "61635"
+
+---
+position: 92
+voter_info:
+  last_name: Screeton
+  first_name: Lowell
+  street_address: 107 Cordelia Park
+  city: Spartanburg
+  state: SC
+  zip_code: "29319"
+
+---
+position: 93
+voter_info:
+  last_name: Strelitz
+  first_name: Yorker
+  street_address: 1215 Truax Point
+  city: Green Bay
+  state: WI
+  zip_code: "54313"
+
+---
+position: 94
+voter_info:
+  last_name: Godden
+  first_name: Brigit
+  street_address: 29 Vahlen Lane
+  city: Washington
+  state: DC
+  zip_code: "20397"
+
+---
+position: 95
+voter_info:
+  last_name: Fairrie
+  first_name: Hiram
+  street_address: 7595 Thompson Center
+  city: Saint Paul
+  state: MN
+  zip_code: "55188"
+
+---
+position: 96
+voter_info:
+  last_name: Brierly
+  first_name: Ameline
+  street_address: 6663 Havey Center
+  city: Phoenix
+  state: AZ
+  zip_code: "85030"
+
+---
+position: 97
+voter_info:
+  last_name: Vellacott
+  first_name: Garek
+  street_address: 92 Petterle Center
+  city: Los Angeles
+  state: CA
+  zip_code: "90060"
+
+---
+position: 98
+voter_info:
+  last_name: Ewenson
+  first_name: Celinda
+  street_address: 5803 Tennyson Parkway
+  city: Houston
+  state: TX
+  zip_code: "77070"
+
+---
+position: 99
+voter_info:
+  last_name: Gorwood
+  first_name: Fred
+  street_address: 75781 Becker Terrace
+  city: Cheyenne
+  state: WY
+  zip_code: "82007"
+
+---
+position: 100
+voter_info:
+  last_name: Bushen
+  first_name: Trixie
+  street_address: 13 Oneill Trail
+  city: New York City
+  state: NY
+  zip_code: "10184"
+
+---
+position: 101
+voter_info:
+  last_name: Staker
+  first_name: Jodee
+  street_address: 5017 Glendale Terrace
+  city: Tucson
+  state: AZ
+  zip_code: "85705"
+
+---
+position: 102
+voter_info:
+  last_name: Huzzay
+  first_name: Domini
+  street_address: 74 Schiller Hill
+  city: Minneapolis
+  state: MN
+  zip_code: "55441"
+
+---
+position: 103
+voter_info:
+  last_name: Ruseworth
+  first_name: Hagan
+  street_address: 88841 Tennessee Center
+  city: New York City
+  state: NY
+  zip_code: "10009"
+
+---
+position: 104
+voter_info:
+  last_name: Porritt
+  first_name: Wilbert
+  street_address: 799 Utah Place
+  city: Modesto
+  state: CA
+  zip_code: "95354"
+
+---
+position: 105
+voter_info:
+  last_name: Pyner
+  first_name: Jeanne
+  street_address: 917 Rigney Junction
+  city: Saint Louis
+  state: MO
+  zip_code: "63104"
+
+---
+position: 106
+voter_info:
+  last_name: De Freyne
+  first_name: Arlinda
+  street_address: 5209 Service Place
+  city: Washington
+  state: DC
+  zip_code: "20260"
+
+---
+position: 107
+voter_info:
+  last_name: Patesel
+  first_name: Cally
+  street_address: 6 Crownhardt Road
+  city: Winston Salem
+  state: NC
+  zip_code: "27105"
+
+---
+position: 108
+voter_info:
+  last_name: Balharry
+  first_name: Ursulina
+  street_address: 51613 Mcbride Way
+  city: Detroit
+  state: MI
+  zip_code: "48275"
+
+---
+position: 109
+voter_info:
+  last_name: Ennor
+  first_name: Dominic
+  street_address: 9 Buena Vista Plaza
+  city: Salt Lake City
+  state: UT
+  zip_code: "84189"
+
+---
+position: 110
+voter_info:
+  last_name: Bearman
+  first_name: Elizabeth
+  street_address: 87355 Sutteridge Hill
+  city: Albany
+  state: GA
+  zip_code: "31704"
+
+---
+position: 111
+voter_info:
+  last_name: McMichell
+  first_name: Lee
+  street_address: 101 Cascade Street
+  city: Buffalo
+  state: NY
+  zip_code: "14225"
+
+---
+position: 112
+voter_info:
+  last_name: Clendinning
+  first_name: Oran
+  street_address: 796 Scott Circle
+  city: Madison
+  state: WI
+  zip_code: "53716"
+
+---
+position: 113
+voter_info:
+  last_name: Peschka
+  first_name: Mady
+  street_address: 2 Bunker Hill Point
+  city: Topeka
+  state: KS
+  zip_code: "66617"
+
+---
+position: 114
+voter_info:
+  last_name: Petera
+  first_name: Jessamyn
+  street_address: 4374 Jenifer Crossing
+  city: Tampa
+  state: FL
+  zip_code: "33605"
+
+---
+position: 115
+voter_info:
+  last_name: Andrasch
+  first_name: Serge
+  street_address: 04959 Morningstar Circle
+  city: Winston Salem
+  state: NC
+  zip_code: "27116"
+
+---
+position: 116
+voter_info:
+  last_name: Charrette
+  first_name: Elihu
+  street_address: 56217 Eliot Alley
+  city: Sacramento
+  state: CA
+  zip_code: "94230"
+
+---
+position: 117
+voter_info:
+  last_name: Shore
+  first_name: Angelle
+  street_address: 3331 Gerald Road
+  city: Akron
+  state: OH
+  zip_code: "44393"
+
+---
+position: 118
+voter_info:
+  last_name: Drabble
+  first_name: Anastasia
+  street_address: 29 Crownhardt Trail
+  city: Herndon
+  state: VA
+  zip_code: "22070"
+
+---
+position: 119
+voter_info:
+  last_name: "D'Ambrogi"
+  first_name: Sigfried
+  street_address: 2764 Morning Alley
+  city: Alexandria
+  state: VA
+  zip_code: "22313"
+
+---
+position: 120
+voter_info:
+  last_name: Brenstuhl
+  first_name: Torrance
+  street_address: 161 Jenna Avenue
+  city: Austin
+  state: TX
+  zip_code: "78759"
+
+---
+position: 121
+voter_info:
+  last_name: Caddy
+  first_name: Pete
+  street_address: 6241 Brentwood Trail
+  city: Boston
+  state: MA
+  zip_code: "2114"
+
+---
+position: 122
+voter_info:
+  last_name: Pinnere
+  first_name: Gael
+  street_address: 71900 Morrow Court
+  city: Atlanta
+  state: GA
+  zip_code: "30328"
+
+---
+position: 123
+voter_info:
+  last_name: Baversor
+  first_name: Baily
+  street_address: 766 Cordelia Junction
+  city: Las Vegas
+  state: NV
+  zip_code: "89105"
+
+---
+position: 124
+voter_info:
+  last_name: Lyal
+  first_name: Romonda
+  street_address: 0315 Maple Parkway
+  city: Washington
+  state: DC
+  zip_code: "20535"
+
+---
+position: 125
+voter_info:
+  last_name: Croom
+  first_name: Dulcie
+  street_address: 3574 Pankratz Hill
+  city: Inglewood
+  state: CA
+  zip_code: "90305"
+
+---
+position: 126
+voter_info:
+  last_name: Espasa
+  first_name: Reggi
+  street_address: 33336 Fuller Terrace
+  city: Dayton
+  state: OH
+  zip_code: "45414"
+
+---
+position: 127
+voter_info:
+  last_name: Doust
+  first_name: Sidoney
+  street_address: 43 Anthes Point
+  city: Milwaukee
+  state: WI
+  zip_code: "53205"
+
+---
+position: 128
+voter_info:
+  last_name: Agdahl
+  first_name: Eileen
+  street_address: 3980 Nancy Park
+  city: Richmond
+  state: VA
+  zip_code: "23228"
+
+---
+position: 129
+voter_info:
+  last_name: Hansie
+  first_name: Hurleigh
+  street_address: 195 Arkansas Pass
+  city: Fort Lauderdale
+  state: FL
+  zip_code: "33320"
+
+---
+position: 130
+voter_info:
+  last_name: Elington
+  first_name: Ruddie
+  street_address: 4 Loeprich Drive
+  city: Brooklyn
+  state: NY
+  zip_code: "11215"
+
+---
+position: 131
+voter_info:
+  last_name: Bedbrough
+  first_name: Lesley
+  street_address: 454 Spaight Circle
+  city: Stamford
+  state: CT
+  zip_code: "6922"
+
+---
+position: 132
+voter_info:
+  last_name: Godfrey
+  first_name: Cherish
+  street_address: 72710 Schlimgen Point
+  city: Boise
+  state: ID
+  zip_code: "83705"
+
+---
+position: 133
+voter_info:
+  last_name: Crowest
+  first_name: Aube
+  street_address: 46378 Dahle Parkway
+  city: Detroit
+  state: MI
+  zip_code: "48258"
+
+---
+position: 134
+voter_info:
+  last_name: Casterton
+  first_name: Murry
+  street_address: 4488 Brickson Park Park
+  city: Marietta
+  state: GA
+  zip_code: "30066"
+
+---
+position: 135
+voter_info:
+  last_name: Espinha
+  first_name: Chad
+  street_address: 4750 8th Park
+  city: Santa Ana
+  state: CA
+  zip_code: "92725"
+
+---
+position: 136
+voter_info:
+  last_name: Gever
+  first_name: Hayyim
+  street_address: 19 Barnett Pass
+  city: Omaha
+  state: NE
+  zip_code: "68105"
+
+---
+position: 137
+voter_info:
+  last_name: Bartalucci
+  first_name: Ellary
+  street_address: 61 Twin Pines Crossing
+  city: Dallas
+  state: TX
+  zip_code: "75231"
+
+---
+position: 138
+voter_info:
+  last_name: Westrope
+  first_name: Brina
+  street_address: 9776 Drewry Circle
+  city: Sacramento
+  state: CA
+  zip_code: "94245"
+
+---
+position: 139
+voter_info:
+  last_name: Nicolls
+  first_name: Cozmo
+  street_address: 24370 Declaration Crossing
+  city: Miami
+  state: FL
+  zip_code: "33185"
+
+---
+position: 140
+voter_info:
+  last_name: Blowfield
+  first_name: Elysha
+  street_address: 07713 Heffernan Alley
+  city: Jackson
+  state: MS
+  zip_code: "39282"
+
+---
+position: 141
+voter_info:
+  last_name: Heninghem
+  first_name: Jennica
+  street_address: 5202 Sheridan Road
+  city: Tallahassee
+  state: FL
+  zip_code: "32309"
+
+---
+position: 142
+voter_info:
+  last_name: Gue
+  first_name: Maison
+  street_address: 35 Lyons Plaza
+  city: Los Angeles
+  state: CA
+  zip_code: "90076"
+
+---
+position: 143
+voter_info:
+  last_name: Walkden
+  first_name: Peta
+  street_address: 2 Fordem Crossing
+  city: Richmond
+  state: VA
+  zip_code: "23203"
+
+---
+position: 144
+voter_info:
+  last_name: Pereira
+  first_name: Emmy
+  street_address: 5 Crest Line Circle
+  city: Montgomery
+  state: AL
+  zip_code: "36109"
+
+---
+position: 145
+voter_info:
+  last_name: Pryn
+  first_name: Base
+  street_address: 767 Aberg Avenue
+  city: Montgomery
+  state: AL
+  zip_code: "36125"
+
+---
+position: 146
+voter_info:
+  last_name: Luparto
+  first_name: Drugi
+  street_address: 83 Cherokee Hill
+  city: Louisville
+  state: KY
+  zip_code: "40215"
+
+---
+position: 147
+voter_info:
+  last_name: Devin
+  first_name: Adrien
+  street_address: 537 Calypso Plaza
+  city: Columbus
+  state: GA
+  zip_code: "31998"
+
+---
+position: 148
+voter_info:
+  last_name: Backshaw
+  first_name: Travis
+  street_address: 0 Gulseth Pass
+  city: Miami
+  state: FL
+  zip_code: "33164"
+
+---
+position: 149
+voter_info:
+  last_name: Gonzalo
+  first_name: Cherry
+  street_address: 975 Glendale Parkway
+  city: Johnstown
+  state: PA
+  zip_code: "15906"
+
+---
+position: 150
+voter_info:
+  last_name: Casaccia
+  first_name: Mona
+  street_address: 07 Stone Corner Pass
+  city: Madison
+  state: WI
+  zip_code: "53716"
+
+---
+position: 151
+voter_info:
+  last_name: McGilleghole
+  first_name: Danica
+  street_address: 930 Dwight Pass
+  city: Louisville
+  state: KY
+  zip_code: "40250"
+
+---
+position: 152
+voter_info:
+  last_name: Amiable
+  first_name: Stirling
+  street_address: 6 Monument Road
+  city: Rochester
+  state: NY
+  zip_code: "14604"
+
+---
+position: 153
+voter_info:
+  last_name: Svanetti
+  first_name: Donny
+  street_address: 65 Morning Terrace
+  city: Houston
+  state: TX
+  zip_code: "77065"
+
+---
+position: 154
+voter_info:
+  last_name: Hutley
+  first_name: Ingra
+  street_address: 3 Lawn Place
+  city: Huntington
+  state: WV
+  zip_code: "25705"
+
+---
+position: 155
+voter_info:
+  last_name: Pietzke
+  first_name: Gran
+  street_address: 1175 Fairfield Hill
+  city: Kansas City
+  state: MO
+  zip_code: "64136"
+
+---
+position: 156
+voter_info:
+  last_name: Brandone
+  first_name: Ira
+  street_address: 510 Quincy Plaza
+  city: Littleton
+  state: CO
+  zip_code: "80127"
+
+---
+position: 157
+voter_info:
+  last_name: McKean
+  first_name: Annette
+  street_address: 6 Prairie Rose Way
+  city: Memphis
+  state: TN
+  zip_code: "38119"
+
+---
+position: 158
+voter_info:
+  last_name: Neagle
+  first_name: Beilul
+  street_address: 841 Russell Terrace
+  city: Pittsburgh
+  state: PA
+  zip_code: "15266"
+
+---
+position: 159
+voter_info:
+  last_name: Cotman
+  first_name: Christal
+  street_address: 304 Golf View Road
+  city: San Francisco
+  state: CA
+  zip_code: "94121"
+
+---
+position: 160
+voter_info:
+  last_name: Leathlay
+  first_name: Sonja
+  street_address: 1101 Center Circle
+  city: Cleveland
+  state: OH
+  zip_code: "44130"
+
+---
+position: 161
+voter_info:
+  last_name: Goldberg
+  first_name: Obie
+  street_address: 0 Anderson Junction
+  city: San Diego
+  state: CA
+  zip_code: "92165"
+
+---
+position: 162
+voter_info:
+  last_name: MacCracken
+  first_name: Margret
+  street_address: 43557 Cody Terrace
+  city: New Orleans
+  state: LA
+  zip_code: "70129"
+
+---
+position: 163
+voter_info:
+  last_name: Hawse
+  first_name: Tiebold
+  street_address: 7098 Bunting Crossing
+  city: Newport News
+  state: VA
+  zip_code: "23612"
+
+---
+position: 164
+voter_info:
+  last_name: Storrock
+  first_name: Maud
+  street_address: 216 Hooker Parkway
+  city: Los Angeles
+  state: CA
+  zip_code: "90045"
+
+---
+position: 165
+voter_info:
+  last_name: Pelerin
+  first_name: Athene
+  street_address: 6733 Springs Park
+  city: Saint Petersburg
+  state: FL
+  zip_code: "33705"
+
+---
+position: 166
+voter_info:
+  last_name: Schmuhl
+  first_name: Major
+  street_address: 198 Spohn Lane
+  city: El Paso
+  state: TX
+  zip_code: "88563"
+
+---
+position: 167
+voter_info:
+  last_name: Portriss
+  first_name: Ashia
+  street_address: 089 Forest Junction
+  city: Charlotte
+  state: NC
+  zip_code: "28235"
+
+---
+position: 168
+voter_info:
+  last_name: Gauford
+  first_name: Davy
+  street_address: 17 Golf View Terrace
+  city: Baltimore
+  state: MD
+  zip_code: "21290"
+
+---
+position: 169
+voter_info:
+  last_name: Luscombe
+  first_name: Donavon
+  street_address: 29 Stoughton Plaza
+  city: New York City
+  state: NY
+  zip_code: "10115"
+
+---
+position: 170
+voter_info:
+  last_name: Musselwhite
+  first_name: Kerstin
+  street_address: 7399 Lunder Court
+  city: Philadelphia
+  state: PA
+  zip_code: "19093"
+
+---
+position: 171
+voter_info:
+  last_name: Jehaes
+  first_name: Queenie
+  street_address: 265 Melody Alley
+  city: Tulsa
+  state: OK
+  zip_code: "74149"
+
+---
+position: 172
+voter_info:
+  last_name: Sutherland
+  first_name: Orelee
+  street_address: 46535 Columbus Park
+  city: Washington
+  state: DC
+  zip_code: "20580"
+
+---
+position: 173
+voter_info:
+  last_name: Gilogly
+  first_name: Tory
+  street_address: 13123 Burning Wood Street
+  city: Colorado Springs
+  state: CO
+  zip_code: "80951"
+
+---
+position: 174
+voter_info:
+  last_name: Bisp
+  first_name: Dalenna
+  street_address: 89 Columbus Alley
+  city: Pasadena
+  state: TX
+  zip_code: "77505"
+
+---
+position: 175
+voter_info:
+  last_name: McCambridge
+  first_name: Armstrong
+  street_address: 005 Straubel Alley
+  city: New Orleans
+  state: LA
+  zip_code: "70116"
+
+---
+position: 176
+voter_info:
+  last_name: Volk
+  first_name: Gay
+  street_address: 7 Debra Plaza
+  city: Orange
+  state: CA
+  zip_code: "92668"
+
+---
+position: 177
+voter_info:
+  last_name: Menichini
+  first_name: Elbertina
+  street_address: 0 Fordem Circle
+  city: West Hartford
+  state: CT
+  zip_code: "6127"
+
+---
+position: 178
+voter_info:
+  last_name: Sculley
+  first_name: Brody
+  street_address: 1543 Kenwood Alley
+  city: Philadelphia
+  state: PA
+  zip_code: "19109"
+
+---
+position: 179
+voter_info:
+  last_name: Nanelli
+  first_name: Hamlin
+  street_address: 42879 Northridge Place
+  city: Brooklyn
+  state: NY
+  zip_code: "11205"
+
+---
+position: 180
+voter_info:
+  last_name: Cornbell
+  first_name: Corissa
+  street_address: 1766 Atwood Center
+  city: Springfield
+  state: MA
+  zip_code: "1152"
+
+---
+position: 181
+voter_info:
+  last_name: Bletso
+  first_name: Carlota
+  street_address: 6884 Dunning Drive
+  city: Long Beach
+  state: CA
+  zip_code: "90805"
+
+---
+position: 182
+voter_info:
+  last_name: Sommers
+  first_name: Heddi
+  street_address: 40 Huxley Drive
+  city: Memphis
+  state: TN
+  zip_code: "38119"
+
+---
+position: 183
+voter_info:
+  last_name: Pengelly
+  first_name: Alec
+  street_address: 91510 Namekagon Place
+  city: Evansville
+  state: IN
+  zip_code: "47719"
+
+---
+position: 184
+voter_info:
+  last_name: Woolvin
+  first_name: Glori
+  street_address: 3034 Heath Junction
+  city: Gadsden
+  state: AL
+  zip_code: "35905"
+
+---
+position: 185
+voter_info:
+  last_name: Baggally
+  first_name: Caritta
+  street_address: 35512 Pierstorff Plaza
+  city: Zephyrhills
+  state: FL
+  zip_code: "33543"
+
+---
+position: 186
+voter_info:
+  last_name: Morley
+  first_name: Rene
+  street_address: 0066 Vernon Terrace
+  city: Virginia Beach
+  state: VA
+  zip_code: "23464"
+
+---
+position: 187
+voter_info:
+  last_name: Burnsyde
+  first_name: Jacquette
+  street_address: 0 Pepper Wood Road
+  city: Lincoln
+  state: NE
+  zip_code: "68531"
+
+---
+position: 188
+voter_info:
+  last_name: Elverstone
+  first_name: Thebault
+  street_address: 98747 Westerfield Road
+  city: Irvine
+  state: CA
+  zip_code: "92619"
+
+---
+position: 189
+voter_info:
+  last_name: MacKettrick
+  first_name: Ardelle
+  street_address: 49 Buhler Terrace
+  city: Washington
+  state: DC
+  zip_code: "20088"
+
+---
+position: 190
+voter_info:
+  last_name: Bulfield
+  first_name: Milty
+  street_address: 91 Brickson Park Drive
+  city: Norwalk
+  state: CT
+  zip_code: "6859"
+
+---
+position: 191
+voter_info:
+  last_name: Drewett
+  first_name: Cristionna
+  street_address: 5 Arizona Drive
+  city: Fort Lauderdale
+  state: FL
+  zip_code: "33336"
+
+---
+position: 192
+voter_info:
+  last_name: McTrustey
+  first_name: Hans
+  street_address: 0 2nd Circle
+  city: South Bend
+  state: IN
+  zip_code: "46620"
+
+---
+position: 193
+voter_info:
+  last_name: Adamoli
+  first_name: Hall
+  street_address: 9300 Paget Place
+  city: Portland
+  state: OR
+  zip_code: "97286"
+
+---
+position: 194
+voter_info:
+  last_name: Stracey
+  first_name: Elenore
+  street_address: 72 Manufacturers Point
+  city: Birmingham
+  state: AL
+  zip_code: "35285"
+
+---
+position: 195
+voter_info:
+  last_name: Halden
+  first_name: Danya
+  street_address: 28 Anzinger Alley
+  city: Saint Louis
+  state: MO
+  zip_code: "63110"
+
+---
+position: 196
+voter_info:
+  last_name: Vispo
+  first_name: Crosby
+  street_address: 646 Beilfuss Road
+  city: Washington
+  state: DC
+  zip_code: "20546"
+
+---
+position: 197
+voter_info:
+  last_name: Schoroder
+  first_name: Base
+  street_address: 696 Heffernan Street
+  city: Stockton
+  state: CA
+  zip_code: "95205"
+
+---
+position: 198
+voter_info:
+  last_name: Tutchener
+  first_name: Lara
+  street_address: 8708 Prentice Hill
+  city: Grand Forks
+  state: ND
+  zip_code: "58207"
+
+---
+position: 199
+voter_info:
+  last_name: Jannaway
+  first_name: Flor
+  street_address: 97 Milwaukee Junction
+  city: Colorado Springs
+  state: CO
+  zip_code: "80945"
+
+---
+position: 200
+voter_info:
+  last_name: Ollarenshaw
+  first_name: Thaddeus
+  street_address: 01170 Mosinee Hill
+  city: Evansville
+  state: IN
+  zip_code: "47712"
+
+---
+position: 201
+voter_info:
+  last_name: Rove
+  first_name: Vivianna
+  street_address: 83358 Redwing Alley
+  city: Oklahoma City
+  state: OK
+  zip_code: "73190"
+
+---
+position: 202
+voter_info:
+  last_name: Noble
+  first_name: Kayla
+  street_address: 98 Village Green Way
+  city: Los Angeles
+  state: CA
+  zip_code: "90081"
+
+---
+position: 203
+voter_info:
+  last_name: Ralphs
+  first_name: Ezri
+  street_address: 96 Kinsman Alley
+  city: Saint Joseph
+  state: MO
+  zip_code: "64504"
+
+---
+position: 204
+voter_info:
+  last_name: Vogl
+  first_name: Bianka
+  street_address: 29 Duke Parkway
+  city: Saint Louis
+  state: MO
+  zip_code: "63104"
+
+---
+position: 205
+voter_info:
+  last_name: Parmby
+  first_name: Germaine
+  street_address: 0 Daystar Crossing
+  city: El Paso
+  state: TX
+  zip_code: "79968"
+
+---
+position: 206
+voter_info:
+  last_name: Mcall
+  first_name: Henri
+  street_address: 74 Everett Point
+  city: Cleveland
+  state: OH
+  zip_code: "44130"
+
+---
+position: 207
+voter_info:
+  last_name: Miklem
+  first_name: Robinetta
+  street_address: 88226 Gateway Junction
+  city: Wilmington
+  state: NC
+  zip_code: "28410"
+
+---
+position: 208
+voter_info:
+  last_name: Goodboddy
+  first_name: Whitney
+  street_address: 64364 Dakota Trail
+  city: Newark
+  state: NJ
+  zip_code: "7112"
+
+---
+position: 209
+voter_info:
+  last_name: Hearst
+  first_name: Isabella
+  street_address: 87 Manufacturers Hill
+  city: Anchorage
+  state: AK
+  zip_code: "99599"
+
+---
+position: 210
+voter_info:
+  last_name: Narramor
+  first_name: Pepito
+  street_address: 10 Norway Maple Trail
+  city: Richmond
+  state: VA
+  zip_code: "23289"
+
+---
+position: 211
+voter_info:
+  last_name: Lipman
+  first_name: Lorette
+  street_address: 197 Duke Crossing
+  city: Palatine
+  state: IL
+  zip_code: "60078"
+
+---
+position: 212
+voter_info:
+  last_name: Quinsee
+  first_name: Felic
+  street_address: 3 Wayridge Lane
+  city: Greenville
+  state: SC
+  zip_code: "29610"
+
+---
+position: 213
+voter_info:
+  last_name: Cattellion
+  first_name: Oswell
+  street_address: 09 Talisman Crossing
+  city: Miami
+  state: FL
+  zip_code: "33233"
+
+---
+position: 214
+voter_info:
+  last_name: Docker
+  first_name: Garvy
+  street_address: 7047 Sheridan Drive
+  city: Miami
+  state: FL
+  zip_code: "33283"
+
+---
+position: 215
+voter_info:
+  last_name: McIan
+  first_name: Aloin
+  street_address: 94738 Birchwood Hill
+  city: Springfield
+  state: IL
+  zip_code: "62723"
+
+---
+position: 216
+voter_info:
+  last_name: Ghidelli
+  first_name: Rosemary
+  street_address: 7795 Texas Trail
+  city: Frederick
+  state: MD
+  zip_code: "21705"
+
+---
+position: 217
+voter_info:
+  last_name: Leinster
+  first_name: Gregorius
+  street_address: 3612 Upham Point
+  city: Newark
+  state: NJ
+  zip_code: "7188"
+
+---
+position: 218
+voter_info:
+  last_name: Kayzer
+  first_name: Pippa
+  street_address: 8 Mitchell Center
+  city: Pasadena
+  state: CA
+  zip_code: "91117"
+
+---
+position: 219
+voter_info:
+  last_name: Rolance
+  first_name: Edee
+  street_address: 3274 Forest Run Drive
+  city: Tampa
+  state: FL
+  zip_code: "33610"
+
+---
+position: 220
+voter_info:
+  last_name: Ayton
+  first_name: Adey
+  street_address: 0 Jenna Parkway
+  city: Naples
+  state: FL
+  zip_code: "34102"
+
+---
+position: 221
+voter_info:
+  last_name: Grimsley
+  first_name: Rainer
+  street_address: 25 Pine View Street
+  city: Marietta
+  state: GA
+  zip_code: "30061"
+
+---
+position: 222
+voter_info:
+  last_name: Biermatowicz
+  first_name: Isidora
+  street_address: 91 Warrior Hill
+  city: Fort Smith
+  state: AR
+  zip_code: "72916"
+
+---
+position: 223
+voter_info:
+  last_name: Cracie
+  first_name: Paul
+  street_address: 2516 Gina Street
+  city: Salt Lake City
+  state: UT
+  zip_code: "84110"
+
+---
+position: 224
+voter_info:
+  last_name: Shrimpling
+  first_name: Dewain
+  street_address: 75 Sutherland Circle
+  city: Wilmington
+  state: DE
+  zip_code: "19886"
+
+---
+position: 225
+voter_info:
+  last_name: Mordue
+  first_name: Abigael
+  street_address: 99153 Sauthoff Terrace
+  city: San Jose
+  state: CA
+  zip_code: "95194"
+
+---
+position: 226
+voter_info:
+  last_name: Pantling
+  first_name: Whitaker
+  street_address: 48 Darwin Center
+  city: Ventura
+  state: CA
+  zip_code: "93005"
+
+---
+position: 227
+voter_info:
+  last_name: Pretti
+  first_name: Genia
+  street_address: 138 Petterle Parkway
+  city: Fort Worth
+  state: TX
+  zip_code: "76129"
+
+---
+position: 228
+voter_info:
+  last_name: Sundin
+  first_name: Kaine
+  street_address: 217 Main Road
+  city: San Antonio
+  state: TX
+  zip_code: "78210"
+
+---
+position: 229
+voter_info:
+  last_name: Stuart
+  first_name: Denyse
+  street_address: 90173 Superior Drive
+  city: Huntsville
+  state: AL
+  zip_code: "35810"
+
+---
+position: 230
+voter_info:
+  last_name: "O'Henery"
+  first_name: Sande
+  street_address: 97044 Magdeline Parkway
+  city: Norman
+  state: OK
+  zip_code: "73071"
+
+---
+position: 231
+voter_info:
+  last_name: Judkins
+  first_name: Mil
+  street_address: 35 Old Shore Parkway
+  city: Sacramento
+  state: CA
+  zip_code: "94245"
+
+---
+position: 232
+voter_info:
+  last_name: Hobble
+  first_name: Clayborn
+  street_address: 0 Forest Run Park
+  city: New Orleans
+  state: LA
+  zip_code: "70165"
+
+---
+position: 233
+voter_info:
+  last_name: Mannix
+  first_name: Wheeler
+  street_address: 967 Ryan Crossing
+  city: Knoxville
+  state: TN
+  zip_code: "37919"
+
+---
+position: 234
+voter_info:
+  last_name: Richarz
+  first_name: Erna
+  street_address: 42 Aberg Place
+  city: Scottsdale
+  state: AZ
+  zip_code: "85271"
+
+---
+position: 235
+voter_info:
+  last_name: Potzold
+  first_name: Emilio
+  street_address: 0422 Twin Pines Crossing
+  city: Minneapolis
+  state: MN
+  zip_code: "55446"
+
+---
+position: 236
+voter_info:
+  last_name: Upham
+  first_name: Daniel
+  street_address: 160 Harbort Place
+  city: Philadelphia
+  state: PA
+  zip_code: "19136"
+
+---
+position: 237
+voter_info:
+  last_name: Rowlands
+  first_name: Antoinette
+  street_address: 727 Lyons Court
+  city: Newton
+  state: MA
+  zip_code: "2458"
+
+---
+position: 238
+voter_info:
+  last_name: Whiteson
+  first_name: Corrinne
+  street_address: 17094 Hansons Pass
+  city: Colorado Springs
+  state: CO
+  zip_code: "80945"
+
+---
+position: 239
+voter_info:
+  last_name: Luttgert
+  first_name: Zaccaria
+  street_address: 9 Shasta Lane
+  city: Miami
+  state: FL
+  zip_code: "33142"
+
+---
+position: 240
+voter_info:
+  last_name: Dally
+  first_name: Lombard
+  street_address: 70 Lindbergh Trail
+  city: Vienna
+  state: VA
+  zip_code: "22184"
+
+---
+position: 241
+voter_info:
+  last_name: Antognozzii
+  first_name: Prue
+  street_address: 77 Magdeline Plaza
+  city: San Angelo
+  state: TX
+  zip_code: "76905"
+
+---
+position: 242
+voter_info:
+  last_name: Casse
+  first_name: Jami
+  street_address: 79926 Hintze Pass
+  city: Rochester
+  state: NY
+  zip_code: "14652"
+
+---
+position: 243
+voter_info:
+  last_name: Ulyatt
+  first_name: Shea
+  street_address: 5832 Roxbury Junction
+  city: Dallas
+  state: TX
+  zip_code: "75260"
+
+---
+position: 244
+voter_info:
+  last_name: Mullinger
+  first_name: Mace
+  street_address: 73063 School Circle
+  city: Daytona Beach
+  state: FL
+  zip_code: "32128"
+
+---
+position: 245
+voter_info:
+  last_name: Skacel
+  first_name: Joseph
+  street_address: 2 Myrtle Avenue
+  city: Reno
+  state: NV
+  zip_code: "89510"
+
+---
+position: 246
+voter_info:
+  last_name: Heathorn
+  first_name: Ernestus
+  street_address: 72 Golden Leaf Terrace
+  city: Chattanooga
+  state: TN
+  zip_code: "37405"
+
+---
+position: 247
+voter_info:
+  last_name: Linner
+  first_name: Brad
+  street_address: 917 Corben Park
+  city: Miami
+  state: FL
+  zip_code: "33124"
+
+---
+position: 248
+voter_info:
+  last_name: Kleuer
+  first_name: Kippy
+  street_address: 8 Armistice Trail
+  city: Worcester
+  state: MA
+  zip_code: "1654"
+
+---
+position: 249
+voter_info:
+  last_name: Willmer
+  first_name: Daveen
+  street_address: 88 Jay Plaza
+  city: Pinellas Park
+  state: FL
+  zip_code: "34665"
+
+---
+position: 250
+voter_info:
+  last_name: Dowber
+  first_name: Ab
+  street_address: 72815 Mosinee Alley
+  city: Nashville
+  state: TN
+  zip_code: "37245"
+
+---
+position: 251
+voter_info:
+  last_name: Windas
+  first_name: Onfre
+  street_address: 1531 Hoard Place
+  city: Saint Petersburg
+  state: FL
+  zip_code: "33742"
+
+---
+position: 252
+voter_info:
+  last_name: McGrath
+  first_name: Mario
+  street_address: 8146 La Follette Road
+  city: Boston
+  state: MA
+  zip_code: "2114"
+
+---
+position: 253
+voter_info:
+  last_name: Weatherburn
+  first_name: Darb
+  street_address: 77312 Esch Road
+  city: Canton
+  state: OH
+  zip_code: "44710"
+
+---
+position: 254
+voter_info:
+  last_name: Dowzell
+  first_name: Jennifer
+  street_address: 8369 Longview Parkway
+  city: Amarillo
+  state: TX
+  zip_code: "79182"
+
+---
+position: 255
+voter_info:
+  last_name: Ordish
+  first_name: Chandler
+  street_address: 1 Corben Parkway
+  city: Baltimore
+  state: MD
+  zip_code: "21282"
+
+---
+position: 256
+voter_info:
+  last_name: Burchnall
+  first_name: Kenon
+  street_address: 369 Dryden Point
+  city: Pasadena
+  state: CA
+  zip_code: "91199"
+
+---
+position: 257
+voter_info:
+  last_name: Wainer
+  first_name: Sherlocke
+  street_address: 003 Scoville Alley
+  city: Clearwater
+  state: FL
+  zip_code: "33763"
+
+---
+position: 258
+voter_info:
+  last_name: Whates
+  first_name: Sly
+  street_address: 11 Moose Road
+  city: Flint
+  state: MI
+  zip_code: "48505"
+
+---
+position: 259
+voter_info:
+  last_name: Beazleigh
+  first_name: Donnie
+  street_address: 3058 Harbort Crossing
+  city: Berkeley
+  state: CA
+  zip_code: "94705"
+
+---
+position: 260
+voter_info:
+  last_name: Ventam
+  first_name: Shep
+  street_address: 3262 Duke Avenue
+  city: Chicago
+  state: IL
+  zip_code: "60674"
+
+---
+position: 261
+voter_info:
+  last_name: Boreland
+  first_name: Yevette
+  street_address: 1162 Lillian Pass
+  city: Dayton
+  state: OH
+  zip_code: "45419"
+
+---
+position: 262
+voter_info:
+  last_name: Marzella
+  first_name: Jaquelin
+  street_address: 893 Starling Court
+  city: Columbia
+  state: SC
+  zip_code: "29240"
+
+---
+position: 263
+voter_info:
+  last_name: Goghin
+  first_name: Dallas
+  street_address: 53451 Crest Line Lane
+  city: Lincoln
+  state: NE
+  zip_code: "68510"
+
+---
+position: 264
+voter_info:
+  last_name: Briat
+  first_name: Gabie
+  street_address: 621 Homewood Park
+  city: Columbus
+  state: OH
+  zip_code: "43204"
+
+---
+position: 265
+voter_info:
+  last_name: Redparth
+  first_name: Garner
+  street_address: 3 Sunfield Court
+  city: Pittsburgh
+  state: PA
+  zip_code: "15235"
+
+---
+position: 266
+voter_info:
+  last_name: Lukas
+  first_name: Lane
+  street_address: 608 Nobel Drive
+  city: Topeka
+  state: KS
+  zip_code: "66622"
+
+---
+position: 267
+voter_info:
+  last_name: Fancutt
+  first_name: Diane
+  street_address: 902 Anderson Crossing
+  city: Los Angeles
+  state: CA
+  zip_code: "90055"
+
+---
+position: 268
+voter_info:
+  last_name: Smeaton
+  first_name: Orelle
+  street_address: 8964 Sullivan Point
+  city: Indianapolis
+  state: IN
+  zip_code: "46247"
+
+---
+position: 269
+voter_info:
+  last_name: Roland
+  first_name: Kassie
+  street_address: 29386 Lien Plaza
+  city: Dayton
+  state: OH
+  zip_code: "45414"
+
+---
+position: 270
+voter_info:
+  last_name: Carty
+  first_name: Bertha
+  street_address: 468 Shopko Pass
+  city: Roanoke
+  state: VA
+  zip_code: "24009"
+
+---
+position: 271
+voter_info:
+  last_name: Stevenson
+  first_name: Alexio
+  street_address: 22 Dottie Place
+  city: Bakersfield
+  state: CA
+  zip_code: "93399"
+
+---
+position: 272
+voter_info:
+  last_name: Sames
+  first_name: Benny
+  street_address: 8 Blackbird Court
+  city: Phoenix
+  state: AZ
+  zip_code: "85035"
+
+---
+position: 273
+voter_info:
+  last_name: Gaylard
+  first_name: Katharine
+  street_address: 465 Westend Way
+  city: Spartanburg
+  state: SC
+  zip_code: "29319"
+
+---
+position: 274
+voter_info:
+  last_name: Feavearyear
+  first_name: Juana
+  street_address: 7 Caliangt Crossing
+  city: San Antonio
+  state: TX
+  zip_code: "78255"
+
+---
+position: 275
+voter_info:
+  last_name: "O'Cahill"
+  first_name: Jeane
+  street_address: 8194 Holmberg Hill
+  city: Spokane
+  state: WA
+  zip_code: "99260"
+
+---
+position: 276
+voter_info:
+  last_name: Copo
+  first_name: Penni
+  street_address: 13599 Maryland Plaza
+  city: San Diego
+  state: CA
+  zip_code: "92196"
+
+---
+position: 277
+voter_info:
+  last_name: Brient
+  first_name: Bowie
+  street_address: 71442 Armistice Lane
+  city: Chicago
+  state: IL
+  zip_code: "60614"
+
+---
+position: 278
+voter_info:
+  last_name: Ferenczi
+  first_name: Waldemar
+  street_address: 1 American Drive
+  city: Wilkes Barre
+  state: PA
+  zip_code: "18763"
+
+---
+position: 279
+voter_info:
+  last_name: Langlands
+  first_name: Nadean
+  street_address: 85 Clemons Plaza
+  city: Charleston
+  state: WV
+  zip_code: "25321"
+
+---
+position: 280
+voter_info:
+  last_name: Jantel
+  first_name: Winifield
+  street_address: 750 7th Court
+  city: Lafayette
+  state: LA
+  zip_code: "70505"
+
+---
+position: 281
+voter_info:
+  last_name: Reyna
+  first_name: Franciska
+  street_address: 28 Rigney Place
+  city: El Paso
+  state: TX
+  zip_code: "88525"
+
+---
+position: 282
+voter_info:
+  last_name: Fretson
+  first_name: Lyda
+  street_address: 34 Eastlawn Junction
+  city: Washington
+  state: DC
+  zip_code: "20036"
+
+---
+position: 283
+voter_info:
+  last_name: Tewkesberry
+  first_name: Mace
+  street_address: 0 Debs Place
+  city: Irvine
+  state: CA
+  zip_code: "92717"
+
+---
+position: 284
+voter_info:
+  last_name: Kahane
+  first_name: Nat
+  street_address: 347 Mcguire Plaza
+  city: Providence
+  state: RI
+  zip_code: "2912"
+
+---
+position: 285
+voter_info:
+  last_name: Laurens
+  first_name: Abagael
+  street_address: 970 Vermont Trail
+  city: Charlotte
+  state: NC
+  zip_code: "28205"
+
+---
+position: 286
+voter_info:
+  last_name: Bogeys
+  first_name: Silvanus
+  street_address: 8358 Reinke Point
+  city: Ocala
+  state: FL
+  zip_code: "34479"
+
+---
+position: 287
+voter_info:
+  last_name: Wong
+  first_name: Magdaia
+  street_address: 2271 Harper Alley
+  city: Washington
+  state: DC
+  zip_code: "20210"
+
+---
+position: 288
+voter_info:
+  last_name: Ghidoli
+  first_name: Gaylor
+  street_address: 60764 Vera Circle
+  city: Dallas
+  state: TX
+  zip_code: "75323"
+
+---
+position: 289
+voter_info:
+  last_name: Shackesby
+  first_name: Shaun
+  street_address: 38504 Katie Circle
+  city: Hagerstown
+  state: MD
+  zip_code: "21747"
+
+---
+position: 290
+voter_info:
+  last_name: Leates
+  first_name: Hurleigh
+  street_address: 034 Barnett Way
+  city: Pittsburgh
+  state: PA
+  zip_code: "15235"
+
+---
+position: 291
+voter_info:
+  last_name: Draper
+  first_name: Boot
+  street_address: 4 Hansons Place
+  city: Denver
+  state: CO
+  zip_code: "80279"
+
+---
+position: 292
+voter_info:
+  last_name: Verheijden
+  first_name: Mavra
+  street_address: 093 La Follette Lane
+  city: Birmingham
+  state: AL
+  zip_code: "35285"
+
+---
+position: 293
+voter_info:
+  last_name: Comberbach
+  first_name: Fax
+  street_address: 6 Weeping Birch Pass
+  city: Naples
+  state: FL
+  zip_code: "34102"
+
+---
+position: 294
+voter_info:
+  last_name: Spata
+  first_name: Bernete
+  street_address: 1766 Forest Circle
+  city: Lexington
+  state: KY
+  zip_code: "40576"
+
+---
+position: 295
+voter_info:
+  last_name: Cawthorne
+  first_name: Derril
+  street_address: 53 Tennessee Circle
+  city: Albany
+  state: NY
+  zip_code: "12242"
+
+---
+position: 296
+voter_info:
+  last_name: Sparke
+  first_name: Courtney
+  street_address: 99207 Mccormick Place
+  city: Detroit
+  state: MI
+  zip_code: "48295"
+
+---
+position: 297
+voter_info:
+  last_name: Hesser
+  first_name: Zachary
+  street_address: 85 Weeping Birch Pass
+  city: Elizabeth
+  state: NJ
+  zip_code: "7208"
+
+---
+position: 298
+voter_info:
+  last_name: Van Saltsberg
+  first_name: Lidia
+  street_address: 347 Iowa Street
+  city: Santa Ana
+  state: CA
+  zip_code: "92725"
+
+---
+position: 299
+voter_info:
+  last_name: Straniero
+  first_name: Talbert
+  street_address: 72 Prairie Rose Point
+  city: Peoria
+  state: IL
+  zip_code: "61614"
+
+---
+position: 300
+voter_info:
+  last_name: Truin
+  first_name: Lorilee
+  street_address: 31 Rusk Center
+  city: Orlando
+  state: FL
+  zip_code: "32885"
+
+---
+position: 301
+voter_info:
+  last_name: Seger
+  first_name: Sherie
+  street_address: 23 Merry Parkway
+  city: Daytona Beach
+  state: FL
+  zip_code: "32128"
+
+---
+position: 302
+voter_info:
+  last_name: Dafter
+  first_name: Kerry
+  street_address: 011 Merry Crossing
+  city: Waco
+  state: TX
+  zip_code: "76796"
+
+---
+position: 303
+voter_info:
+  last_name: Dimitrie
+  first_name: Luciano
+  street_address: 97376 Namekagon Trail
+  city: Mount Vernon
+  state: NY
+  zip_code: "10557"
+
+---
+position: 304
+voter_info:
+  last_name: "O'Beirne"
+  first_name: Jillie
+  street_address: 40 Portage Circle
+  city: Durham
+  state: NC
+  zip_code: "27717"
+
+---
+position: 305
+voter_info:
+  last_name: Portam
+  first_name: Andrea
+  street_address: 7140 Continental Avenue
+  city: Cincinnati
+  state: OH
+  zip_code: "45243"
+
+---
+position: 306
+voter_info:
+  last_name: Dawes
+  first_name: Gideon
+  street_address: 8 Main Place
+  city: Salem
+  state: OR
+  zip_code: "97312"
+
+---
+position: 307
+voter_info:
+  last_name: Caws
+  first_name: Gardiner
+  street_address: 1 Hoard Pass
+  city: Austin
+  state: TX
+  zip_code: "78759"
+
+---
+position: 308
+voter_info:
+  last_name: Duinbleton
+  first_name: Birgit
+  street_address: 98042 Forest Dale Center
+  city: Bronx
+  state: NY
+  zip_code: "10454"
+
+---
+position: 309
+voter_info:
+  last_name: Anker
+  first_name: Truman
+  street_address: 8979 Rieder Lane
+  city: Columbus
+  state: OH
+  zip_code: "43215"
+
+---
+position: 310
+voter_info:
+  last_name: Kunneke
+  first_name: Caryl
+  street_address: 68709 Columbus Court
+  city: Muskegon
+  state: MI
+  zip_code: "49444"
+
+---
+position: 311
+voter_info:
+  last_name: Fetterplace
+  first_name: Dode
+  street_address: 6687 Wayridge Lane
+  city: Albany
+  state: NY
+  zip_code: "12210"
+
+---
+position: 312
+voter_info:
+  last_name: Truman
+  first_name: Floyd
+  street_address: 766 Burning Wood Point
+  city: Cincinnati
+  state: OH
+  zip_code: "45238"
+
+---
+position: 313
+voter_info:
+  last_name: Rodenhurst
+  first_name: Murielle
+  street_address: 8 Onsgard Pass
+  city: Norman
+  state: OK
+  zip_code: "73071"
+
+---
+position: 314
+voter_info:
+  last_name: Tolchard
+  first_name: Kizzee
+  street_address: 384 Rowland Pass
+  city: Lexington
+  state: KY
+  zip_code: "40591"
+
+---
+position: 315
+voter_info:
+  last_name: Woolveridge
+  first_name: Demeter
+  street_address: 72 Sunbrook Street
+  city: Lansing
+  state: MI
+  zip_code: "48919"
+
+---
+position: 316
+voter_info:
+  last_name: Beeze
+  first_name: Isaac
+  street_address: 3 Northport Crossing
+  city: Washington
+  state: DC
+  zip_code: "20073"
+
+---
+position: 317
+voter_info:
+  last_name: Hannabus
+  first_name: Caddric
+  street_address: 54503 Eastlawn Way
+  city: Birmingham
+  state: AL
+  zip_code: "35225"
+
+---
+position: 318
+voter_info:
+  last_name: Yedy
+  first_name: Adrien
+  street_address: 1746 Merchant Parkway
+  city: Atlanta
+  state: GA
+  zip_code: "31136"
+
+---
+position: 319
+voter_info:
+  last_name: Corss
+  first_name: Pietro
+  street_address: 75071 Dakota Crossing
+  city: Bakersfield
+  state: CA
+  zip_code: "93305"
+
+---
+position: 320
+voter_info:
+  last_name: Dottridge
+  first_name: Raynard
+  street_address: 572 Kim Plaza
+  city: Arlington
+  state: VA
+  zip_code: "22234"
+
+---
+position: 321
+voter_info:
+  last_name: Addicote
+  first_name: Mair
+  street_address: 545 Menomonie Road
+  city: Honolulu
+  state: HI
+  zip_code: "96845"
+
+---
+position: 322
+voter_info:
+  last_name: Loosely
+  first_name: Leigha
+  street_address: 6835 Melby Trail
+  city: Paterson
+  state: NJ
+  zip_code: "7522"
+
+---
+position: 323
+voter_info:
+  last_name: Jacobovitz
+  first_name: Zaneta
+  street_address: 53862 Michigan Trail
+  city: Winston Salem
+  state: NC
+  zip_code: "27150"
+
+---
+position: 324
+voter_info:
+  last_name: Summersett
+  first_name: Ardys
+  street_address: 39411 Rieder Drive
+  city: Portland
+  state: OR
+  zip_code: "97232"
+
+---
+position: 325
+voter_info:
+  last_name: Gouldthorpe
+  first_name: Kippy
+  street_address: 2764 Tony Center
+  city: Sacramento
+  state: CA
+  zip_code: "94286"
+
+---
+position: 326
+voter_info:
+  last_name: Heake
+  first_name: Killian
+  street_address: 68472 Meadow Vale Way
+  city: Green Bay
+  state: WI
+  zip_code: "54313"
+
+---
+position: 327
+voter_info:
+  last_name: Klimentyonok
+  first_name: Eda
+  street_address: 63818 Lerdahl Road
+  city: West Palm Beach
+  state: FL
+  zip_code: "33421"
+
+---
+position: 328
+voter_info:
+  last_name: Dooney
+  first_name: Donaugh
+  street_address: 8 Larry Plaza
+  city: Fresno
+  state: CA
+  zip_code: "93740"
+
+---
+position: 329
+voter_info:
+  last_name: Kendall
+  first_name: Arvie
+  street_address: 43 Morning Circle
+  city: Newark
+  state: DE
+  zip_code: "19714"
+
+---
+position: 330
+voter_info:
+  last_name: Drache
+  first_name: Simonne
+  street_address: 38 Truax Point
+  city: New York City
+  state: NY
+  zip_code: "10160"
+
+---
+position: 331
+voter_info:
+  last_name: Summerside
+  first_name: Morganica
+  street_address: 14 Warrior Point
+  city: Chicago
+  state: IL
+  zip_code: "60636"
+
+---
+position: 332
+voter_info:
+  last_name: Fossey
+  first_name: Drusy
+  street_address: 54249 Saint Paul Crossing
+  city: Huntington
+  state: WV
+  zip_code: "25709"
+
+---
+position: 333
+voter_info:
+  last_name: Cornelleau
+  first_name: Terrie
+  street_address: 2582 Mifflin Hill
+  city: Albuquerque
+  state: NM
+  zip_code: "87190"
+
+---
+position: 334
+voter_info:
+  last_name: Rigardeau
+  first_name: Irita
+  street_address: 5515 Victoria Center
+  city: El Paso
+  state: TX
+  zip_code: "79994"
+
+---
+position: 335
+voter_info:
+  last_name: Flag
+  first_name: Wilhelm
+  street_address: 9177 Lindbergh Trail
+  city: Yakima
+  state: WA
+  zip_code: "98907"
+
+---
+position: 336
+voter_info:
+  last_name: Clack
+  first_name: Dena
+  street_address: 0476 Bay Center
+  city: Saint Paul
+  state: MN
+  zip_code: "55114"
+
+---
+position: 337
+voter_info:
+  last_name: Meddick
+  first_name: Ibrahim
+  street_address: 2 Mesta Point
+  city: North Port
+  state: FL
+  zip_code: "34290"
+
+---
+position: 338
+voter_info:
+  last_name: Yosifov
+  first_name: Zelda
+  street_address: 58961 Hooker Avenue
+  city: Chicago
+  state: IL
+  zip_code: "60697"
+
+---
+position: 339
+voter_info:
+  last_name: Tiner
+  first_name: Yankee
+  street_address: 11494 Brentwood Place
+  city: Dallas
+  state: TX
+  zip_code: "75310"
+
+---
+position: 340
+voter_info:
+  last_name: Guiver
+  first_name: Balduin
+  street_address: 9340 Green Trail
+  city: Detroit
+  state: MI
+  zip_code: "48206"
+
+---
+position: 341
+voter_info:
+  last_name: Hatje
+  first_name: Cassie
+  street_address: 5 Holmberg Parkway
+  city: Boston
+  state: MA
+  zip_code: "2203"
+
+---
+position: 342
+voter_info:
+  last_name: Stacey
+  first_name: Dav
+  street_address: 2898 Superior Alley
+  city: Kalamazoo
+  state: MI
+  zip_code: "49048"
+
+---
+position: 343
+voter_info:
+  last_name: Harlow
+  first_name: Quincey
+  street_address: 33 6th Parkway
+  city: New York City
+  state: NY
+  zip_code: "10175"
+
+---
+position: 344
+voter_info:
+  last_name: Hatto
+  first_name: Orin
+  street_address: 07 Maryland Pass
+  city: Baltimore
+  state: MD
+  zip_code: "21239"
+
+---
+position: 345
+voter_info:
+  last_name: Doogue
+  first_name: Agosto
+  street_address: 82998 Sugar Hill
+  city: Shawnee Mission
+  state: KS
+  zip_code: "66210"
+
+---
+position: 346
+voter_info:
+  last_name: Sellstrom
+  first_name: Alfred
+  street_address: 19 Talisman Road
+  city: Virginia Beach
+  state: VA
+  zip_code: "23464"
+
+---
+position: 347
+voter_info:
+  last_name: Maycock
+  first_name: Irma
+  street_address: 24397 Blackbird Way
+  city: Monticello
+  state: MN
+  zip_code: "55590"
+
+---
+position: 348
+voter_info:
+  last_name: Glendining
+  first_name: Tracy
+  street_address: 4 Pierstorff Pass
+  city: Santa Rosa
+  state: CA
+  zip_code: "95405"
+
+---
+position: 349
+voter_info:
+  last_name: Polly
+  first_name: Joann
+  street_address: 44 Larry Alley
+  city: San Francisco
+  state: CA
+  zip_code: "94142"
+
+---
+position: 350
+voter_info:
+  last_name: Horsburgh
+  first_name: Hervey
+  street_address: 43 Elgar Crossing
+  city: Seattle
+  state: WA
+  zip_code: "98166"
+
+---
+position: 351
+voter_info:
+  last_name: Andreutti
+  first_name: Evelin
+  street_address: 6 Harper Court
+  city: Miami
+  state: FL
+  zip_code: "33261"
+
+---
+position: 352
+voter_info:
+  last_name: Perassi
+  first_name: Melanie
+  street_address: 6 Eliot Terrace
+  city: Columbus
+  state: OH
+  zip_code: "43204"
+
+---
+position: 353
+voter_info:
+  last_name: Lackinton
+  first_name: Raymund
+  street_address: 2593 Tennessee Center
+  city: Portland
+  state: OR
+  zip_code: "97206"
+
+---
+position: 354
+voter_info:
+  last_name: Sail
+  first_name: Michale
+  street_address: 95787 Buell Hill
+  city: Schenectady
+  state: NY
+  zip_code: "12325"
+
+---
+position: 355
+voter_info:
+  last_name: Tomlin
+  first_name: Levon
+  street_address: 55528 Grasskamp Point
+  city: Montgomery
+  state: AL
+  zip_code: "36134"
+
+---
+position: 356
+voter_info:
+  last_name: Davsley
+  first_name: Fidelia
+  street_address: 104 Evergreen Way
+  city: Syracuse
+  state: NY
+  zip_code: "13217"
+
+---
+position: 357
+voter_info:
+  last_name: Rylands
+  first_name: Felix
+  street_address: 15 Forest Run Lane
+  city: Lubbock
+  state: TX
+  zip_code: "79405"
+
+---
+position: 358
+voter_info:
+  last_name: Lacaze
+  first_name: Kayne
+  street_address: 549 New Castle Junction
+  city: Garden Grove
+  state: CA
+  zip_code: "92844"
+
+---
+position: 359
+voter_info:
+  last_name: Demicoli
+  first_name: Carmelita
+  street_address: 583 Rieder Place
+  city: Pasadena
+  state: CA
+  zip_code: "91131"
+
+---
+position: 360
+voter_info:
+  last_name: Grunson
+  first_name: Selestina
+  street_address: 9510 Lien Place
+  city: Madison
+  state: WI
+  zip_code: "53710"
+
+---
+position: 361
+voter_info:
+  last_name: Cappleman
+  first_name: Annette
+  street_address: 3 Elka Point
+  city: Sioux City
+  state: IA
+  zip_code: "51105"
+
+---
+position: 362
+voter_info:
+  last_name: Speachley
+  first_name: Katy
+  street_address: 41 Spohn Crossing
+  city: Yonkers
+  state: NY
+  zip_code: "10705"
+
+---
+position: 363
+voter_info:
+  last_name: Filintsev
+  first_name: Daria
+  street_address: 07 Autumn Leaf Lane
+  city: Fort Pierce
+  state: FL
+  zip_code: "34981"
+
+---
+position: 364
+voter_info:
+  last_name: Bernardoux
+  first_name: Francisco
+  street_address: 636 Arapahoe Point
+  city: Washington
+  state: DC
+  zip_code: "20210"
+
+---
+position: 365
+voter_info:
+  last_name: McIndrew
+  first_name: Sherie
+  street_address: 0 Ilene Plaza
+  city: Juneau
+  state: AK
+  zip_code: "99812"
+
+---
+position: 366
+voter_info:
+  last_name: Cooling
+  first_name: Borg
+  street_address: 50 Vera Point
+  city: Detroit
+  state: MI
+  zip_code: "48275"
+
+---
+position: 367
+voter_info:
+  last_name: Chiommienti
+  first_name: Elwin
+  street_address: 3218 Bayside Drive
+  city: Canton
+  state: OH
+  zip_code: "44710"
+
+---
+position: 368
+voter_info:
+  last_name: McNalley
+  first_name: Rourke
+  street_address: 29 Boyd Road
+  city: Richmond
+  state: VA
+  zip_code: "23203"
+
+---
+position: 369
+voter_info:
+  last_name: McArley
+  first_name: Janis
+  street_address: 2 Mifflin Point
+  city: Denver
+  state: CO
+  zip_code: "80209"
+
+---
+position: 370
+voter_info:
+  last_name: Boyda
+  first_name: Garrard
+  street_address: 35238 Maywood Hill
+  city: Akron
+  state: OH
+  zip_code: "44315"
+
+---
+position: 371
+voter_info:
+  last_name: Aylott
+  first_name: Fayina
+  street_address: 1520 John Wall Road
+  city: Erie
+  state: PA
+  zip_code: "16505"
+
+---
+position: 372
+voter_info:
+  last_name: Rudsdell
+  first_name: Karie
+  street_address: 357 Cody Court
+  city: Arlington
+  state: TX
+  zip_code: "76004"
+
+---
+position: 373
+voter_info:
+  last_name: Grewes
+  first_name: Leandra
+  street_address: 78 Dakota Drive
+  city: Pasadena
+  state: CA
+  zip_code: "91186"
+
+---
+position: 374
+voter_info:
+  last_name: Dyneley
+  first_name: Sonya
+  street_address: 625 Everett Parkway
+  city: Spokane
+  state: WA
+  zip_code: "99252"
+
+---
+position: 375
+voter_info:
+  last_name: Fewless
+  first_name: Maryellen
+  street_address: 61 Pine View Road
+  city: Kansas City
+  state: MO
+  zip_code: "64160"
+
+---
+position: 376
+voter_info:
+  last_name: Ovesen
+  first_name: Birch
+  street_address: 6 Kipling Avenue
+  city: Lincoln
+  state: NE
+  zip_code: "68531"
+
+---
+position: 377
+voter_info:
+  last_name: Mc Caughan
+  first_name: Karol
+  street_address: 5 Rigney Road
+  city: Fargo
+  state: ND
+  zip_code: "58106"
+
+---
+position: 378
+voter_info:
+  last_name: Hallowes
+  first_name: Durante
+  street_address: 763 Eggendart Road
+  city: Charlotte
+  state: NC
+  zip_code: "28230"
+
+---
+position: 379
+voter_info:
+  last_name: Matushenko
+  first_name: Kim
+  street_address: 0 Claremont Street
+  city: Miami
+  state: FL
+  zip_code: "33185"
+
+---
+position: 380
+voter_info:
+  last_name: Castles
+  first_name: Arch
+  street_address: 8410 Scofield Park
+  city: Pensacola
+  state: FL
+  zip_code: "32595"
+
+---
+position: 381
+voter_info:
+  last_name: Eskriet
+  first_name: Giffie
+  street_address: 925 Farragut Junction
+  city: Seattle
+  state: WA
+  zip_code: "98166"
+
+---
+position: 382
+voter_info:
+  last_name: Scahill
+  first_name: Kira
+  street_address: 90 Grayhawk Drive
+  city: Austin
+  state: TX
+  zip_code: "78764"
+
+---
+position: 383
+voter_info:
+  last_name: Muggleton
+  first_name: Guillermo
+  street_address: 314 Rockefeller Place
+  city: Durham
+  state: NC
+  zip_code: "27710"
+
+---
+position: 384
+voter_info:
+  last_name: Boys
+  first_name: Omero
+  street_address: 12863 Calypso Junction
+  city: Seattle
+  state: WA
+  zip_code: "98166"
+
+---
+position: 385
+voter_info:
+  last_name: Larmett
+  first_name: Ranice
+  street_address: 111 American Ash Court
+  city: Springfield
+  state: MA
+  zip_code: "1152"
+
+---
+position: 386
+voter_info:
+  last_name: Behr
+  first_name: Camilla
+  street_address: 3103 Blackbird Point
+  city: Oakland
+  state: CA
+  zip_code: "94616"
+
+---
+position: 387
+voter_info:
+  last_name: Orridge
+  first_name: Dulciana
+  street_address: 868 Annamark Road
+  city: Roanoke
+  state: VA
+  zip_code: "24029"
+
+---
+position: 388
+voter_info:
+  last_name: Lisciardelli
+  first_name: Noellyn
+  street_address: 5480 Arizona Alley
+  city: Raleigh
+  state: NC
+  zip_code: "27626"
+
+---
+position: 389
+voter_info:
+  last_name: Ubsdell
+  first_name: Vanny
+  street_address: 891 Northview Alley
+  city: Fresno
+  state: CA
+  zip_code: "93704"
+
+---
+position: 390
+voter_info:
+  last_name: Gee
+  first_name: Karney
+  street_address: 7 1st Place
+  city: Lake Charles
+  state: LA
+  zip_code: "70607"
+
+---
+position: 391
+voter_info:
+  last_name: Nand
+  first_name: Luis
+  street_address: 57293 Farmco Terrace
+  city: Roanoke
+  state: VA
+  zip_code: "24004"
+
+---
+position: 392
+voter_info:
+  last_name: Caldecot
+  first_name: Sidnee
+  street_address: 08 Coleman Court
+  city: Houston
+  state: TX
+  zip_code: "77212"
+
+---
+position: 393
+voter_info:
+  last_name: Burtonshaw
+  first_name: Veriee
+  street_address: 17 Messerschmidt Hill
+  city: Los Angeles
+  state: CA
+  zip_code: "90055"
+
+---
+position: 394
+voter_info:
+  last_name: Pierucci
+  first_name: Margret
+  street_address: 9893 Pine View Point
+  city: New York City
+  state: NY
+  zip_code: "10105"
+
+---
+position: 395
+voter_info:
+  last_name: Pickaver
+  first_name: Paco
+  street_address: 00667 Harbort Court
+  city: Memphis
+  state: TN
+  zip_code: "38197"
+
+---
+position: 396
+voter_info:
+  last_name: Mealham
+  first_name: Marillin
+  street_address: 362 Bartillon Avenue
+  city: Albuquerque
+  state: NM
+  zip_code: "87115"
+
+---
+position: 397
+voter_info:
+  last_name: Chanson
+  first_name: Rolland
+  street_address: 1 Bellgrove Hill
+  city: Oklahoma City
+  state: OK
+  zip_code: "73109"
+
+---
+position: 398
+voter_info:
+  last_name: Kelloch
+  first_name: Giusto
+  street_address: 78090 Grayhawk Alley
+  city: Washington
+  state: DC
+  zip_code: "20005"
+
+---
+position: 399
+voter_info:
+  last_name: Jiran
+  first_name: Bentley
+  street_address: 168 Farragut Road
+  city: Topeka
+  state: KS
+  zip_code: "66667"
+
+---
+position: 400
+voter_info:
+  last_name: Corpes
+  first_name: Rowland
+  street_address: 83729 Redwing Drive
+  city: Springfield
+  state: IL
+  zip_code: "62718"
+
+---
+position: 401
+voter_info:
+  last_name: Patkin
+  first_name: Halsy
+  street_address: 199 Monterey Place
+  city: Knoxville
+  state: TN
+  zip_code: "37931"
+
+---
+position: 402
+voter_info:
+  last_name: Biscomb
+  first_name: Horacio
+  street_address: 9151 Veith Terrace
+  city: Sacramento
+  state: CA
+  zip_code: "94291"
+
+---
+position: 403
+voter_info:
+  last_name: Millward
+  first_name: Ranique
+  street_address: 887 Westport Terrace
+  city: Spokane
+  state: WA
+  zip_code: "99252"
+
+---
+position: 404
+voter_info:
+  last_name: Naismith
+  first_name: Zena
+  street_address: 26896 Kennedy Plaza
+  city: Boulder
+  state: CO
+  zip_code: "80305"
+
+---
+position: 405
+voter_info:
+  last_name: Houlridge
+  first_name: Lara
+  street_address: 7002 Hovde Drive
+  city: Rochester
+  state: NY
+  zip_code: "14614"
+
+---
+position: 406
+voter_info:
+  last_name: Mordanti
+  first_name: Simone
+  street_address: 3 Blaine Road
+  city: Sacramento
+  state: CA
+  zip_code: "95813"
+
+---
+position: 407
+voter_info:
+  last_name: Brimming
+  first_name: Nicholas
+  street_address: 5 Walton Pass
+  city: Hattiesburg
+  state: MS
+  zip_code: "39404"
+
+---
+position: 408
+voter_info:
+  last_name: Levitt
+  first_name: Risa
+  street_address: 7836 Mitchell Drive
+  city: Arlington
+  state: VA
+  zip_code: "22212"
+
+---
+position: 409
+voter_info:
+  last_name: Sazio
+  first_name: Emili
+  street_address: 7 Prentice Terrace
+  city: New Brunswick
+  state: NJ
+  zip_code: "8922"
+
+---
+position: 410
+voter_info:
+  last_name: Keeping
+  first_name: Herold
+  street_address: 90401 Cherokee Hill
+  city: Birmingham
+  state: AL
+  zip_code: "35231"
+
+---
+position: 411
+voter_info:
+  last_name: Sterte
+  first_name: Olav
+  street_address: 5 Fair Oaks Plaza
+  city: San Diego
+  state: CA
+  zip_code: "92137"
+
+---
+position: 412
+voter_info:
+  last_name: Fruin
+  first_name: Fair
+  street_address: 45354 Calypso Pass
+  city: Nashville
+  state: TN
+  zip_code: "37220"
+
+---
+position: 413
+voter_info:
+  last_name: Callicott
+  first_name: Hulda
+  street_address: 022 Huxley Crossing
+  city: Waco
+  state: TX
+  zip_code: "76796"
+
+---
+position: 414
+voter_info:
+  last_name: Basil
+  first_name: Sibylla
+  street_address: 90 Brentwood Park
+  city: Albuquerque
+  state: NM
+  zip_code: "87110"
+
+---
+position: 415
+voter_info:
+  last_name: Matzkaitis
+  first_name: Deeyn
+  street_address: 9838 Roxbury Hill
+  city: Kansas City
+  state: MO
+  zip_code: "64142"
+
+---
+position: 416
+voter_info:
+  last_name: Stansell
+  first_name: Kym
+  street_address: 9 Valley Edge Drive
+  city: Detroit
+  state: MI
+  zip_code: "48206"
+
+---
+position: 417
+voter_info:
+  last_name: Fidge
+  first_name: Waldo
+  street_address: 76 Homewood Terrace
+  city: Brockton
+  state: MA
+  zip_code: "2405"
+
+---
+position: 418
+voter_info:
+  last_name: Palluschek
+  first_name: Padget
+  street_address: 28475 Ilene Alley
+  city: Tempe
+  state: AZ
+  zip_code: "85284"
+
+---
+position: 419
+voter_info:
+  last_name: Gwyn
+  first_name: Daphene
+  street_address: 7 Shelley Parkway
+  city: Austin
+  state: TX
+  zip_code: "78744"
+
+---
+position: 420
+voter_info:
+  last_name: Wychard
+  first_name: Lloyd
+  street_address: 0787 Mayfield Parkway
+  city: Chattanooga
+  state: TN
+  zip_code: "37416"
+
+---
+position: 421
+voter_info:
+  last_name: Coche
+  first_name: Antin
+  street_address: 2783 Menomonie Place
+  city: Memphis
+  state: TN
+  zip_code: "38126"
+
+---
+position: 422
+voter_info:
+  last_name: Noble
+  first_name: Kristien
+  street_address: 029 Pleasure Alley
+  city: Charleston
+  state: WV
+  zip_code: "25389"
+
+---
+position: 423
+voter_info:
+  last_name: Brisker
+  first_name: Astra
+  street_address: 5782 Portage Alley
+  city: Omaha
+  state: NE
+  zip_code: "68105"
+
+---
+position: 424
+voter_info:
+  last_name: McMoyer
+  first_name: Liliane
+  street_address: 22049 Main Junction
+  city: Cincinnati
+  state: OH
+  zip_code: "45296"
+
+---
+position: 425
+voter_info:
+  last_name: Ezzy
+  first_name: Elroy
+  street_address: 80 Dorton Park
+  city: Alexandria
+  state: VA
+  zip_code: "22313"
+
+---
+position: 426
+voter_info:
+  last_name: Kleinschmidt
+  first_name: Bennie
+  street_address: 58544 Moulton Circle
+  city: New Orleans
+  state: LA
+  zip_code: "70124"
+
+---
+position: 427
+voter_info:
+  last_name: McPhee
+  first_name: Jackie
+  street_address: 41848 Nova Alley
+  city: Davenport
+  state: IA
+  zip_code: "52809"
+
+---
+position: 428
+voter_info:
+  last_name: Drache
+  first_name: Malanie
+  street_address: 03 Moulton Place
+  city: Indianapolis
+  state: IN
+  zip_code: "46247"
+
+---
+position: 429
+voter_info:
+  last_name: Glazer
+  first_name: Melicent
+  street_address: 3 Saint Paul Road
+  city: Corpus Christi
+  state: TX
+  zip_code: "78465"
+
+---
+position: 430
+voter_info:
+  last_name: Simak
+  first_name: Anetta
+  street_address: 8379 Sachs Trail
+  city: Texarkana
+  state: TX
+  zip_code: "75507"
+
+---
+position: 431
+voter_info:
+  last_name: Pibworth
+  first_name: Neall
+  street_address: 615 Pawling Point
+  city: Columbus
+  state: GA
+  zip_code: "31998"
+
+---
+position: 432
+voter_info:
+  last_name: Bute
+  first_name: Linn
+  street_address: 03364 Florence Circle
+  city: Scranton
+  state: PA
+  zip_code: "18514"
+
+---
+position: 433
+voter_info:
+  last_name: Speere
+  first_name: Garrek
+  street_address: 425 Lakewood Gardens Crossing
+  city: Madison
+  state: WI
+  zip_code: "53710"
+
+---
+position: 434
+voter_info:
+  last_name: Goodrick
+  first_name: Guenna
+  street_address: 294 Brentwood Plaza
+  city: Pocatello
+  state: ID
+  zip_code: "83206"
+
+---
+position: 435
+voter_info:
+  last_name: Bassick
+  first_name: Aristotle
+  street_address: 88250 Cardinal Trail
+  city: Trenton
+  state: NJ
+  zip_code: "8619"
+
+---
+position: 436
+voter_info:
+  last_name: Uccelli
+  first_name: Dix
+  street_address: 82 Oriole Junction
+  city: Greensboro
+  state: NC
+  zip_code: "27455"
+
+---
+position: 437
+voter_info:
+  last_name: Risbridge
+  first_name: Corbett
+  street_address: 33998 Clyde Gallagher Place
+  city: Trenton
+  state: NJ
+  zip_code: "8695"
+
+---
+position: 438
+voter_info:
+  last_name: Greenhowe
+  first_name: Almeria
+  street_address: 145 Roxbury Point
+  city: San Jose
+  state: CA
+  zip_code: "95150"
+
+---
+position: 439
+voter_info:
+  last_name: Shallcross
+  first_name: Suzie
+  street_address: 409 Moose Pass
+  city: Detroit
+  state: MI
+  zip_code: "48232"
+
+---
+position: 440
+voter_info:
+  last_name: Richardot
+  first_name: Rosella
+  street_address: 46735 Welch Pass
+  city: Daytona Beach
+  state: FL
+  zip_code: "32123"
+
+---
+position: 441
+voter_info:
+  last_name: Keddey
+  first_name: Abigael
+  street_address: 71095 Maryland Junction
+  city: Palmdale
+  state: CA
+  zip_code: "93591"
+
+---
+position: 442
+voter_info:
+  last_name: Scoggin
+  first_name: Lemmie
+  street_address: 70723 Nancy Center
+  city: Lexington
+  state: KY
+  zip_code: "40596"
+
+---
+position: 443
+voter_info:
+  last_name: Pauler
+  first_name: Max
+  street_address: 127 Kingsford Parkway
+  city: Baltimore
+  state: MD
+  zip_code: "21281"
+
+---
+position: 444
+voter_info:
+  last_name: Eddins
+  first_name: Ring
+  street_address: 79118 Birchwood Point
+  city: Miami Beach
+  state: FL
+  zip_code: "33141"
+
+---
+position: 445
+voter_info:
+  last_name: Bubeer
+  first_name: Charyl
+  street_address: 2338 Delladonna Hill
+  city: Burbank
+  state: CA
+  zip_code: "91505"
+
+---
+position: 446
+voter_info:
+  last_name: Noquet
+  first_name: Bunnie
+  street_address: 517 Armistice Place
+  city: Midland
+  state: MI
+  zip_code: "48670"
+
+---
+position: 447
+voter_info:
+  last_name: Lepoidevin
+  first_name: Noelyn
+  street_address: 677 Ridgeview Terrace
+  city: El Paso
+  state: TX
+  zip_code: "88558"
+
+---
+position: 448
+voter_info:
+  last_name: Gleeson
+  first_name: Rana
+  street_address: 8060 Onsgard Place
+  city: Minneapolis
+  state: MN
+  zip_code: "55436"
+
+---
+position: 449
+voter_info:
+  last_name: Pietron
+  first_name: Stormi
+  street_address: 495 Miller Place
+  city: Arlington
+  state: VA
+  zip_code: "22225"
+
+---
+position: 450
+voter_info:
+  last_name: Janny
+  first_name: Lutero
+  street_address: 7 Morningstar Junction
+  city: Richmond
+  state: VA
+  zip_code: "23208"
+
+---
+position: 451
+voter_info:
+  last_name: Grouen
+  first_name: Ileane
+  street_address: 5828 Blaine Circle
+  city: Augusta
+  state: GA
+  zip_code: "30919"
+
+---
+position: 452
+voter_info:
+  last_name: Garr
+  first_name: Alfreda
+  street_address: 15538 Springs Trail
+  city: Richmond
+  state: VA
+  zip_code: "23277"
+
+---
+position: 453
+voter_info:
+  last_name: Giacobini
+  first_name: Pansie
+  street_address: 991 Schurz Terrace
+  city: Stockton
+  state: CA
+  zip_code: "95298"
+
+---
+position: 454
+voter_info:
+  last_name: Fould
+  first_name: Maximilianus
+  street_address: 0 Dapin Road
+  city: Huntsville
+  state: AL
+  zip_code: "35810"
+
+---
+position: 455
+voter_info:
+  last_name: Dimic
+  first_name: Mela
+  street_address: 7226 Little Fleur Trail
+  city: Atlanta
+  state: GA
+  zip_code: "30311"
+
+---
+position: 456
+voter_info:
+  last_name: Fancourt
+  first_name: Tobey
+  street_address: 76 New Castle Center
+  city: Fort Myers
+  state: FL
+  zip_code: "33913"
+
+---
+position: 457
+voter_info:
+  last_name: Sans
+  first_name: Patten
+  street_address: 99 Bayside Road
+  city: Montpelier
+  state: VT
+  zip_code: "5609"
+
+---
+position: 458
+voter_info:
+  last_name: Pionter
+  first_name: Ly
+  street_address: 9427 Dayton Hill
+  city: Las Vegas
+  state: NV
+  zip_code: "89178"
+
+---
+position: 459
+voter_info:
+  last_name: Misk
+  first_name: Erie
+  street_address: 93 Lunder Pass
+  city: Tampa
+  state: FL
+  zip_code: "33625"
+
+---
+position: 460
+voter_info:
+  last_name: Feeley
+  first_name: Beverley
+  street_address: 06191 School Avenue
+  city: Spring Hill
+  state: FL
+  zip_code: "34611"
+
+---
+position: 461
+voter_info:
+  last_name: Le Friec
+  first_name: Valerye
+  street_address: 3383 Hoffman Lane
+  city: Irvine
+  state: CA
+  zip_code: "92612"
+
+---
+position: 462
+voter_info:
+  last_name: Mustoe
+  first_name: Rice
+  street_address: 04092 Karstens Center
+  city: Amarillo
+  state: TX
+  zip_code: "79105"
+
+---
+position: 463
+voter_info:
+  last_name: Narey
+  first_name: Morganica
+  street_address: 25626 Cascade Place
+  city: Charleston
+  state: WV
+  zip_code: "25336"
+
+---
+position: 464
+voter_info:
+  last_name: Presshaugh
+  first_name: Fina
+  street_address: 9131 Emmet Avenue
+  city: Cincinnati
+  state: OH
+  zip_code: "45228"
+
+---
+position: 465
+voter_info:
+  last_name: Vannini
+  first_name: Nestor
+  street_address: 404 Northridge Park
+  city: Washington
+  state: DC
+  zip_code: "20057"
+
+---
+position: 466
+voter_info:
+  last_name: Gandar
+  first_name: Haily
+  street_address: 2 Shelley Place
+  city: Marietta
+  state: GA
+  zip_code: "30061"
+
+---
+position: 467
+voter_info:
+  last_name: Margetson
+  first_name: Shelden
+  street_address: 90 Pawling Parkway
+  city: Panama City
+  state: FL
+  zip_code: "32405"
+
+---
+position: 468
+voter_info:
+  last_name: Bordis
+  first_name: Danni
+  street_address: 03248 Milwaukee Park
+  city: Detroit
+  state: MI
+  zip_code: "48267"
+
+---
+position: 469
+voter_info:
+  last_name: Slessor
+  first_name: Yoshiko
+  street_address: 25824 Barby Lane
+  city: Long Beach
+  state: CA
+  zip_code: "90847"
+
+---
+position: 470
+voter_info:
+  last_name: Fessions
+  first_name: Desmond
+  street_address: 5648 Schmedeman Junction
+  city: Los Angeles
+  state: CA
+  zip_code: "90020"
+
+---
+position: 471
+voter_info:
+  last_name: Dignall
+  first_name: Cary
+  street_address: 4737 Hooker Pass
+  city: Baltimore
+  state: MD
+  zip_code: "21211"
+
+---
+position: 472
+voter_info:
+  last_name: Reyna
+  first_name: Kali
+  street_address: 8213 Homewood Junction
+  city: Jackson
+  state: MS
+  zip_code: "39204"
+
+---
+position: 473
+voter_info:
+  last_name: Shropsheir
+  first_name: Kettie
+  street_address: 8 Bobwhite Center
+  city: Richmond
+  state: VA
+  zip_code: "23225"
+
+---
+position: 474
+voter_info:
+  last_name: Vinter
+  first_name: Nina
+  street_address: 7439 Express Hill
+  city: Hartford
+  state: CT
+  zip_code: "6145"
+
+---
+position: 475
+voter_info:
+  last_name: Alan
+  first_name: Christin
+  street_address: 248 Prairieview Point
+  city: Omaha
+  state: NE
+  zip_code: "68124"
+
+---
+position: 476
+voter_info:
+  last_name: Lovel
+  first_name: Egon
+  street_address: 087 Reindahl Alley
+  city: Augusta
+  state: GA
+  zip_code: "30919"
+
+---
+position: 477
+voter_info:
+  last_name: Tedman
+  first_name: Jae
+  street_address: 1 Buena Vista Road
+  city: Dallas
+  state: TX
+  zip_code: "75221"
+
+---
+position: 478
+voter_info:
+  last_name: Vedeshkin
+  first_name: Marcile
+  street_address: 23 Stoughton Drive
+  city: Syracuse
+  state: NY
+  zip_code: "13224"
+
+---
+position: 479
+voter_info:
+  last_name: Faherty
+  first_name: Rand
+  street_address: 4 School Crossing
+  city: Phoenix
+  state: AZ
+  zip_code: "85077"
+
+---
+position: 480
+voter_info:
+  last_name: Sambath
+  first_name: Roch
+  street_address: 91 Dixon Hill
+  city: Philadelphia
+  state: PA
+  zip_code: "19141"
+
+---
+position: 481
+voter_info:
+  last_name: Wabersinke
+  first_name: Loralee
+  street_address: 4 Shoshone Pass
+  city: Tyler
+  state: TX
+  zip_code: "75705"
+
+---
+position: 482
+voter_info:
+  last_name: Leere
+  first_name: Windham
+  street_address: 079 Artisan Avenue
+  city: Lehigh Acres
+  state: FL
+  zip_code: "33972"
+
+---
+position: 483
+voter_info:
+  last_name: Danielsky
+  first_name: Arney
+  street_address: 66580 Orin Place
+  city: Buffalo
+  state: NY
+  zip_code: "14276"
+
+---
+position: 484
+voter_info:
+  last_name: Sussex
+  first_name: Zak
+  street_address: 2 Texas Point
+  city: Punta Gorda
+  state: FL
+  zip_code: "33982"
+
+---
+position: 485
+voter_info:
+  last_name: Oertzen
+  first_name: Anna-diana
+  street_address: 9 Del Sol Avenue
+  city: Irvine
+  state: CA
+  zip_code: "92619"
+
+---
+position: 486
+voter_info:
+  last_name: Warr
+  first_name: Deloria
+  street_address: 9 Muir Avenue
+  city: Pasadena
+  state: TX
+  zip_code: "77505"
+
+---
+position: 487
+voter_info:
+  last_name: Vedyaev
+  first_name: Donavon
+  street_address: 91963 Charing Cross Trail
+  city: Fresno
+  state: CA
+  zip_code: "93740"
+
+---
+position: 488
+voter_info:
+  last_name: Dowbekin
+  first_name: Venita
+  street_address: 85 Grover Plaza
+  city: Little Rock
+  state: AR
+  zip_code: "72204"
+
+---
+position: 489
+voter_info:
+  last_name: Goodlife
+  first_name: Johnny
+  street_address: 10 Acker Point
+  city: Greensboro
+  state: NC
+  zip_code: "27415"
+
+---
+position: 490
+voter_info:
+  last_name: Mowday
+  first_name: Dorothy
+  street_address: 6 Ridge Oak Park
+  city: Toledo
+  state: OH
+  zip_code: "43605"
+
+---
+position: 491
+voter_info:
+  last_name: Blasl
+  first_name: Katharyn
+  street_address: 644 Montana Lane
+  city: Chicago
+  state: IL
+  zip_code: "60641"
+
+---
+position: 492
+voter_info:
+  last_name: Jarvis
+  first_name: Brigg
+  street_address: 86389 Maple Wood Circle
+  city: Las Vegas
+  state: NV
+  zip_code: "89145"
+
+---
+position: 493
+voter_info:
+  last_name: Riddett
+  first_name: Estevan
+  street_address: 2341 Schurz Court
+  city: Saint Louis
+  state: MO
+  zip_code: "63143"
+
+---
+position: 494
+voter_info:
+  last_name: Kitt
+  first_name: Danell
+  street_address: 0768 Londonderry Point
+  city: Las Vegas
+  state: NV
+  zip_code: "89145"
+
+---
+position: 495
+voter_info:
+  last_name: Sterke
+  first_name: Dick
+  street_address: 66132 Bartelt Parkway
+  city: San Diego
+  state: CA
+  zip_code: "92176"
+
+---
+position: 496
+voter_info:
+  last_name: Antonijevic
+  first_name: Lief
+  street_address: 2 Annamark Point
+  city: Sioux Falls
+  state: SD
+  zip_code: "57193"
+
+---
+position: 497
+voter_info:
+  last_name: Coen
+  first_name: Mufi
+  street_address: 6163 Northland Park
+  city: Monticello
+  state: MN
+  zip_code: "55590"
+
+---
+position: 498
+voter_info:
+  last_name: Poag
+  first_name: Jourdain
+  street_address: 96 Alpine Alley
+  city: Irvine
+  state: CA
+  zip_code: "92717"
+
+---
+position: 499
+voter_info:
+  last_name: Hunting
+  first_name: Alysa
+  street_address: 4 Eagan Circle
+  city: Sacramento
+  state: CA
+  zip_code: "94286"
+
+---
+position: 500
+voter_info:
+  last_name: Sadry
+  first_name: Dav
+  street_address: 58460 Norway Maple Trail
+  city: Sacramento
+  state: CA
+  zip_code: "95865"
+
+---
+position: 501
+voter_info:
+  last_name: Westfield
+  first_name: Lonnard
+  street_address: 52 Old Gate Court
+  city: Cleveland
+  state: OH
+  zip_code: "44177"
+
+---
+position: 502
+voter_info:
+  last_name: Macenzy
+  first_name: Ruth
+  street_address: 216 Columbus Avenue
+  city: Oklahoma City
+  state: OK
+  zip_code: "73197"
+
+---
+position: 503
+voter_info:
+  last_name: Jedrzej
+  first_name: Dante
+  street_address: 53 Hansons Place
+  city: Beaumont
+  state: TX
+  zip_code: "77713"
+
+---
+position: 504
+voter_info:
+  last_name: Desborough
+  first_name: Jackie
+  street_address: 179 East Terrace
+  city: Tempe
+  state: AZ
+  zip_code: "85284"
+
+---
+position: 505
+voter_info:
+  last_name: Sheahan
+  first_name: Jareb
+  street_address: 6 Badeau Alley
+  city: Akron
+  state: OH
+  zip_code: "44315"
+
+---
+position: 506
+voter_info:
+  last_name: Nasi
+  first_name: Freida
+  street_address: 97866 Lindbergh Point
+  city: Milwaukee
+  state: WI
+  zip_code: "53285"
+
+---
+position: 507
+voter_info:
+  last_name: Tritton
+  first_name: Roseanna
+  street_address: 363 Daystar Drive
+  city: Cincinnati
+  state: OH
+  zip_code: "45238"
+
+---
+position: 508
+voter_info:
+  last_name: Ciobotaru
+  first_name: Evelyn
+  street_address: 388 Scofield Point
+  city: Odessa
+  state: TX
+  zip_code: "79769"
+
+---
+position: 509
+voter_info:
+  last_name: Oven
+  first_name: Barthel
+  street_address: 2569 Rutledge Pass
+  city: Denver
+  state: CO
+  zip_code: "80299"
+
+---
+position: 510
+voter_info:
+  last_name: Spensly
+  first_name: Shelley
+  street_address: 77484 Lakeland Avenue
+  city: Cumming
+  state: GA
+  zip_code: "30130"
+
+---
+position: 511
+voter_info:
+  last_name: Monget
+  first_name: Ayn
+  street_address: 49783 Kensington Place
+  city: Berkeley
+  state: CA
+  zip_code: "94705"
+
+---
+position: 512
+voter_info:
+  last_name: Fritzer
+  first_name: Kellia
+  street_address: 61814 Superior Way
+  city: San Francisco
+  state: CA
+  zip_code: "94169"
+
+---
+position: 513
+voter_info:
+  last_name: Challice
+  first_name: Godart
+  street_address: 43944 Oakridge Park
+  city: Fort Pierce
+  state: FL
+  zip_code: "34949"
+
+---
+position: 514
+voter_info:
+  last_name: Bielby
+  first_name: Charita
+  street_address: 13 Crescent Oaks Way
+  city: Oakland
+  state: CA
+  zip_code: "94660"
+
+---
+position: 515
+voter_info:
+  last_name: Antrum
+  first_name: Stephi
+  street_address: 181 Pepper Wood Pass
+  city: Jacksonville
+  state: FL
+  zip_code: "32277"
+
+---
+position: 516
+voter_info:
+  last_name: Merricks
+  first_name: Doyle
+  street_address: 1160 Bashford Way
+  city: Philadelphia
+  state: PA
+  zip_code: "19178"
+
+---
+position: 517
+voter_info:
+  last_name: Allingham
+  first_name: Delmor
+  street_address: 0677 Melrose Crossing
+  city: El Paso
+  state: TX
+  zip_code: "88546"
+
+---
+position: 518
+voter_info:
+  last_name: Haggie
+  first_name: Ardyce
+  street_address: 1 Holy Cross Way
+  city: Nashville
+  state: TN
+  zip_code: "37250"
+
+---
+position: 519
+voter_info:
+  last_name: Chieco
+  first_name: Annalee
+  street_address: 4660 Boyd Pass
+  city: Sacramento
+  state: CA
+  zip_code: "95833"
+
+---
+position: 520
+voter_info:
+  last_name: Etock
+  first_name: Rosana
+  street_address: 17 Burning Wood Circle
+  city: Jacksonville
+  state: FL
+  zip_code: "32255"
+
+---
+position: 521
+voter_info:
+  last_name: Bodley
+  first_name: Carmine
+  street_address: 2396 Bluestem Pass
+  city: Daytona Beach
+  state: FL
+  zip_code: "32128"
+
+---
+position: 522
+voter_info:
+  last_name: Roney
+  first_name: Fredia
+  street_address: 649 Melrose Way
+  city: Charleston
+  state: WV
+  zip_code: "25336"
+
+---
+position: 523
+voter_info:
+  last_name: Twiname
+  first_name: Karine
+  street_address: 0829 Warner Lane
+  city: Washington
+  state: DC
+  zip_code: "20337"
+
+---
+position: 524
+voter_info:
+  last_name: Coope
+  first_name: Orel
+  street_address: 36859 Pleasure Center
+  city: El Paso
+  state: TX
+  zip_code: "79911"
+
+---
+position: 525
+voter_info:
+  last_name: Croose
+  first_name: Marlane
+  street_address: 7 Pleasure Park
+  city: Bronx
+  state: NY
+  zip_code: "10454"
+
+---
+position: 526
+voter_info:
+  last_name: Perillio
+  first_name: Bengt
+  street_address: 7 Forest Avenue
+  city: Chicago
+  state: IL
+  zip_code: "60630"
+
+---
+position: 527
+voter_info:
+  last_name: Stanning
+  first_name: Moshe
+  street_address: 5194 Oak Trail
+  city: Oklahoma City
+  state: OK
+  zip_code: "73197"
+
+---
+position: 528
+voter_info:
+  last_name: Applewhaite
+  first_name: Freda
+  street_address: 3 Coolidge Drive
+  city: Jackson
+  state: MS
+  zip_code: "39210"
+
+---
+position: 529
+voter_info:
+  last_name: Joplin
+  first_name: Swen
+  street_address: 149 Roth Alley
+  city: Charlotte
+  state: NC
+  zip_code: "28220"
+
+---
+position: 530
+voter_info:
+  last_name: Berresford
+  first_name: Feliza
+  street_address: 1240 Claremont Plaza
+  city: Erie
+  state: PA
+  zip_code: "16510"
+
+---
+position: 531
+voter_info:
+  last_name: Stedson
+  first_name: Samuel
+  street_address: 562 Ludington Hill
+  city: Escondido
+  state: CA
+  zip_code: "92030"
+
+---
+position: 532
+voter_info:
+  last_name: Lumox
+  first_name: Jacenta
+  street_address: 26234 Stuart Drive
+  city: Washington
+  state: DC
+  zip_code: "20380"
+
+---
+position: 533
+voter_info:
+  last_name: Rosenfrucht
+  first_name: Pail
+  street_address: 00892 Blue Bill Park Court
+  city: Laredo
+  state: TX
+  zip_code: "78044"
+
+---
+position: 534
+voter_info:
+  last_name: Finn
+  first_name: Tedie
+  street_address: 64327 Hudson Way
+  city: Colorado Springs
+  state: CO
+  zip_code: "80940"
+
+---
+position: 535
+voter_info:
+  last_name: Wincom
+  first_name: Karlan
+  street_address: 641 Springview Way
+  city: Alhambra
+  state: CA
+  zip_code: "91841"
+
+---
+position: 536
+voter_info:
+  last_name: Stot
+  first_name: Anastasie
+  street_address: 8050 Rockefeller Road
+  city: Nashville
+  state: TN
+  zip_code: "37215"
+
+---
+position: 537
+voter_info:
+  last_name: Dennington
+  first_name: Rosene
+  street_address: 64 Holmberg Circle
+  city: Gatesville
+  state: TX
+  zip_code: "76598"
+
+---
+position: 538
+voter_info:
+  last_name: Rannald
+  first_name: Annie
+  street_address: 10920 Commercial Parkway
+  city: Fort Lauderdale
+  state: FL
+  zip_code: "33325"
+
+---
+position: 539
+voter_info:
+  last_name: Loton
+  first_name: Catherine
+  street_address: 7698 Banding Way
+  city: Fayetteville
+  state: NC
+  zip_code: "28305"
+
+---
+position: 540
+voter_info:
+  last_name: Pomroy
+  first_name: Sonnie
+  street_address: 6700 Schmedeman Alley
+  city: Monticello
+  state: MN
+  zip_code: "55590"
+
+---
+position: 541
+voter_info:
+  last_name: Meikle
+  first_name: Belvia
+  street_address: 10 Redwing Junction
+  city: Clearwater
+  state: FL
+  zip_code: "34615"
+
+---
+position: 542
+voter_info:
+  last_name: Ragat
+  first_name: Ingar
+  street_address: 818 Spaight Plaza
+  city: Birmingham
+  state: AL
+  zip_code: "35236"
+
+---
+position: 543
+voter_info:
+  last_name: Wildbore
+  first_name: Royce
+  street_address: 6741 Shasta Court
+  city: Austin
+  state: TX
+  zip_code: "78726"
+
+---
+position: 544
+voter_info:
+  last_name: Threader
+  first_name: Corby
+  street_address: 7334 Ramsey Park
+  city: Nashville
+  state: TN
+  zip_code: "37215"
+
+---
+position: 545
+voter_info:
+  last_name: Chappelle
+  first_name: Othello
+  street_address: 71054 Rowland Park
+  city: Tulsa
+  state: OK
+  zip_code: "74133"
+
+---
+position: 546
+voter_info:
+  last_name: Southcoat
+  first_name: Yevette
+  street_address: 3 Maryland Drive
+  city: Los Angeles
+  state: CA
+  zip_code: "90050"
+
+---
+position: 547
+voter_info:
+  last_name: Rannigan
+  first_name: Galvin
+  street_address: 8732 Declaration Road
+  city: Washington
+  state: DC
+  zip_code: "20215"
+
+---
+position: 548
+voter_info:
+  last_name: Ferfulle
+  first_name: Beatriz
+  street_address: 03243 Pankratz Avenue
+  city: Charleston
+  state: WV
+  zip_code: "25313"
+
+---
+position: 549
+voter_info:
+  last_name: Boissier
+  first_name: Odessa
+  street_address: 4 Sachtjen Way
+  city: Rochester
+  state: NY
+  zip_code: "14683"
+
+---
+position: 550
+voter_info:
+  last_name: Pinel
+  first_name: Jordana
+  street_address: 8 Springs Parkway
+  city: El Paso
+  state: TX
+  zip_code: "79984"
+
+---
+position: 551
+voter_info:
+  last_name: Furlong
+  first_name: Bobette
+  street_address: 89920 Stang Road
+  city: New York City
+  state: NY
+  zip_code: "10280"
+
+---
+position: 552
+voter_info:
+  last_name: Del Checolo
+  first_name: Ahmed
+  street_address: 21 Toban Drive
+  city: Orlando
+  state: FL
+  zip_code: "32803"
+
+---
+position: 553
+voter_info:
+  last_name: Quail
+  first_name: Shanon
+  street_address: 0 Hooker Court
+  city: Schenectady
+  state: NY
+  zip_code: "12305"
+
+---
+position: 554
+voter_info:
+  last_name: Tuckey
+  first_name: Anabella
+  street_address: 46 Crest Line Trail
+  city: Sacramento
+  state: CA
+  zip_code: "95865"
+
+---
+position: 555
+voter_info:
+  last_name: Mursell
+  first_name: Aileen
+  street_address: 42044 Sachs Junction
+  city: San Antonio
+  state: TX
+  zip_code: "78220"
+
+---
+position: 556
+voter_info:
+  last_name: Stace
+  first_name: Sonnie
+  street_address: 4939 Northland Place
+  city: Wichita
+  state: KS
+  zip_code: "67205"
+
+---
+position: 557
+voter_info:
+  last_name: Hann
+  first_name: Joellen
+  street_address: 7 Mosinee Pass
+  city: Reading
+  state: PA
+  zip_code: "19610"
+
+---
+position: 558
+voter_info:
+  last_name: Schooley
+  first_name: Loren
+  street_address: 3168 Morrow Park
+  city: San Diego
+  state: CA
+  zip_code: "92160"
+
+---
+position: 559
+voter_info:
+  last_name: Storrie
+  first_name: Olga
+  street_address: 8 Canary Terrace
+  city: Detroit
+  state: MI
+  zip_code: "48211"
+
+---
+position: 560
+voter_info:
+  last_name: Christescu
+  first_name: Katya
+  street_address: 49068 Eastlawn Plaza
+  city: Philadelphia
+  state: PA
+  zip_code: "19172"
+
+---
+position: 561
+voter_info:
+  last_name: Martlew
+  first_name: Gigi
+  street_address: 9274 Corry Alley
+  city: Canton
+  state: OH
+  zip_code: "44720"
+
+---
+position: 562
+voter_info:
+  last_name: Simo
+  first_name: Isabelle
+  street_address: 78 Ilene Street
+  city: Washington
+  state: DC
+  zip_code: "20370"
+
+---
+position: 563
+voter_info:
+  last_name: Dearnley
+  first_name: Kiersten
+  street_address: 94 Alpine Street
+  city: Wichita
+  state: KS
+  zip_code: "67236"
+
+---
+position: 564
+voter_info:
+  last_name: Rounds
+  first_name: Clemmie
+  street_address: 8658 Toban Parkway
+  city: Pinellas Park
+  state: FL
+  zip_code: "34665"
+
+---
+position: 565
+voter_info:
+  last_name: Byrom
+  first_name: Alexandro
+  street_address: 98237 Wayridge Point
+  city: Honolulu
+  state: HI
+  zip_code: "96805"
+
+---
+position: 566
+voter_info:
+  last_name: Atterley
+  first_name: Zachery
+  street_address: 3 Fuller Terrace
+  city: Los Angeles
+  state: CA
+  zip_code: "90010"
+
+---
+position: 567
+voter_info:
+  last_name: Pennini
+  first_name: Billie
+  street_address: 8624 Thierer Alley
+  city: Rochester
+  state: NY
+  zip_code: "14652"
+
+---
+position: 568
+voter_info:
+  last_name: Cabrara
+  first_name: Nefen
+  street_address: 69255 Grover Place
+  city: Washington
+  state: DC
+  zip_code: "20580"
+
+---
+position: 569
+voter_info:
+  last_name: Kantor
+  first_name: Lucias
+  street_address: 73280 Holy Cross Park
+  city: Van Nuys
+  state: CA
+  zip_code: "91499"
+
+---
+position: 570
+voter_info:
+  last_name: Layfield
+  first_name: Zacharie
+  street_address: 03 Miller Park
+  city: Mc Keesport
+  state: PA
+  zip_code: "15134"
+
+---
+position: 571
+voter_info:
+  last_name: Brittin
+  first_name: Brandise
+  street_address: 2143 Petterle Crossing
+  city: San Jose
+  state: CA
+  zip_code: "95113"
+
+---
+position: 572
+voter_info:
+  last_name: Kondratowicz
+  first_name: Rhonda
+  street_address: 4 Melrose Drive
+  city: Washington
+  state: DC
+  zip_code: "20057"
+
+---
+position: 573
+voter_info:
+  last_name: Rymour
+  first_name: Marybeth
+  street_address: 3 Canary Trail
+  city: Spokane
+  state: WA
+  zip_code: "99252"
+
+---
+position: 574
+voter_info:
+  last_name: Cappel
+  first_name: Vivie
+  street_address: 61050 Darwin Point
+  city: Athens
+  state: GA
+  zip_code: "30610"
+
+---
+position: 575
+voter_info:
+  last_name: Lilleman
+  first_name: Bethany
+  street_address: 4575 North Court
+  city: Rochester
+  state: NY
+  zip_code: "14619"
+
+---
+position: 576
+voter_info:
+  last_name: Kirimaa
+  first_name: Heindrick
+  street_address: 7 Kenwood Lane
+  city: Fort Worth
+  state: TX
+  zip_code: "76121"
+
+---
+position: 577
+voter_info:
+  last_name: McCrackan
+  first_name: Ethelin
+  street_address: 6712 Golden Leaf Way
+  city: Dallas
+  state: TX
+  zip_code: "75221"
+
+---
+position: 578
+voter_info:
+  last_name: Patershall
+  first_name: Brig
+  street_address: 0465 Drewry Way
+  city: Colorado Springs
+  state: CO
+  zip_code: "80995"
+
+---
+position: 579
+voter_info:
+  last_name: Robben
+  first_name: Robbert
+  street_address: 8 Autumn Leaf Terrace
+  city: Sacramento
+  state: CA
+  zip_code: "94280"
+
+---
+position: 580
+voter_info:
+  last_name: Urch
+  first_name: Orazio
+  street_address: 1236 Ramsey Trail
+  city: Newton
+  state: MA
+  zip_code: "2162"
+
+---
+position: 581
+voter_info:
+  last_name: Malloy
+  first_name: Dex
+  street_address: 3468 Miller Court
+  city: Baton Rouge
+  state: LA
+  zip_code: "70894"
+
+---
+position: 582
+voter_info:
+  last_name: Pimblotte
+  first_name: Alyda
+  street_address: 7860 Springview Junction
+  city: Trenton
+  state: NJ
+  zip_code: "8695"
+
+---
+position: 583
+voter_info:
+  last_name: Phillp
+  first_name: Harrison
+  street_address: 99 Calypso Place
+  city: Roanoke
+  state: VA
+  zip_code: "24024"
+
+---
+position: 584
+voter_info:
+  last_name: Innis
+  first_name: Gordy
+  street_address: 5 Warrior Pass
+  city: New York City
+  state: NY
+  zip_code: "10105"
+
+---
+position: 585
+voter_info:
+  last_name: Woodard
+  first_name: Floria
+  street_address: 226 Towne Parkway
+  city: Sacramento
+  state: CA
+  zip_code: "95865"
+
+---
+position: 586
+voter_info:
+  last_name: Joel
+  first_name: Lavinia
+  street_address: 3855 Fulton Place
+  city: Duluth
+  state: GA
+  zip_code: "30096"
+
+---
+position: 587
+voter_info:
+  last_name: Epine
+  first_name: Mohandas
+  street_address: 24 Fremont Alley
+  city: Troy
+  state: MI
+  zip_code: "48098"
+
+---
+position: 588
+voter_info:
+  last_name: Trenaman
+  first_name: Ricard
+  street_address: 0 Forest Pass
+  city: Seattle
+  state: WA
+  zip_code: "98109"
+
+---
+position: 589
+voter_info:
+  last_name: Godsil
+  first_name: Janetta
+  street_address: 2134 Caliangt Lane
+  city: Saint Louis
+  state: MO
+  zip_code: "63150"
+
+---
+position: 590
+voter_info:
+  last_name: Garwood
+  first_name: Chadd
+  street_address: 8754 Corry Road
+  city: Beaverton
+  state: OR
+  zip_code: "97075"
+
+---
+position: 591
+voter_info:
+  last_name: Freeborn
+  first_name: Charlena
+  street_address: 653 Burrows Pass
+  city: Washington
+  state: DC
+  zip_code: "20005"
+
+---
+position: 592
+voter_info:
+  last_name: Spawton
+  first_name: Jasper
+  street_address: 4 Blackbird Point
+  city: Sacramento
+  state: CA
+  zip_code: "94257"
+
+---
+position: 593
+voter_info:
+  last_name: Orwin
+  first_name: Marketa
+  street_address: 89129 Miller Plaza
+  city: Yonkers
+  state: NY
+  zip_code: "10705"
+
+---
+position: 594
+voter_info:
+  last_name: Fassbindler
+  first_name: Aline
+  street_address: 3 Huxley Way
+  city: Atlanta
+  state: GA
+  zip_code: "30392"
+
+---
+position: 595
+voter_info:
+  last_name: Gowthrop
+  first_name: Marabel
+  street_address: 37294 Di Loreto Circle
+  city: Flint
+  state: MI
+  zip_code: "48550"
+
+---
+position: 596
+voter_info:
+  last_name: MacCahey
+  first_name: Franklin
+  street_address: 6 Jenifer Pass
+  city: Cleveland
+  state: OH
+  zip_code: "44197"
+
+---
+position: 597
+voter_info:
+  last_name: Cheeke
+  first_name: Quintilla
+  street_address: 705 Starling Hill
+  city: Arlington
+  state: TX
+  zip_code: "76011"
+
+---
+position: 598
+voter_info:
+  last_name: Lente
+  first_name: Barnabas
+  street_address: 792 Harbort Center
+  city: Peoria
+  state: IL
+  zip_code: "61635"
+
+---
+position: 599
+voter_info:
+  last_name: Gueinn
+  first_name: Wes
+  street_address: 84155 Cottonwood Lane
+  city: El Paso
+  state: TX
+  zip_code: "79923"
+
+---
+position: 600
+voter_info:
+  last_name: Painter
+  first_name: Germayne
+  street_address: 8967 Oriole Pass
+  city: Johnstown
+  state: PA
+  zip_code: "15906"
+
+---
+position: 601
+voter_info:
+  last_name: De La Salle
+  first_name: Tildy
+  street_address: 526 Kennedy Park
+  city: Galveston
+  state: TX
+  zip_code: "77554"
+
+---
+position: 602
+voter_info:
+  last_name: "O'Reilly"
+  first_name: Hestia
+  street_address: 625 Fallview Hill
+  city: Topeka
+  state: KS
+  zip_code: "66699"
+
+---
+position: 603
+voter_info:
+  last_name: Saunier
+  first_name: Ezekiel
+  street_address: 5717 Vera Hill
+  city: Amarillo
+  state: TX
+  zip_code: "79188"
+
+---
+position: 604
+voter_info:
+  last_name: Palfery
+  first_name: Hugo
+  street_address: 3885 South Court
+  city: Las Cruces
+  state: NM
+  zip_code: "88006"
+
+---
+position: 605
+voter_info:
+  last_name: Aliman
+  first_name: Morie
+  street_address: 990 Bellgrove Junction
+  city: Atlanta
+  state: GA
+  zip_code: "30328"
+
+---
+position: 606
+voter_info:
+  last_name: Bauldry
+  first_name: Rosaleen
+  street_address: 88 Maywood Junction
+  city: Roanoke
+  state: VA
+  zip_code: "24048"
+
+---
+position: 607
+voter_info:
+  last_name: Walaron
+  first_name: Anabella
+  street_address: 35171 Rieder Street
+  city: Wichita
+  state: KS
+  zip_code: "67205"
+
+---
+position: 608
+voter_info:
+  last_name: "O'Neary"
+  first_name: Melissa
+  street_address: 87552 Mallory Lane
+  city: Littleton
+  state: CO
+  zip_code: "80126"
+
+---
+position: 609
+voter_info:
+  last_name: Szymanowicz
+  first_name: Camile
+  street_address: 9 Independence Trail
+  city: Hot Springs National Park
+  state: AR
+  zip_code: "71914"
+
+---
+position: 610
+voter_info:
+  last_name: Urquhart
+  first_name: Sunshine
+  street_address: 58 Ridgeview Parkway
+  city: Topeka
+  state: KS
+  zip_code: "66606"
+
+---
+position: 611
+voter_info:
+  last_name: Perfitt
+  first_name: Ruthanne
+  street_address: 2 Debs Alley
+  city: Santa Ana
+  state: CA
+  zip_code: "92725"
+
+---
+position: 612
+voter_info:
+  last_name: Algore
+  first_name: Emmet
+  street_address: 9 Golden Leaf Circle
+  city: Newton
+  state: MA
+  zip_code: "2162"
+
+---
+position: 613
+voter_info:
+  last_name: Eisold
+  first_name: Ulla
+  street_address: 10 Del Mar Trail
+  city: Baltimore
+  state: MD
+  zip_code: "21275"
+
+---
+position: 614
+voter_info:
+  last_name: Mougenel
+  first_name: Dyanne
+  street_address: 77 Carey Terrace
+  city: Cheyenne
+  state: WY
+  zip_code: "82007"
+
+---
+position: 615
+voter_info:
+  last_name: Emig
+  first_name: Albertine
+  street_address: 02304 Ridgeview Road
+  city: Waterbury
+  state: CT
+  zip_code: "6705"
+
+---
+position: 616
+voter_info:
+  last_name: Kas
+  first_name: Anselma
+  street_address: 65 Daystar Drive
+  city: Temple
+  state: TX
+  zip_code: "76505"
+
+---
+position: 617
+voter_info:
+  last_name: Labes
+  first_name: Kincaid
+  street_address: 151 Clove Plaza
+  city: Orange
+  state: CA
+  zip_code: "92862"
+
+---
+position: 618
+voter_info:
+  last_name: De Matteis
+  first_name: Niko
+  street_address: 41 Corscot Street
+  city: New Orleans
+  state: LA
+  zip_code: "70160"
+
+---
+position: 619
+voter_info:
+  last_name: Chazelle
+  first_name: Woodie
+  street_address: 5343 Westport Lane
+  city: Topeka
+  state: KS
+  zip_code: "66629"
+
+---
+position: 620
+voter_info:
+  last_name: Meech
+  first_name: Delphine
+  street_address: 10 Grover Point
+  city: Portland
+  state: OR
+  zip_code: "97232"
+
+---
+position: 621
+voter_info:
+  last_name: Robinette
+  first_name: Daune
+  street_address: 2791 Acker Park
+  city: Yakima
+  state: WA
+  zip_code: "98907"
+
+---
+position: 622
+voter_info:
+  last_name: Handrahan
+  first_name: Selena
+  street_address: 095 7th Alley
+  city: Greensboro
+  state: NC
+  zip_code: "27409"
+
+---
+position: 623
+voter_info:
+  last_name: Bernardo
+  first_name: Fayre
+  street_address: 6 Cardinal Avenue
+  city: Marietta
+  state: GA
+  zip_code: "30066"
+
+---
+position: 624
+voter_info:
+  last_name: Chiene
+  first_name: Hodge
+  street_address: 407 Ohio Way
+  city: Hicksville
+  state: NY
+  zip_code: "11854"
+
+---
+position: 625
+voter_info:
+  last_name: Harrad
+  first_name: Claudius
+  street_address: 77301 Bultman Place
+  city: Philadelphia
+  state: PA
+  zip_code: "19109"
+
+---
+position: 626
+voter_info:
+  last_name: "O'Suaird"
+  first_name: Bran
+  street_address: 6589 Corscot Road
+  city: Billings
+  state: MT
+  zip_code: "59112"
+
+---
+position: 627
+voter_info:
+  last_name: Wardingly
+  first_name: Isabella
+  street_address: 6 Oakridge Hill
+  city: Port Saint Lucie
+  state: FL
+  zip_code: "34985"
+
+---
+position: 628
+voter_info:
+  last_name: Minshall
+  first_name: Gregg
+  street_address: 84197 Hansons Terrace
+  city: College Station
+  state: TX
+  zip_code: "77844"
+
+---
+position: 629
+voter_info:
+  last_name: Teasdale
+  first_name: Zorine
+  street_address: 7 Nobel Plaza
+  city: San Francisco
+  state: CA
+  zip_code: "94147"
+
+---
+position: 630
+voter_info:
+  last_name: Fancutt
+  first_name: Panchito
+  street_address: 87 Leroy Court
+  city: Saint Louis
+  state: MO
+  zip_code: "63167"
+
+---
+position: 631
+voter_info:
+  last_name: Arnaldo
+  first_name: Lilllie
+  street_address: 4716 Bluejay Court
+  city: Toledo
+  state: OH
+  zip_code: "43699"
+
+---
+position: 632
+voter_info:
+  last_name: Gotthard.sf
+  first_name: Corinna
+  street_address: 5 Mesta Place
+  city: Buffalo
+  state: NY
+  zip_code: "14210"
+
+---
+position: 633
+voter_info:
+  last_name: Rewbottom
+  first_name: Fremont
+  street_address: 81055 Lindbergh Alley
+  city: Vero Beach
+  state: FL
+  zip_code: "32964"
+
+---
+position: 634
+voter_info:
+  last_name: Cumming
+  first_name: Cynthea
+  street_address: 8 Pennsylvania Street
+  city: New York City
+  state: NY
+  zip_code: "10260"
+
+---
+position: 635
+voter_info:
+  last_name: Dunsmuir
+  first_name: Ulick
+  street_address: 788 Westerfield Parkway
+  city: San Antonio
+  state: TX
+  zip_code: "78291"
+
+---
+position: 636
+voter_info:
+  last_name: Eneas
+  first_name: Tracy
+  street_address: 901 Anniversary Road
+  city: Garden Grove
+  state: CA
+  zip_code: "92844"
+
+---
+position: 637
+voter_info:
+  last_name: Hubatsch
+  first_name: Arvin
+  street_address: 1 Susan Crossing
+  city: Minneapolis
+  state: MN
+  zip_code: "55448"
+
+---
+position: 638
+voter_info:
+  last_name: Randles
+  first_name: Annadiana
+  street_address: 51278 Truax Center
+  city: Lees Summit
+  state: MO
+  zip_code: "64082"
+
+---
+position: 639
+voter_info:
+  last_name: Cadlock
+  first_name: Lammond
+  street_address: 9 Holy Cross Point
+  city: San Francisco
+  state: CA
+  zip_code: "94116"
+
+---
+position: 640
+voter_info:
+  last_name: Larter
+  first_name: Nichole
+  street_address: 60 School Alley
+  city: Mobile
+  state: AL
+  zip_code: "36605"
+
+---
+position: 641
+voter_info:
+  last_name: Adamovich
+  first_name: Mart
+  street_address: 06546 Ludington Way
+  city: Columbus
+  state: OH
+  zip_code: "43215"
+
+---
+position: 642
+voter_info:
+  last_name: Hannond
+  first_name: Gerek
+  street_address: 7614 Doe Crossing Junction
+  city: Jefferson City
+  state: MO
+  zip_code: "65105"
+
+---
+position: 643
+voter_info:
+  last_name: Challin
+  first_name: Doroteya
+  street_address: 5620 Old Shore Circle
+  city: Pocatello
+  state: ID
+  zip_code: "83206"
+
+---
+position: 644
+voter_info:
+  last_name: Creamer
+  first_name: Abbe
+  street_address: 4 Manley Drive
+  city: Idaho Falls
+  state: ID
+  zip_code: "83405"
+
+---
+position: 645
+voter_info:
+  last_name: Landsberg
+  first_name: Margot
+  street_address: 49 Russell Way
+  city: Saginaw
+  state: MI
+  zip_code: "48604"
+
+---
+position: 646
+voter_info:
+  last_name: Goolding
+  first_name: Trudey
+  street_address: 37634 Golf Course Pass
+  city: Pasadena
+  state: CA
+  zip_code: "91117"
+
+---
+position: 647
+voter_info:
+  last_name: Hurle
+  first_name: Bette
+  street_address: 81 Grim Circle
+  city: Saint Louis
+  state: MO
+  zip_code: "63121"
+
+---
+position: 648
+voter_info:
+  last_name: Pilkington
+  first_name: Ronna
+  street_address: 31289 Dennis Center
+  city: Phoenix
+  state: AZ
+  zip_code: "85083"
+
+---
+position: 649
+voter_info:
+  last_name: McCarlie
+  first_name: Giraldo
+  street_address: 6 Mifflin Point
+  city: El Paso
+  state: TX
+  zip_code: "79977"
+
+---
+position: 650
+voter_info:
+  last_name: Christiensen
+  first_name: Sigismundo
+  street_address: 28814 Dixon Road
+  city: Albany
+  state: NY
+  zip_code: "12232"
+
+---
+position: 651
+voter_info:
+  last_name: Espine
+  first_name: Sybille
+  street_address: 5 Mallory Hill
+  city: Houston
+  state: TX
+  zip_code: "77045"
+
+---
+position: 652
+voter_info:
+  last_name: Tregien
+  first_name: Kay
+  street_address: 3136 Prentice Terrace
+  city: Allentown
+  state: PA
+  zip_code: "18105"
+
+---
+position: 653
+voter_info:
+  last_name: Tomlinson
+  first_name: Ashley
+  street_address: 37 Fair Oaks Court
+  city: Wilmington
+  state: DE
+  zip_code: "19805"
+
+---
+position: 654
+voter_info:
+  last_name: MacConnell
+  first_name: Shalna
+  street_address: 25 Waxwing Pass
+  city: Decatur
+  state: GA
+  zip_code: "30089"
+
+---
+position: 655
+voter_info:
+  last_name: Jordanson
+  first_name: Park
+  street_address: 03 Autumn Leaf Junction
+  city: Oakland
+  state: CA
+  zip_code: "94605"
+
+---
+position: 656
+voter_info:
+  last_name: Onion
+  first_name: Tonye
+  street_address: 9 Kensington Park
+  city: Charleston
+  state: WV
+  zip_code: "25362"
+
+---
+position: 657
+voter_info:
+  last_name: Heater
+  first_name: Ferdie
+  street_address: 47 Stuart Center
+  city: Huntsville
+  state: AL
+  zip_code: "35805"
+
+---
+position: 658
+voter_info:
+  last_name: Davison
+  first_name: Trumaine
+  street_address: 28668 Red Cloud Circle
+  city: Saint Paul
+  state: MN
+  zip_code: "55146"
+
+---
+position: 659
+voter_info:
+  last_name: Willshee
+  first_name: Ardath
+  street_address: 1655 Redwing Park
+  city: Pasadena
+  state: CA
+  zip_code: "91117"
+
+---
+position: 660
+voter_info:
+  last_name: Lovat
+  first_name: Lorena
+  street_address: 82 Alpine Trail
+  city: Los Angeles
+  state: CA
+  zip_code: "90030"
+
+---
+position: 661
+voter_info:
+  last_name: Jedrzej
+  first_name: Celeste
+  street_address: 59 Steensland Crossing
+  city: Raleigh
+  state: NC
+  zip_code: "27610"
+
+---
+position: 662
+voter_info:
+  last_name: Klempke
+  first_name: Marje
+  street_address: 981 Kensington Center
+  city: Miami
+  state: FL
+  zip_code: "33175"
+
+---
+position: 663
+voter_info:
+  last_name: Josofovitz
+  first_name: Levin
+  street_address: 6681 Sloan Circle
+  city: Brooklyn
+  state: NY
+  zip_code: "11210"
+
+---
+position: 664
+voter_info:
+  last_name: Cullivan
+  first_name: Rufus
+  street_address: 9189 Helena Junction
+  city: New York City
+  state: NY
+  zip_code: "10045"
+
+---
+position: 665
+voter_info:
+  last_name: Screen
+  first_name: Cleopatra
+  street_address: 17 Mandrake Hill
+  city: Miami
+  state: FL
+  zip_code: "33245"
+
+---
+position: 666
+voter_info:
+  last_name: Stennard
+  first_name: Lodovico
+  street_address: 06 Service Point
+  city: Washington
+  state: DC
+  zip_code: "20310"
+
+---
+position: 667
+voter_info:
+  last_name: Blaxter
+  first_name: Bebe
+  street_address: 1027 Fuller Parkway
+  city: Montgomery
+  state: AL
+  zip_code: "36104"
+
+---
+position: 668
+voter_info:
+  last_name: Fisbey
+  first_name: Ric
+  street_address: 9613 Kipling Center
+  city: Houston
+  state: TX
+  zip_code: "77218"
+
+---
+position: 669
+voter_info:
+  last_name: Strangward
+  first_name: Arther
+  street_address: 0224 Moland Lane
+  city: Portland
+  state: OR
+  zip_code: "97240"
+
+---
+position: 670
+voter_info:
+  last_name: MacGinney
+  first_name: Gianni
+  street_address: 6 Hudson Trail
+  city: Washington
+  state: DC
+  zip_code: "20099"
+
+---
+position: 671
+voter_info:
+  last_name: Hugk
+  first_name: Lynnell
+  street_address: 7279 Rockefeller Drive
+  city: Conroe
+  state: TX
+  zip_code: "77305"
+
+---
+position: 672
+voter_info:
+  last_name: Cambden
+  first_name: Moria
+  street_address: 0 Westerfield Pass
+  city: Washington
+  state: DC
+  zip_code: "20599"
+
+---
+position: 673
+voter_info:
+  last_name: Connah
+  first_name: Rhianna
+  street_address: 9212 David Street
+  city: Washington
+  state: DC
+  zip_code: "20057"
+
+---
+position: 674
+voter_info:
+  last_name: Brickhill
+  first_name: Karilynn
+  street_address: 80469 Melby Drive
+  city: Washington
+  state: DC
+  zip_code: "20575"
+
+---
+position: 675
+voter_info:
+  last_name: Caseri
+  first_name: Thekla
+  street_address: 2732 Corben Place
+  city: Charleston
+  state: WV
+  zip_code: "25336"
+
+---
+position: 676
+voter_info:
+  last_name: Giraths
+  first_name: Jilli
+  street_address: 26611 Tennessee Parkway
+  city: Bloomington
+  state: IN
+  zip_code: "47405"
+
+---
+position: 677
+voter_info:
+  last_name: Dalling
+  first_name: Toma
+  street_address: 513 Clemons Court
+  city: Tacoma
+  state: WA
+  zip_code: "98442"
+
+---
+position: 678
+voter_info:
+  last_name: Wildbore
+  first_name: Christoper
+  street_address: 48 Gale Crossing
+  city: Madison
+  state: WI
+  zip_code: "53790"
+
+---
+position: 679
+voter_info:
+  last_name: Conquer
+  first_name: Hedi
+  street_address: 72738 Fair Oaks Lane
+  city: Manassas
+  state: VA
+  zip_code: "22111"
+
+---
+position: 680
+voter_info:
+  last_name: Coning
+  first_name: Gunner
+  street_address: 7888 Canary Lane
+  city: Fort Lauderdale
+  state: FL
+  zip_code: "33325"
+
+---
+position: 681
+voter_info:
+  last_name: Greenhouse
+  first_name: Marion
+  street_address: 8357 Forest Dale Hill
+  city: Las Vegas
+  state: NV
+  zip_code: "89120"
+
+---
+position: 682
+voter_info:
+  last_name: Jerram
+  first_name: Harcourt
+  street_address: 594 Cambridge Terrace
+  city: Memphis
+  state: TN
+  zip_code: "38104"
+
+---
+position: 683
+voter_info:
+  last_name: Arnefield
+  first_name: Griffie
+  street_address: 8 Bluestem Way
+  city: Saint Petersburg
+  state: FL
+  zip_code: "33715"
+
+---
+position: 684
+voter_info:
+  last_name: Rymour
+  first_name: Adiana
+  street_address: 0 Village Green Crossing
+  city: Birmingham
+  state: AL
+  zip_code: "35285"
+
+---
+position: 685
+voter_info:
+  last_name: Donan
+  first_name: Leesa
+  street_address: 843 6th Park
+  city: Tyler
+  state: TX
+  zip_code: "75710"
+
+---
+position: 686
+voter_info:
+  last_name: Bettenay
+  first_name: Jervis
+  street_address: 6 Main Point
+  city: Brockton
+  state: MA
+  zip_code: "2405"
+
+---
+position: 687
+voter_info:
+  last_name: Beran
+  first_name: Bibbye
+  street_address: 0517 Prentice Way
+  city: Amarillo
+  state: TX
+  zip_code: "79116"
+
+---
+position: 688
+voter_info:
+  last_name: Sherborne
+  first_name: Sydelle
+  street_address: 88915 Gina Point
+  city: Springfield
+  state: IL
+  zip_code: "62776"
+
+---
+position: 689
+voter_info:
+  last_name: Gyngyll
+  first_name: Antonella
+  street_address: 707 Dryden Court
+  city: Pittsburgh
+  state: PA
+  zip_code: "15235"
+
+---
+position: 690
+voter_info:
+  last_name: Gonnelly
+  first_name: Erny
+  street_address: 9 Sherman Park
+  city: Lubbock
+  state: TX
+  zip_code: "79410"
+
+---
+position: 691
+voter_info:
+  last_name: "O'Sheils"
+  first_name: Bren
+  street_address: 5189 Lien Pass
+  city: New York City
+  state: NY
+  zip_code: "10039"
+
+---
+position: 692
+voter_info:
+  last_name: Starkings
+  first_name: Derrik
+  street_address: 753 Ridge Oak Circle
+  city: Oakland
+  state: CA
+  zip_code: "94627"
+
+---
+position: 693
+voter_info:
+  last_name: Cicci
+  first_name: Noll
+  street_address: 54935 Nova Hill
+  city: Saint Paul
+  state: MN
+  zip_code: "55123"
+
+---
+position: 694
+voter_info:
+  last_name: Privett
+  first_name: Ileana
+  street_address: 683 Emmet Center
+  city: Washington
+  state: DC
+  zip_code: "20546"
+
+---
+position: 695
+voter_info:
+  last_name: Aubry
+  first_name: Kyrstin
+  street_address: 017 American Avenue
+  city: Macon
+  state: GA
+  zip_code: "31296"
+
+---
+position: 696
+voter_info:
+  last_name: Menelaws
+  first_name: Thorny
+  street_address: 63 Sloan Pass
+  city: Humble
+  state: TX
+  zip_code: "77346"
+
+---
+position: 697
+voter_info:
+  last_name: Braithwait
+  first_name: Wynne
+  street_address: 3 Lawn Alley
+  city: Yonkers
+  state: NY
+  zip_code: "10705"
+
+---
+position: 698
+voter_info:
+  last_name: Tolomio
+  first_name: Susie
+  street_address: 3673 Loeprich Terrace
+  city: Raleigh
+  state: NC
+  zip_code: "27605"
+
+---
+position: 699
+voter_info:
+  last_name: Chrestien
+  first_name: Ida
+  street_address: 68686 High Crossing Drive
+  city: Wichita
+  state: KS
+  zip_code: "67210"
+
+---
+position: 700
+voter_info:
+  last_name: Clifforth
+  first_name: Donalt
+  street_address: 44 Vidon Court
+  city: Indianapolis
+  state: IN
+  zip_code: "46295"
+
+---
+position: 701
+voter_info:
+  last_name: Rany
+  first_name: Tracee
+  street_address: 3312 Pankratz Crossing
+  city: Colorado Springs
+  state: CO
+  zip_code: "80935"
+
+---
+position: 702
+voter_info:
+  last_name: Blanden
+  first_name: Rosalia
+  street_address: 79410 Hauk Trail
+  city: Augusta
+  state: GA
+  zip_code: "30905"
+
+---
+position: 703
+voter_info:
+  last_name: Willetts
+  first_name: Tiphany
+  street_address: 1 Lotheville Place
+  city: Conroe
+  state: TX
+  zip_code: "77305"
+
+---
+position: 704
+voter_info:
+  last_name: Shyram
+  first_name: Elfreda
+  street_address: 400 Vermont Parkway
+  city: Philadelphia
+  state: PA
+  zip_code: "19151"
+
+---
+position: 705
+voter_info:
+  last_name: Lorand
+  first_name: Brandi
+  street_address: 52947 Luster Junction
+  city: Minneapolis
+  state: MN
+  zip_code: "55470"
+
+---
+position: 706
+voter_info:
+  last_name: Di Maggio
+  first_name: Patrizius
+  street_address: 1243 Lyons Pass
+  city: Houston
+  state: TX
+  zip_code: "77025"
+
+---
+position: 707
+voter_info:
+  last_name: Baldetti
+  first_name: Archer
+  street_address: 63 Bobwhite Street
+  city: Erie
+  state: PA
+  zip_code: "16550"
+
+---
+position: 708
+voter_info:
+  last_name: Heathcott
+  first_name: Gun
+  street_address: 81 Meadow Valley Road
+  city: Nashville
+  state: TN
+  zip_code: "37215"
+
+---
+position: 709
+voter_info:
+  last_name: Gobbet
+  first_name: Bennie
+  street_address: 63878 Di Loreto Trail
+  city: Aurora
+  state: CO
+  zip_code: "80045"
+
+---
+position: 710
+voter_info:
+  last_name: Treske
+  first_name: Natassia
+  street_address: 993 Brown Circle
+  city: Houston
+  state: TX
+  zip_code: "77228"
+
+---
+position: 711
+voter_info:
+  last_name: Cristobal
+  first_name: Aura
+  street_address: 88361 Barnett Terrace
+  city: Huntsville
+  state: AL
+  zip_code: "35810"
+
+---
+position: 712
+voter_info:
+  last_name: Gouny
+  first_name: Lura
+  street_address: 486 Corben Street
+  city: Long Beach
+  state: CA
+  zip_code: "90805"
+
+---
+position: 713
+voter_info:
+  last_name: Mathouse
+  first_name: Barton
+  street_address: 8 Burning Wood Terrace
+  city: Mobile
+  state: AL
+  zip_code: "36670"
+
+---
+position: 714
+voter_info:
+  last_name: Horney
+  first_name: Felipa
+  street_address: 07181 Mockingbird Center
+  city: Salt Lake City
+  state: UT
+  zip_code: "84135"
+
+---
+position: 715
+voter_info:
+  last_name: Jaray
+  first_name: Ertha
+  street_address: 1144 Magdeline Point
+  city: Brockton
+  state: MA
+  zip_code: "2305"
+
+---
+position: 716
+voter_info:
+  last_name: Beach
+  first_name: Georgette
+  street_address: 433 Troy Alley
+  city: Santa Ana
+  state: CA
+  zip_code: "92705"
+
+---
+position: 717
+voter_info:
+  last_name: Nobles
+  first_name: Elwood
+  street_address: 408 Dahle Alley
+  city: Shreveport
+  state: LA
+  zip_code: "71115"
+
+---
+position: 718
+voter_info:
+  last_name: Odams
+  first_name: Jaclin
+  street_address: 1 Trailsway Park
+  city: Birmingham
+  state: AL
+  zip_code: "35220"
+
+---
+position: 719
+voter_info:
+  last_name: Kohlert
+  first_name: Ellwood
+  street_address: 162 Kennedy Place
+  city: Houston
+  state: TX
+  zip_code: "77005"
+
+---
+position: 720
+voter_info:
+  last_name: Ayer
+  first_name: Ruthi
+  street_address: 28 Cardinal Hill
+  city: Philadelphia
+  state: PA
+  zip_code: "19151"
+
+---
+position: 721
+voter_info:
+  last_name: Terzi
+  first_name: Arne
+  street_address: 1679 Talmadge Drive
+  city: San Luis Obispo
+  state: CA
+  zip_code: "93407"
+
+---
+position: 722
+voter_info:
+  last_name: Chaplin
+  first_name: Veronica
+  street_address: 9 Sunbrook Circle
+  city: Apache Junction
+  state: AZ
+  zip_code: "85219"
+
+---
+position: 723
+voter_info:
+  last_name: Liebermann
+  first_name: Ebba
+  street_address: 0 Northport Way
+  city: Oklahoma City
+  state: OK
+  zip_code: "73114"
+
+---
+position: 724
+voter_info:
+  last_name: Courtes
+  first_name: Elisabeth
+  street_address: 01 Farwell Drive
+  city: Jamaica
+  state: NY
+  zip_code: "11447"
+
+---
+position: 725
+voter_info:
+  last_name: Riditch
+  first_name: Cirilo
+  street_address: 1 Tennessee Junction
+  city: Dearborn
+  state: MI
+  zip_code: "48126"
+
+---
+position: 726
+voter_info:
+  last_name: Moorman
+  first_name: Waiter
+  street_address: 64 Roth Plaza
+  city: Greensboro
+  state: NC
+  zip_code: "27425"
+
+---
+position: 727
+voter_info:
+  last_name: Mee
+  first_name: "D'arcy"
+  street_address: 50 Dunning Center
+  city: Birmingham
+  state: AL
+  zip_code: "35231"
+
+---
+position: 728
+voter_info:
+  last_name: Mabey
+  first_name: Tory
+  street_address: 2204 Oak Valley Park
+  city: Inglewood
+  state: CA
+  zip_code: "90310"
+
+---
+position: 729
+voter_info:
+  last_name: Duffin
+  first_name: Amy
+  street_address: 3256 Magdeline Trail
+  city: Harrisburg
+  state: PA
+  zip_code: "17126"
+
+---
+position: 730
+voter_info:
+  last_name: Eilhart
+  first_name: Wilmer
+  street_address: 19636 Glacier Hill Trail
+  city: Des Moines
+  state: IA
+  zip_code: "50981"
+
+---
+position: 731
+voter_info:
+  last_name: Colbridge
+  first_name: Adella
+  street_address: 4 Harbort Court
+  city: Saint Louis
+  state: MO
+  zip_code: "63180"
+
+---
+position: 732
+voter_info:
+  last_name: Mioni
+  first_name: Sandor
+  street_address: 31 Summerview Park
+  city: Washington
+  state: DC
+  zip_code: "20404"
+
+---
+position: 733
+voter_info:
+  last_name: Diggell
+  first_name: Currie
+  street_address: 23 Pond Drive
+  city: Fort Worth
+  state: TX
+  zip_code: "76105"
+
+---
+position: 734
+voter_info:
+  last_name: Absalom
+  first_name: Gabbie
+  street_address: 92 Stone Corner Alley
+  city: Norfolk
+  state: VA
+  zip_code: "23504"
+
+---
+position: 735
+voter_info:
+  last_name: Simnor
+  first_name: Conn
+  street_address: 14 Bartelt Park
+  city: San Antonio
+  state: TX
+  zip_code: "78240"
+
+---
+position: 736
+voter_info:
+  last_name: Eggle
+  first_name: Barbey
+  street_address: 330 Russell Street
+  city: Saint Joseph
+  state: MO
+  zip_code: "64504"
+
+---
+position: 737
+voter_info:
+  last_name: Grzegorek
+  first_name: Jessamine
+  street_address: 07 Merrick Road
+  city: Cincinnati
+  state: OH
+  zip_code: "45254"
+
+---
+position: 738
+voter_info:
+  last_name: Furmedge
+  first_name: Lesley
+  street_address: 12 Golf View Place
+  city: Waco
+  state: TX
+  zip_code: "76711"
+
+---
+position: 739
+voter_info:
+  last_name: Matuszyk
+  first_name: Henrietta
+  street_address: 22562 Montana Place
+  city: Spring Hill
+  state: FL
+  zip_code: "34611"
+
+---
+position: 740
+voter_info:
+  last_name: Sowood
+  first_name: Amargo
+  street_address: 84022 Harper Alley
+  city: Torrance
+  state: CA
+  zip_code: "90510"
+
+---
+position: 741
+voter_info:
+  last_name: Mortell
+  first_name: Malorie
+  street_address: 84 Colorado Crossing
+  city: Detroit
+  state: MI
+  zip_code: "48206"
+
+---
+position: 742
+voter_info:
+  last_name: Shoesmith
+  first_name: Faunie
+  street_address: 579 Grayhawk Crossing
+  city: Baltimore
+  state: MD
+  zip_code: "21282"
+
+---
+position: 743
+voter_info:
+  last_name: Fellowes
+  first_name: Ted
+  street_address: 1 Northport Street
+  city: Gainesville
+  state: GA
+  zip_code: "30506"
+
+---
+position: 744
+voter_info:
+  last_name: Glyssanne
+  first_name: Tania
+  street_address: 5 Texas Hill
+  city: Saint Louis
+  state: MO
+  zip_code: "63131"
+
+---
+position: 745
+voter_info:
+  last_name: Pendell
+  first_name: Lilias
+  street_address: 6171 Hollow Ridge Street
+  city: Colorado Springs
+  state: CO
+  zip_code: "80995"
+
+---
+position: 746
+voter_info:
+  last_name: Goomes
+  first_name: Samuel
+  street_address: 4 Boyd Alley
+  city: Sacramento
+  state: CA
+  zip_code: "94291"
+
+---
+position: 747
+voter_info:
+  last_name: Berney
+  first_name: Shane
+  street_address: 014 Eagan Hill
+  city: Lexington
+  state: KY
+  zip_code: "40581"
+
+---
+position: 748
+voter_info:
+  last_name: Masedon
+  first_name: Annabelle
+  street_address: 3 Scofield Terrace
+  city: Jacksonville
+  state: FL
+  zip_code: "32277"
+
+---
+position: 749
+voter_info:
+  last_name: Jouanny
+  first_name: Christi
+  street_address: 31571 Magdeline Center
+  city: Seattle
+  state: WA
+  zip_code: "98127"
+
+---
+position: 750
+voter_info:
+  last_name: Turnor
+  first_name: Sheeree
+  street_address: 443 Hintze Crossing
+  city: Portland
+  state: OR
+  zip_code: "97232"
+
+---
+position: 751
+voter_info:
+  last_name: Downes
+  first_name: Wilhelm
+  street_address: 229 Fair Oaks Point
+  city: Hagerstown
+  state: MD
+  zip_code: "21747"
+
+---
+position: 752
+voter_info:
+  last_name: Pawlaczyk
+  first_name: Mariska
+  street_address: 74696 Buell Court
+  city: Raleigh
+  state: NC
+  zip_code: "27615"
+
+---
+position: 753
+voter_info:
+  last_name: Huws
+  first_name: Yurik
+  street_address: 272 Green Place
+  city: Charlotte
+  state: NC
+  zip_code: "28230"
+
+---
+position: 754
+voter_info:
+  last_name: Strutt
+  first_name: Royall
+  street_address: 88076 Susan Plaza
+  city: Springfield
+  state: MO
+  zip_code: "65810"
+
+---
+position: 755
+voter_info:
+  last_name: Spearing
+  first_name: Karalee
+  street_address: 38954 Reindahl Center
+  city: West Palm Beach
+  state: FL
+  zip_code: "33411"
+
+---
+position: 756
+voter_info:
+  last_name: Hain
+  first_name: Nerita
+  street_address: 6361 Schiller Point
+  city: Lynn
+  state: MA
+  zip_code: "1905"
+
+---
+position: 757
+voter_info:
+  last_name: Janauschek
+  first_name: Colin
+  street_address: 09319 Sheridan Terrace
+  city: El Paso
+  state: TX
+  zip_code: "88541"
+
+---
+position: 758
+voter_info:
+  last_name: Yezafovich
+  first_name: Norrie
+  street_address: 1551 Merrick Pass
+  city: Saint Petersburg
+  state: FL
+  zip_code: "33737"
+
+---
+position: 759
+voter_info:
+  last_name: Kanzler
+  first_name: Udall
+  street_address: 5578 Utah Place
+  city: Fort Lauderdale
+  state: FL
+  zip_code: "33305"
+
+---
+position: 760
+voter_info:
+  last_name: Levecque
+  first_name: Sara
+  street_address: 43239 Hauk Alley
+  city: Washington
+  state: DC
+  zip_code: "20540"
+
+---
+position: 761
+voter_info:
+  last_name: Aucoate
+  first_name: Ilyssa
+  street_address: 25 Eagle Crest Point
+  city: Detroit
+  state: MI
+  zip_code: "48217"
+
+---
+position: 762
+voter_info:
+  last_name: Hurt
+  first_name: Cirillo
+  street_address: 9538 Browning Parkway
+  city: Falls Church
+  state: VA
+  zip_code: "22047"
+
+---
+position: 763
+voter_info:
+  last_name: Gomez
+  first_name: Seymour
+  street_address: 0 Vera Drive
+  city: Albuquerque
+  state: NM
+  zip_code: "87121"
+
+---
+position: 764
+voter_info:
+  last_name: Aldred
+  first_name: Parrnell
+  street_address: 926 Ramsey Lane
+  city: Mobile
+  state: AL
+  zip_code: "36670"
+
+---
+position: 765
+voter_info:
+  last_name: Leckenby
+  first_name: Brodie
+  street_address: 5778 American Lane
+  city: Lancaster
+  state: CA
+  zip_code: "93584"
+
+---
+position: 766
+voter_info:
+  last_name: Memmory
+  first_name: Willdon
+  street_address: 034 Bultman Center
+  city: Shawnee Mission
+  state: KS
+  zip_code: "66220"
+
+---
+position: 767
+voter_info:
+  last_name: Podd
+  first_name: Uriah
+  street_address: 196 Sugar Crossing
+  city: Cincinnati
+  state: OH
+  zip_code: "45203"
+
+---
+position: 768
+voter_info:
+  last_name: Bardnam
+  first_name: Chelsey
+  street_address: 642 Buena Vista Parkway
+  city: Austin
+  state: TX
+  zip_code: "78783"
+
+---
+position: 769
+voter_info:
+  last_name: Robardley
+  first_name: Cynthea
+  street_address: 7 Hooker Center
+  city: Houston
+  state: TX
+  zip_code: "77070"
+
+---
+position: 770
+voter_info:
+  last_name: Baskeyfied
+  first_name: Gerhardine
+  street_address: 8 Bellgrove Street
+  city: Washington
+  state: DC
+  zip_code: "20231"
+
+---
+position: 771
+voter_info:
+  last_name: Jeakins
+  first_name: Arline
+  street_address: 4 Dottie Trail
+  city: Redwood City
+  state: CA
+  zip_code: "94064"
+
+---
+position: 772
+voter_info:
+  last_name: Dugall
+  first_name: Tucky
+  street_address: 03920 International Avenue
+  city: Fort Lauderdale
+  state: FL
+  zip_code: "33355"
+
+---
+position: 773
+voter_info:
+  last_name: Kilcoyne
+  first_name: Kaine
+  street_address: 8 Susan Street
+  city: Houston
+  state: TX
+  zip_code: "77090"
+
+---
+position: 774
+voter_info:
+  last_name: Lescop
+  first_name: Wyndham
+  street_address: 21 Hanover Court
+  city: Washington
+  state: DC
+  zip_code: "20067"
+
+---
+position: 775
+voter_info:
+  last_name: Sivell
+  first_name: Kev
+  street_address: 2 Cascade Place
+  city: Dayton
+  state: OH
+  zip_code: "45440"
+
+---
+position: 776
+voter_info:
+  last_name: Sudddard
+  first_name: Craig
+  street_address: 236 Spaight Way
+  city: Anchorage
+  state: AK
+  zip_code: "99517"
+
+---
+position: 777
+voter_info:
+  last_name: Orta
+  first_name: Laurens
+  street_address: 7219 Mifflin Pass
+  city: Springfield
+  state: MA
+  zip_code: "1114"
+
+---
+position: 778
+voter_info:
+  last_name: Sawfoot
+  first_name: Leslie
+  street_address: 41362 Rusk Street
+  city: Phoenix
+  state: AZ
+  zip_code: "85067"
+
+---
+position: 779
+voter_info:
+  last_name: Benedek
+  first_name: Zeb
+  street_address: 956 Golf Course Street
+  city: Salt Lake City
+  state: UT
+  zip_code: "84120"
+
+---
+position: 780
+voter_info:
+  last_name: Oertzen
+  first_name: Albina
+  street_address: 8 Golden Leaf Lane
+  city: Fargo
+  state: ND
+  zip_code: "58122"
+
+---
+position: 781
+voter_info:
+  last_name: Eburah
+  first_name: Mendy
+  street_address: 09383 Prentice Park
+  city: Houston
+  state: TX
+  zip_code: "77030"
+
+---
+position: 782
+voter_info:
+  last_name: Ruddock
+  first_name: Bran
+  street_address: 35 Heffernan Terrace
+  city: Erie
+  state: PA
+  zip_code: "16510"
+
+---
+position: 783
+voter_info:
+  last_name: Cowx
+  first_name: Hillary
+  street_address: 2243 Hagan Drive
+  city: Corpus Christi
+  state: TX
+  zip_code: "78465"
+
+---
+position: 784
+voter_info:
+  last_name: Hovy
+  first_name: Elliot
+  street_address: 0 Shopko Avenue
+  city: Cincinnati
+  state: OH
+  zip_code: "45296"
+
+---
+position: 785
+voter_info:
+  last_name: Elcom
+  first_name: Jayme
+  street_address: 8521 Hoffman Hill
+  city: Kansas City
+  state: MO
+  zip_code: "64193"
+
+---
+position: 786
+voter_info:
+  last_name: Loosely
+  first_name: Banky
+  street_address: 70 Warrior Plaza
+  city: Prescott
+  state: AZ
+  zip_code: "86305"
+
+---
+position: 787
+voter_info:
+  last_name: Gontier
+  first_name: Erwin
+  street_address: 1 Hintze Circle
+  city: Huntsville
+  state: AL
+  zip_code: "35895"
+
+---
+position: 788
+voter_info:
+  last_name: Rawlyns
+  first_name: Bendite
+  street_address: 990 Maple Wood Avenue
+  city: Saint Paul
+  state: MN
+  zip_code: "55166"
+
+---
+position: 789
+voter_info:
+  last_name: Mepham
+  first_name: Innis
+  street_address: 30 Rigney Hill
+  city: New York City
+  state: NY
+  zip_code: "10275"
+
+---
+position: 790
+voter_info:
+  last_name: Forker
+  first_name: Salomo
+  street_address: 83683 Morning Avenue
+  city: Loretto
+  state: MN
+  zip_code: "55598"
+
+---
+position: 791
+voter_info:
+  last_name: Agostini
+  first_name: Andrey
+  street_address: 0381 Ridgeview Crossing
+  city: Gulfport
+  state: MS
+  zip_code: "39505"
+
+---
+position: 792
+voter_info:
+  last_name: Coyte
+  first_name: Griffith
+  street_address: 1 Del Sol Crossing
+  city: San Jose
+  state: CA
+  zip_code: "95160"
+
+---
+position: 793
+voter_info:
+  last_name: Clail
+  first_name: Betteanne
+  street_address: 1 Logan Place
+  city: Winston Salem
+  state: NC
+  zip_code: "27105"
+
+---
+position: 794
+voter_info:
+  last_name: Gittose
+  first_name: Leia
+  street_address: 49 Pleasure Junction
+  city: Boulder
+  state: CO
+  zip_code: "80310"
+
+---
+position: 795
+voter_info:
+  last_name: Drinkall
+  first_name: Findlay
+  street_address: 069 Michigan Street
+  city: Tampa
+  state: FL
+  zip_code: "33680"
+
+---
+position: 796
+voter_info:
+  last_name: Earney
+  first_name: Chicky
+  street_address: 89 Bashford Hill
+  city: Hattiesburg
+  state: MS
+  zip_code: "39404"
+
+---
+position: 797
+voter_info:
+  last_name: Soreau
+  first_name: Bald
+  street_address: 24 Dorton Court
+  city: Greensboro
+  state: NC
+  zip_code: "27455"
+
+---
+position: 798
+voter_info:
+  last_name: Cubbin
+  first_name: Alfie
+  street_address: 03 Grayhawk Center
+  city: Indianapolis
+  state: IN
+  zip_code: "46266"
+
+---
+position: 799
+voter_info:
+  last_name: Fisbey
+  first_name: Quinlan
+  street_address: 2 Portage Junction
+  city: Salem
+  state: OR
+  zip_code: "97312"
+
+---
+position: 800
+voter_info:
+  last_name: Hunt
+  first_name: Oswald
+  street_address: 95956 Becker Center
+  city: Louisville
+  state: KY
+  zip_code: "40256"
+
+---
+position: 801
+voter_info:
+  last_name: Whibley
+  first_name: Wallie
+  street_address: 3 Buhler Hill
+  city: Fort Myers
+  state: FL
+  zip_code: "33913"
+
+---
+position: 802
+voter_info:
+  last_name: Eskrigg
+  first_name: Jesse
+  street_address: 7 Ludington Drive
+  city: Schenectady
+  state: NY
+  zip_code: "12325"
+
+---
+position: 803
+voter_info:
+  last_name: Manley
+  first_name: Pancho
+  street_address: 92191 Havey Park
+  city: Tampa
+  state: FL
+  zip_code: "33633"
+
+---
+position: 804
+voter_info:
+  last_name: Appleford
+  first_name: Jeanine
+  street_address: 15727 Comanche Crossing
+  city: Albuquerque
+  state: NM
+  zip_code: "87121"
+
+---
+position: 805
+voter_info:
+  last_name: Seelbach
+  first_name: Robbie
+  street_address: 516 Vidon Avenue
+  city: Portland
+  state: OR
+  zip_code: "97211"
+
+---
+position: 806
+voter_info:
+  last_name: Corsar
+  first_name: Barry
+  street_address: 56 Mariners Cove Center
+  city: Madison
+  state: WI
+  zip_code: "53790"
+
+---
+position: 807
+voter_info:
+  last_name: Darwen
+  first_name: Clementius
+  street_address: 920 Coleman Street
+  city: Athens
+  state: GA
+  zip_code: "30610"
+
+---
+position: 808
+voter_info:
+  last_name: Dartnell
+  first_name: Constance
+  street_address: 357 Glacier Hill Trail
+  city: Orlando
+  state: FL
+  zip_code: "32808"
+
+---
+position: 809
+voter_info:
+  last_name: Lowrie
+  first_name: Edgard
+  street_address: 0 Melby Terrace
+  city: Las Vegas
+  state: NV
+  zip_code: "89130"
+
+---
+position: 810
+voter_info:
+  last_name: Corpes
+  first_name: Jonell
+  street_address: 9 Colorado Trail
+  city: Charleston
+  state: WV
+  zip_code: "25331"
+
+---
+position: 811
+voter_info:
+  last_name: Schultz
+  first_name: Clarance
+  street_address: 76 Loomis Street
+  city: Charleston
+  state: WV
+  zip_code: "25336"
+
+---
+position: 812
+voter_info:
+  last_name: McCalum
+  first_name: Manolo
+  street_address: 306 Debs Way
+  city: Panama City
+  state: FL
+  zip_code: "32412"
+
+---
+position: 813
+voter_info:
+  last_name: Machent
+  first_name: Ruttger
+  street_address: 5583 Crescent Oaks Junction
+  city: Atlanta
+  state: GA
+  zip_code: "31165"
+
+---
+position: 814
+voter_info:
+  last_name: Klimkowski
+  first_name: Jed
+  street_address: 23 Bay Plaza
+  city: San Francisco
+  state: CA
+  zip_code: "94121"
+
+---
+position: 815
+voter_info:
+  last_name: Byres
+  first_name: Idaline
+  street_address: 0102 Anthes Avenue
+  city: Myrtle Beach
+  state: SC
+  zip_code: "29579"
+
+---
+position: 816
+voter_info:
+  last_name: Kosel
+  first_name: Issy
+  street_address: 6 Jenifer Circle
+  city: Melbourne
+  state: FL
+  zip_code: "32919"
+
+---
+position: 817
+voter_info:
+  last_name: Parres
+  first_name: Pippo
+  street_address: 602 Union Point
+  city: Carson City
+  state: NV
+  zip_code: "89706"
+
+---
+position: 818
+voter_info:
+  last_name: Worvell
+  first_name: Bibi
+  street_address: 82 Ronald Regan Plaza
+  city: Washington
+  state: DC
+  zip_code: "20067"
+
+---
+position: 819
+voter_info:
+  last_name: Lacasa
+  first_name: Tootsie
+  street_address: 14 Forest Park
+  city: Torrance
+  state: CA
+  zip_code: "90505"
+
+---
+position: 820
+voter_info:
+  last_name: Aldred
+  first_name: Aryn
+  street_address: 2038 Bayside Park
+  city: Crawfordsville
+  state: IN
+  zip_code: "47937"
+
+---
+position: 821
+voter_info:
+  last_name: Huckle
+  first_name: Franni
+  street_address: 81679 Maple Hill
+  city: Albuquerque
+  state: NM
+  zip_code: "87115"
+
+---
+position: 822
+voter_info:
+  last_name: Manjot
+  first_name: Cindie
+  street_address: 70 Summerview Avenue
+  city: Kansas City
+  state: MO
+  zip_code: "64142"
+
+---
+position: 823
+voter_info:
+  last_name: Madill
+  first_name: Pansie
+  street_address: 8 Hazelcrest Parkway
+  city: Newton
+  state: MA
+  zip_code: "2458"
+
+---
+position: 824
+voter_info:
+  last_name: Klemke
+  first_name: Mycah
+  street_address: 12068 Cardinal Point
+  city: Irvine
+  state: CA
+  zip_code: "92619"
+
+---
+position: 825
+voter_info:
+  last_name: Twopenny
+  first_name: Florry
+  street_address: 4 Meadow Vale Crossing
+  city: Norwalk
+  state: CT
+  zip_code: "6854"
+
+---
+position: 826
+voter_info:
+  last_name: Guitel
+  first_name: Daune
+  street_address: 689 Sullivan Hill
+  city: Fort Lauderdale
+  state: FL
+  zip_code: "33315"
+
+---
+position: 827
+voter_info:
+  last_name: Sproule
+  first_name: Webb
+  street_address: 32 Nelson Avenue
+  city: Newport Beach
+  state: CA
+  zip_code: "92662"
+
+---
+position: 828
+voter_info:
+  last_name: Copley
+  first_name: Baryram
+  street_address: 4 Florence Terrace
+  city: Los Angeles
+  state: CA
+  zip_code: "90087"
+
+---
+position: 829
+voter_info:
+  last_name: Leal
+  first_name: Bobby
+  street_address: 130 Eggendart Avenue
+  city: New Haven
+  state: CT
+  zip_code: "6510"
+
+---
+position: 830
+voter_info:
+  last_name: Bensen
+  first_name: Alvinia
+  street_address: 2590 Kensington Parkway
+  city: Fort Lauderdale
+  state: FL
+  zip_code: "33336"
+
+---
+position: 831
+voter_info:
+  last_name: Beacom
+  first_name: Pip
+  street_address: 972 Schmedeman Alley
+  city: Springfield
+  state: IL
+  zip_code: "62723"
+
+---
+position: 832
+voter_info:
+  last_name: Spreckley
+  first_name: Kaylil
+  street_address: 44735 Bultman Street
+  city: Humble
+  state: TX
+  zip_code: "77346"
+
+---
+position: 833
+voter_info:
+  last_name: Reap
+  first_name: Randene
+  street_address: 3327 Moose Point
+  city: Austin
+  state: TX
+  zip_code: "78759"
+
+---
+position: 834
+voter_info:
+  last_name: De Meis
+  first_name: Travers
+  street_address: 11433 Burning Wood Trail
+  city: Valdosta
+  state: GA
+  zip_code: "31605"
+
+---
+position: 835
+voter_info:
+  last_name: Gifkins
+  first_name: Alessandro
+  street_address: 61860 Waxwing Road
+  city: Memphis
+  state: TN
+  zip_code: "38143"
+
+---
+position: 836
+voter_info:
+  last_name: Paeckmeyer
+  first_name: Mahmoud
+  street_address: 61 Maywood Center
+  city: Bakersfield
+  state: CA
+  zip_code: "93381"
+
+---
+position: 837
+voter_info:
+  last_name: Maxfield
+  first_name: Cristabel
+  street_address: 6888 Tony Park
+  city: Shreveport
+  state: LA
+  zip_code: "71137"
+
+---
+position: 838
+voter_info:
+  last_name: McIntosh
+  first_name: Barbaraanne
+  street_address: 84 Claremont Avenue
+  city: Boise
+  state: ID
+  zip_code: "83705"
+
+---
+position: 839
+voter_info:
+  last_name: Costa
+  first_name: Broderick
+  street_address: 876 Mesta Alley
+  city: Buffalo
+  state: NY
+  zip_code: "14205"
+
+---
+position: 840
+voter_info:
+  last_name: Kenworth
+  first_name: Ab
+  street_address: 46464 Canary Road
+  city: Metairie
+  state: LA
+  zip_code: "70005"
+
+---
+position: 841
+voter_info:
+  last_name: Hubbucke
+  first_name: Hube
+  street_address: 80 Montana Center
+  city: Burbank
+  state: CA
+  zip_code: "91520"
+
+---
+position: 842
+voter_info:
+  last_name: Fontanet
+  first_name: Eddi
+  street_address: 57 Pankratz Crossing
+  city: Charlotte
+  state: NC
+  zip_code: "28272"
+
+---
+position: 843
+voter_info:
+  last_name: Timlin
+  first_name: Merrick
+  street_address: 3416 Sloan Alley
+  city: Riverside
+  state: CA
+  zip_code: "92505"
+
+---
+position: 844
+voter_info:
+  last_name: Maevela
+  first_name: Keefe
+  street_address: 8653 Glendale Street
+  city: Los Angeles
+  state: CA
+  zip_code: "90050"
+
+---
+position: 845
+voter_info:
+  last_name: Hilling
+  first_name: Maurine
+  street_address: 9 Merchant Pass
+  city: Peoria
+  state: AZ
+  zip_code: "85383"
+
+---
+position: 846
+voter_info:
+  last_name: Sigart
+  first_name: Vivyan
+  street_address: 78006 Elgar Parkway
+  city: Washington
+  state: DC
+  zip_code: "20540"
+
+---
+position: 847
+voter_info:
+  last_name: Oldford
+  first_name: Britt
+  street_address: 1 1st Place
+  city: Norfolk
+  state: VA
+  zip_code: "23551"
+
+---
+position: 848
+voter_info:
+  last_name: Blakiston
+  first_name: Raimund
+  street_address: 25 Swallow Street
+  city: Los Angeles
+  state: CA
+  zip_code: "90076"
+
+---
+position: 849
+voter_info:
+  last_name: Beardsley
+  first_name: Clemmy
+  street_address: 781 Northwestern Trail
+  city: Austin
+  state: TX
+  zip_code: "78744"
+
+---
+position: 850
+voter_info:
+  last_name: Syde
+  first_name: Peggie
+  street_address: 4441 Bashford Pass
+  city: Elizabeth
+  state: NJ
+  zip_code: "7208"
+
+---
+position: 851
+voter_info:
+  last_name: Raistrick
+  first_name: Matthaeus
+  street_address: 73167 Sutherland Point
+  city: Springfield
+  state: IL
+  zip_code: "62718"
+
+---
+position: 852
+voter_info:
+  last_name: Gaitley
+  first_name: Nonna
+  street_address: 5 Westport Junction
+  city: Pittsburgh
+  state: PA
+  zip_code: "15225"
+
+---
+position: 853
+voter_info:
+  last_name: Harhoff
+  first_name: Calvin
+  street_address: 8 Donald Trail
+  city: Modesto
+  state: CA
+  zip_code: "95354"
+
+---
+position: 854
+voter_info:
+  last_name: Feare
+  first_name: Chiquia
+  street_address: 2 Clove Way
+  city: Jeffersonville
+  state: IN
+  zip_code: "47134"
+
+---
+position: 855
+voter_info:
+  last_name: Roake
+  first_name: Ax
+  street_address: 1654 Mariners Cove Lane
+  city: Charleston
+  state: WV
+  zip_code: "25321"
+
+---
+position: 856
+voter_info:
+  last_name: Holmyard
+  first_name: Bradley
+  street_address: 9820 Hooker Court
+  city: Waco
+  state: TX
+  zip_code: "76705"
+
+---
+position: 857
+voter_info:
+  last_name: Basillon
+  first_name: Jacki
+  street_address: 4 Merchant Terrace
+  city: Plano
+  state: TX
+  zip_code: "75074"
+
+---
+position: 858
+voter_info:
+  last_name: Yurenin
+  first_name: Rubi
+  street_address: 208 Michigan Avenue
+  city: Metairie
+  state: LA
+  zip_code: "70005"
+
+---
+position: 859
+voter_info:
+  last_name: Pimer
+  first_name: Berkly
+  street_address: 7665 Schlimgen Crossing
+  city: Washington
+  state: DC
+  zip_code: "20062"
+
+---
+position: 860
+voter_info:
+  last_name: Funnell
+  first_name: Ethan
+  street_address: 5 Orin Parkway
+  city: Fort Myers
+  state: FL
+  zip_code: "33906"
+
+---
+position: 861
+voter_info:
+  last_name: Petrillo
+  first_name: Yehudit
+  street_address: 8937 Paget Point
+  city: San Francisco
+  state: CA
+  zip_code: "94147"
+
+---
+position: 862
+voter_info:
+  last_name: Vevers
+  first_name: Barbette
+  street_address: 69364 Superior Place
+  city: Murfreesboro
+  state: TN
+  zip_code: "37131"
+
+---
+position: 863
+voter_info:
+  last_name: Niblett
+  first_name: Sibel
+  street_address: 63 Del Mar Lane
+  city: San Francisco
+  state: CA
+  zip_code: "94177"
+
+---
+position: 864
+voter_info:
+  last_name: Bysshe
+  first_name: Osbert
+  street_address: 11 Bultman Place
+  city: Lexington
+  state: KY
+  zip_code: "40546"
+
+---
+position: 865
+voter_info:
+  last_name: Bass
+  first_name: Justinn
+  street_address: 1307 Arizona Alley
+  city: Baltimore
+  state: MD
+  zip_code: "21282"
+
+---
+position: 866
+voter_info:
+  last_name: Connop
+  first_name: Goraud
+  street_address: 19142 Paget Center
+  city: Los Angeles
+  state: CA
+  zip_code: "90094"
+
+---
+position: 867
+voter_info:
+  last_name: Gavrielli
+  first_name: Maggee
+  street_address: 85119 Rieder Terrace
+  city: South Bend
+  state: IN
+  zip_code: "46634"
+
+---
+position: 868
+voter_info:
+  last_name: Cheesworth
+  first_name: Chadwick
+  street_address: 1735 Marcy Crossing
+  city: Scottsdale
+  state: AZ
+  zip_code: "85271"
+
+---
+position: 869
+voter_info:
+  last_name: Moorrud
+  first_name: Belvia
+  street_address: 36651 Clarendon Plaza
+  city: Newport News
+  state: VA
+  zip_code: "23605"
+
+---
+position: 870
+voter_info:
+  last_name: MacFadzean
+  first_name: Myrlene
+  street_address: 32 Pearson Street
+  city: San Francisco
+  state: CA
+  zip_code: "94164"
+
+---
+position: 871
+voter_info:
+  last_name: Degoy
+  first_name: Stephi
+  street_address: 258 Dayton Alley
+  city: Phoenix
+  state: AZ
+  zip_code: "85045"
+
+---
+position: 872
+voter_info:
+  last_name: Durrett
+  first_name: Ralf
+  street_address: 668 Straubel Road
+  city: Dallas
+  state: TX
+  zip_code: "75246"
+
+---
+position: 873
+voter_info:
+  last_name: Dyer
+  first_name: Cristen
+  street_address: 5 Fair Oaks Hill
+  city: Saint Louis
+  state: MO
+  zip_code: "63116"
+
+---
+position: 874
+voter_info:
+  last_name: Oxenham
+  first_name: Evelina
+  street_address: 142 Tennyson Alley
+  city: Minneapolis
+  state: MN
+  zip_code: "55470"
+
+---
+position: 875
+voter_info:
+  last_name: Jakeman
+  first_name: Richart
+  street_address: 86415 Autumn Leaf Terrace
+  city: Panama City
+  state: FL
+  zip_code: "32405"
+
+---
+position: 876
+voter_info:
+  last_name: Coulbeck
+  first_name: Gabbi
+  street_address: 2706 Anniversary Way
+  city: Norman
+  state: OK
+  zip_code: "73071"
+
+---
+position: 877
+voter_info:
+  last_name: Boullin
+  first_name: Christian
+  street_address: 228 Dunning Parkway
+  city: Washington
+  state: DC
+  zip_code: "20337"
+
+---
+position: 878
+voter_info:
+  last_name: Cornejo
+  first_name: Carolina
+  street_address: 27 Vahlen Pass
+  city: Bakersfield
+  state: CA
+  zip_code: "93311"
+
+---
+position: 879
+voter_info:
+  last_name: Tomaszynski
+  first_name: Rik
+  street_address: 097 Dapin Avenue
+  city: Greenville
+  state: SC
+  zip_code: "29610"
+
+---
+position: 880
+voter_info:
+  last_name: Bolesma
+  first_name: Tab
+  street_address: 72026 Del Mar Center
+  city: San Diego
+  state: CA
+  zip_code: "92127"
+
+---
+position: 881
+voter_info:
+  last_name: Osmon
+  first_name: Lanie
+  street_address: 5 Lillian Street
+  city: Louisville
+  state: KY
+  zip_code: "40256"
+
+---
+position: 882
+voter_info:
+  last_name: Marples
+  first_name: Arlyn
+  street_address: 2749 Cambridge Circle
+  city: Bronx
+  state: NY
+  zip_code: "10474"
+
+---
+position: 883
+voter_info:
+  last_name: Clemo
+  first_name: Petunia
+  street_address: 75385 Mayfield Circle
+  city: Suffolk
+  state: VA
+  zip_code: "23436"
+
+---
+position: 884
+voter_info:
+  last_name: Raiker
+  first_name: Birdie
+  street_address: 052 Walton Street
+  city: El Paso
+  state: TX
+  zip_code: "88519"
+
+---
+position: 885
+voter_info:
+  last_name: Maccree
+  first_name: Marlena
+  street_address: 83 Express Street
+  city: Houston
+  state: TX
+  zip_code: "77288"
+
+---
+position: 886
+voter_info:
+  last_name: Oxby
+  first_name: Dominica
+  street_address: 768 Mockingbird Point
+  city: Syracuse
+  state: NY
+  zip_code: "13217"
+
+---
+position: 887
+voter_info:
+  last_name: Corragan
+  first_name: Celina
+  street_address: 0973 Farragut Hill
+  city: Fort Wayne
+  state: IN
+  zip_code: "46896"
+
+---
+position: 888
+voter_info:
+  last_name: Pagel
+  first_name: Pepe
+  street_address: 200 Harper Lane
+  city: Peoria
+  state: IL
+  zip_code: "61640"
+
+---
+position: 889
+voter_info:
+  last_name: McCay
+  first_name: Sydel
+  street_address: 55 Thierer Junction
+  city: Washington
+  state: DC
+  zip_code: "20520"
+
+---
+position: 890
+voter_info:
+  last_name: Spight
+  first_name: Jason
+  street_address: 8864 Eastwood Center
+  city: Akron
+  state: OH
+  zip_code: "44310"
+
+---
+position: 891
+voter_info:
+  last_name: Marishenko
+  first_name: Seward
+  street_address: 6 Annamark Parkway
+  city: Denver
+  state: CO
+  zip_code: "80270"
+
+---
+position: 892
+voter_info:
+  last_name: Lewerenz
+  first_name: Marcellina
+  street_address: 9 Magdeline Lane
+  city: Kansas City
+  state: MO
+  zip_code: "64142"
+
+---
+position: 893
+voter_info:
+  last_name: Ashurst
+  first_name: Estevan
+  street_address: 2379 3rd Center
+  city: Ogden
+  state: UT
+  zip_code: "84409"
+
+---
+position: 894
+voter_info:
+  last_name: Furney
+  first_name: Calvin
+  street_address: 746 Pearson Place
+  city: Salem
+  state: OR
+  zip_code: "97306"
+
+---
+position: 895
+voter_info:
+  last_name: Garrelts
+  first_name: Katalin
+  street_address: 81618 Warner Way
+  city: Atlanta
+  state: GA
+  zip_code: "30336"
+
+---
+position: 896
+voter_info:
+  last_name: Solan
+  first_name: Claudius
+  street_address: 07421 Reindahl Drive
+  city: Oceanside
+  state: CA
+  zip_code: "92056"
+
+---
+position: 897
+voter_info:
+  last_name: Keyes
+  first_name: Fiann
+  street_address: 223 Stoughton Alley
+  city: Fairbanks
+  state: AK
+  zip_code: "99709"
+
+---
+position: 898
+voter_info:
+  last_name: Christoforou
+  first_name: Maggi
+  street_address: 9483 Mccormick Terrace
+  city: Denver
+  state: CO
+  zip_code: "80255"
+
+---
+position: 899
+voter_info:
+  last_name: McDugal
+  first_name: Ethelred
+  street_address: 5 Acker Trail
+  city: Memphis
+  state: TN
+  zip_code: "38119"
+
+---
+position: 900
+voter_info:
+  last_name: Espinoy
+  first_name: Van
+  street_address: 44879 Northfield Avenue
+  city: Gaithersburg
+  state: MD
+  zip_code: "20883"
+
+---
+position: 901
+voter_info:
+  last_name: Mulbry
+  first_name: Ruttger
+  street_address: 985 Jackson Trail
+  city: Albany
+  state: NY
+  zip_code: "12222"
+
+---
+position: 902
+voter_info:
+  last_name: Deakins
+  first_name: Lori
+  street_address: 94 Sage Hill
+  city: Memphis
+  state: TN
+  zip_code: "38136"
+
+---
+position: 903
+voter_info:
+  last_name: "O'Canavan"
+  first_name: Chrissie
+  street_address: 57432 Chinook Alley
+  city: San Antonio
+  state: TX
+  zip_code: "78291"
+
+---
+position: 904
+voter_info:
+  last_name: Veighey
+  first_name: Adrea
+  street_address: 16317 Manley Crossing
+  city: Washington
+  state: DC
+  zip_code: "20226"
+
+---
+position: 905
+voter_info:
+  last_name: Askew
+  first_name: Elihu
+  street_address: 805 Farragut Pass
+  city: Pittsburgh
+  state: PA
+  zip_code: "15235"
+
+---
+position: 906
+voter_info:
+  last_name: Hearl
+  first_name: Kacy
+  street_address: 3504 Brown Junction
+  city: Greensboro
+  state: NC
+  zip_code: "27404"
+
+---
+position: 907
+voter_info:
+  last_name: Goldsack
+  first_name: Charyl
+  street_address: 578 Utah Crossing
+  city: Detroit
+  state: MI
+  zip_code: "48232"
+
+---
+position: 908
+voter_info:
+  last_name: Hyndley
+  first_name: Corby
+  street_address: 743 Amoth Lane
+  city: Midland
+  state: TX
+  zip_code: "79710"
+
+---
+position: 909
+voter_info:
+  last_name: Cliburn
+  first_name: Linoel
+  street_address: 2459 Vernon Street
+  city: Houston
+  state: TX
+  zip_code: "77201"
+
+---
+position: 910
+voter_info:
+  last_name: Tweedy
+  first_name: Druci
+  street_address: 43 Melvin Terrace
+  city: Louisville
+  state: KY
+  zip_code: "40205"
+
+---
+position: 911
+voter_info:
+  last_name: Curmi
+  first_name: Michel
+  street_address: 779 Toban Terrace
+  city: New Orleans
+  state: LA
+  zip_code: "70129"
+
+---
+position: 912
+voter_info:
+  last_name: Capelow
+  first_name: Roy
+  street_address: 66079 Canary Terrace
+  city: San Francisco
+  state: CA
+  zip_code: "94137"
+
+---
+position: 913
+voter_info:
+  last_name: Woodrup
+  first_name: Philip
+  street_address: 820 Grover Crossing
+  city: Atlanta
+  state: GA
+  zip_code: "31196"
+
+---
+position: 914
+voter_info:
+  last_name: Otson
+  first_name: Jasen
+  street_address: 74 Leroy Lane
+  city: Austin
+  state: TX
+  zip_code: "78778"
+
+---
+position: 915
+voter_info:
+  last_name: Maykin
+  first_name: Lamond
+  street_address: 9 Springs Lane
+  city: Bethesda
+  state: MD
+  zip_code: "20816"
+
+---
+position: 916
+voter_info:
+  last_name: Georgeau
+  first_name: Herculie
+  street_address: 84896 2nd Lane
+  city: Saint Paul
+  state: MN
+  zip_code: "55172"
+
+---
+position: 917
+voter_info:
+  last_name: Whybrow
+  first_name: Reggi
+  street_address: 07 Ronald Regan Road
+  city: Boston
+  state: MA
+  zip_code: "2283"
+
+---
+position: 918
+voter_info:
+  last_name: Canner
+  first_name: Kamillah
+  street_address: 441 Heffernan Crossing
+  city: Jacksonville
+  state: FL
+  zip_code: "32277"
+
+---
+position: 919
+voter_info:
+  last_name: Friett
+  first_name: Jordan
+  street_address: 8505 Buell Place
+  city: Brooklyn
+  state: NY
+  zip_code: "11231"
+
+---
+position: 920
+voter_info:
+  last_name: Greenland
+  first_name: Ware
+  street_address: 31032 Londonderry Hill
+  city: Ridgely
+  state: MD
+  zip_code: "21684"
+
+---
+position: 921
+voter_info:
+  last_name: Fullilove
+  first_name: Ema
+  street_address: 775 5th Park
+  city: South Bend
+  state: IN
+  zip_code: "46634"
+
+---
+position: 922
+voter_info:
+  last_name: Whittle
+  first_name: Wit
+  street_address: 57169 Nelson Park
+  city: Austin
+  state: TX
+  zip_code: "78783"
+
+---
+position: 923
+voter_info:
+  last_name: Tomaini
+  first_name: Karim
+  street_address: 5457 Menomonie Trail
+  city: Chicago
+  state: IL
+  zip_code: "60674"
+
+---
+position: 924
+voter_info:
+  last_name: Woodlands
+  first_name: Alastair
+  street_address: 2 Straubel Alley
+  city: Evansville
+  state: IN
+  zip_code: "47712"
+
+---
+position: 925
+voter_info:
+  last_name: Skill
+  first_name: Malanie
+  street_address: 0 Roxbury Drive
+  city: Washington
+  state: DC
+  zip_code: "20051"
+
+---
+position: 926
+voter_info:
+  last_name: Wilmut
+  first_name: Eartha
+  street_address: 6 Vidon Avenue
+  city: Washington
+  state: DC
+  zip_code: "20456"
+
+---
+position: 927
+voter_info:
+  last_name: Dufaire
+  first_name: Timoteo
+  street_address: 791 Northview Road
+  city: Corpus Christi
+  state: TX
+  zip_code: "78475"
+
+---
+position: 928
+voter_info:
+  last_name: Hawyes
+  first_name: Gerri
+  street_address: 06 Columbus Pass
+  city: Sacramento
+  state: CA
+  zip_code: "95813"
+
+---
+position: 929
+voter_info:
+  last_name: Moorey
+  first_name: Luke
+  street_address: 8256 Bayside Street
+  city: Raleigh
+  state: NC
+  zip_code: "27658"
+
+---
+position: 930
+voter_info:
+  last_name: Vodden
+  first_name: Lavena
+  street_address: 8 Waywood Hill
+  city: Syracuse
+  state: NY
+  zip_code: "13210"
+
+---
+position: 931
+voter_info:
+  last_name: Torn
+  first_name: Davine
+  street_address: 78639 Ridge Oak Way
+  city: Philadelphia
+  state: PA
+  zip_code: "19136"
+
+---
+position: 932
+voter_info:
+  last_name: Beaven
+  first_name: Rosmunda
+  street_address: 2255 Merry Terrace
+  city: Lansing
+  state: MI
+  zip_code: "48919"
+
+---
+position: 933
+voter_info:
+  last_name: Byrch
+  first_name: Doyle
+  street_address: 733 Arapahoe Parkway
+  city: New York City
+  state: NY
+  zip_code: "10099"
+
+---
+position: 934
+voter_info:
+  last_name: Chasier
+  first_name: Madalena
+  street_address: 27355 Marcy Street
+  city: Houston
+  state: TX
+  zip_code: "77266"
+
+---
+position: 935
+voter_info:
+  last_name: Pirt
+  first_name: Slade
+  street_address: 1 Dunning Hill
+  city: San Jose
+  state: CA
+  zip_code: "95150"
+
+---
+position: 936
+voter_info:
+  last_name: Wemes
+  first_name: Rory
+  street_address: 0047 Fairview Hill
+  city: Charleston
+  state: WV
+  zip_code: "25326"
+
+---
+position: 937
+voter_info:
+  last_name: Flarity
+  first_name: Kristel
+  street_address: 27139 Mariners Cove Road
+  city: Montgomery
+  state: AL
+  zip_code: "36177"
+
+---
+position: 938
+voter_info:
+  last_name: Wills
+  first_name: Brodie
+  street_address: 26 Miller Drive
+  city: Atlanta
+  state: GA
+  zip_code: "31106"
+
+---
+position: 939
+voter_info:
+  last_name: Elsop
+  first_name: Alana
+  street_address: 7 Lighthouse Bay Center
+  city: Atlanta
+  state: GA
+  zip_code: "30386"
+
+---
+position: 940
+voter_info:
+  last_name: Severs
+  first_name: Anjanette
+  street_address: 07 Sommers Hill
+  city: Charlotte
+  state: NC
+  zip_code: "28205"
+
+---
+position: 941
+voter_info:
+  last_name: Paull
+  first_name: Yolane
+  street_address: 58 Ruskin Road
+  city: Wilmington
+  state: NC
+  zip_code: "28405"
+
+---
+position: 942
+voter_info:
+  last_name: Risby
+  first_name: Kleon
+  street_address: 05 Annamark Court
+  city: Naples
+  state: FL
+  zip_code: "34108"
+
+---
+position: 943
+voter_info:
+  last_name: Stuchbury
+  first_name: Flor
+  street_address: 717 7th Junction
+  city: Columbus
+  state: GA
+  zip_code: "31904"
+
+---
+position: 944
+voter_info:
+  last_name: Skilbeck
+  first_name: Chrisse
+  street_address: 9208 Linden Way
+  city: Jacksonville
+  state: FL
+  zip_code: "32244"
+
+---
+position: 945
+voter_info:
+  last_name: Bellward
+  first_name: Kerrin
+  street_address: 9608 Sloan Avenue
+  city: Riverside
+  state: CA
+  zip_code: "92513"
+
+---
+position: 946
+voter_info:
+  last_name: Jope
+  first_name: Jammie
+  street_address: 13 Grim Pass
+  city: Dallas
+  state: TX
+  zip_code: "75310"
+
+---
+position: 947
+voter_info:
+  last_name: Buglar
+  first_name: Jobi
+  street_address: 2 Pankratz Parkway
+  city: Stamford
+  state: CT
+  zip_code: "6912"
+
+---
+position: 948
+voter_info:
+  last_name: Howels
+  first_name: Tab
+  street_address: 16422 Garrison Road
+  city: Washington
+  state: DC
+  zip_code: "20566"
+
+---
+position: 949
+voter_info:
+  last_name: Catteroll
+  first_name: Derril
+  street_address: 26 Vahlen Way
+  city: Huntington
+  state: WV
+  zip_code: "25705"
+
+---
+position: 950
+voter_info:
+  last_name: Byrd
+  first_name: Aldus
+  street_address: 954 Kenwood Drive
+  city: Tampa
+  state: FL
+  zip_code: "33673"
+
+---
+position: 951
+voter_info:
+  last_name: Thaxter
+  first_name: Madison
+  street_address: 38697 Heath Point
+  city: Naples
+  state: FL
+  zip_code: "33963"
+
+---
+position: 952
+voter_info:
+  last_name: Lochran
+  first_name: Erwin
+  street_address: 38827 Reinke Park
+  city: Fort Smith
+  state: AR
+  zip_code: "72905"
+
+---
+position: 953
+voter_info:
+  last_name: Feyer
+  first_name: Jennette
+  street_address: 5 Glacier Hill Court
+  city: Houston
+  state: TX
+  zip_code: "77234"
+
+---
+position: 954
+voter_info:
+  last_name: Sterrick
+  first_name: Phillis
+  street_address: 822 Bayside Circle
+  city: Carson City
+  state: NV
+  zip_code: "89714"
+
+---
+position: 955
+voter_info:
+  last_name: Trowle
+  first_name: Gabbey
+  street_address: 62830 Kipling Point
+  city: Savannah
+  state: GA
+  zip_code: "31405"
+
+---
+position: 956
+voter_info:
+  last_name: Gartell
+  first_name: Tobye
+  street_address: 23 Melrose Junction
+  city: Durham
+  state: NC
+  zip_code: "27717"
+
+---
+position: 957
+voter_info:
+  last_name: Everil
+  first_name: Meredith
+  street_address: 11 Jenifer Road
+  city: Green Bay
+  state: WI
+  zip_code: "54313"
+
+---
+position: 958
+voter_info:
+  last_name: Rawe
+  first_name: Jillana
+  street_address: 24013 Judy Road
+  city: Youngstown
+  state: OH
+  zip_code: "44511"
+
+---
+position: 959
+voter_info:
+  last_name: De la Perrelle
+  first_name: Sterne
+  street_address: 01 Loeprich Court
+  city: Cleveland
+  state: OH
+  zip_code: "44177"
+
+---
+position: 960
+voter_info:
+  last_name: Madle
+  first_name: Hewitt
+  street_address: 2 3rd Center
+  city: Cedar Rapids
+  state: IA
+  zip_code: "52410"
+
+---
+position: 961
+voter_info:
+  last_name: Jepensen
+  first_name: Carita
+  street_address: 2 Lien Terrace
+  city: Gaithersburg
+  state: MD
+  zip_code: "20883"
+
+---
+position: 962
+voter_info:
+  last_name: Frome
+  first_name: Christina
+  street_address: 7 Havey Point
+  city: Bethesda
+  state: MD
+  zip_code: "20892"
+
+---
+position: 963
+voter_info:
+  last_name: Braysher
+  first_name: Kylila
+  street_address: 4 Green Park
+  city: Levittown
+  state: PA
+  zip_code: "19058"
+
+---
+position: 964
+voter_info:
+  last_name: Mallaby
+  first_name: Alice
+  street_address: 36 Anderson Plaza
+  city: New Haven
+  state: CT
+  zip_code: "6510"
+
+---
+position: 965
+voter_info:
+  last_name: Mundow
+  first_name: Remus
+  street_address: 6 Towne Circle
+  city: Oklahoma City
+  state: OK
+  zip_code: "73104"
+
+---
+position: 966
+voter_info:
+  last_name: McAuslan
+  first_name: Normy
+  street_address: 133 Basil Terrace
+  city: South Bend
+  state: IN
+  zip_code: "46634"
+
+---
+position: 967
+voter_info:
+  last_name: Scotchmur
+  first_name: Delbert
+  street_address: 0462 Miller Crossing
+  city: Phoenix
+  state: AZ
+  zip_code: "85030"
+
+---
+position: 968
+voter_info:
+  last_name: Selvey
+  first_name: Baldwin
+  street_address: 12134 Warner Way
+  city: San Diego
+  state: CA
+  zip_code: "92127"
+
+---
+position: 969
+voter_info:
+  last_name: Tunn
+  first_name: Brand
+  street_address: 3 Union Trail
+  city: South Lake Tahoe
+  state: CA
+  zip_code: "96154"
+
+---
+position: 970
+voter_info:
+  last_name: Hartell
+  first_name: Shandeigh
+  street_address: 1 Kensington Court
+  city: Little Rock
+  state: AR
+  zip_code: "72222"
+
+---
+position: 971
+voter_info:
+  last_name: Ragles
+  first_name: Mikaela
+  street_address: 2372 Shasta Court
+  city: Omaha
+  state: NE
+  zip_code: "68197"
+
+---
+position: 972
+voter_info:
+  last_name: Killford
+  first_name: Rance
+  street_address: 7230 Columbus Court
+  city: Washington
+  state: DC
+  zip_code: "20566"
+
+---
+position: 973
+voter_info:
+  last_name: Ladel
+  first_name: Karlen
+  street_address: 49895 Graceland Street
+  city: Charlotte
+  state: NC
+  zip_code: "28205"
+
+---
+position: 974
+voter_info:
+  last_name: Kimmel
+  first_name: Verna
+  street_address: 9096 Sachtjen Hill
+  city: Jeffersonville
+  state: IN
+  zip_code: "47134"
+
+---
+position: 975
+voter_info:
+  last_name: Parrott
+  first_name: Horatia
+  street_address: 8 Warrior Park
+  city: Wilmington
+  state: DE
+  zip_code: "19810"
+
+---
+position: 976
+voter_info:
+  last_name: Bulpitt
+  first_name: Burr
+  street_address: 5916 Riverside Plaza
+  city: Charleston
+  state: WV
+  zip_code: "25305"
+
+---
+position: 977
+voter_info:
+  last_name: Dobrowolny
+  first_name: Tremain
+  street_address: 78967 Twin Pines Center
+  city: Valley Forge
+  state: PA
+  zip_code: "19495"
+
+---
+position: 978
+voter_info:
+  last_name: Greasley
+  first_name: Gregoire
+  street_address: 4 Corscot Terrace
+  city: Johnstown
+  state: PA
+  zip_code: "15906"
+
+---
+position: 979
+voter_info:
+  last_name: Delacourt
+  first_name: Anstice
+  street_address: 877 Londonderry Trail
+  city: Seattle
+  state: WA
+  zip_code: "98104"
+
+---
+position: 980
+voter_info:
+  last_name: Teale
+  first_name: Zola
+  street_address: 07 7th Center
+  city: Naples
+  state: FL
+  zip_code: "33961"
+
+---
+position: 981
+voter_info:
+  last_name: Martinuzzi
+  first_name: Julina
+  street_address: 3042 Utah Road
+  city: New York City
+  state: NY
+  zip_code: "10165"
+
+---
+position: 982
+voter_info:
+  last_name: Balffye
+  first_name: Heinrick
+  street_address: 1927 Coleman Plaza
+  city: Columbia
+  state: SC
+  zip_code: "29220"
+
+---
+position: 983
+voter_info:
+  last_name: Retter
+  first_name: Bernadene
+  street_address: 15733 Eliot Terrace
+  city: Miami
+  state: FL
+  zip_code: "33153"
+
+---
+position: 984
+voter_info:
+  last_name: Deaville
+  first_name: Shea
+  street_address: 6 Arizona Point
+  city: Louisville
+  state: KY
+  zip_code: "40205"
+
+---
+position: 985
+voter_info:
+  last_name: Legon
+  first_name: Gabriello
+  street_address: 250 Cordelia Avenue
+  city: Washington
+  state: DC
+  zip_code: "20409"
+
+---
+position: 986
+voter_info:
+  last_name: Fluin
+  first_name: Ricardo
+  street_address: 645 Arizona Point
+  city: South Bend
+  state: IN
+  zip_code: "46614"
+
+---
+position: 987
+voter_info:
+  last_name: Nipper
+  first_name: Rex
+  street_address: 40 Sachtjen Trail
+  city: Shreveport
+  state: LA
+  zip_code: "71137"
+
+---
+position: 988
+voter_info:
+  last_name: Sarfas
+  first_name: Milicent
+  street_address: 071 North Way
+  city: Hayward
+  state: CA
+  zip_code: "94544"
+
+---
+position: 989
+voter_info:
+  last_name: Johanning
+  first_name: Merrily
+  street_address: 07899 East Way
+  city: Miami
+  state: FL
+  zip_code: "33129"
+
+---
+position: 990
+voter_info:
+  last_name: Bulbeck
+  first_name: Austen
+  street_address: 6360 Lotheville Pass
+  city: Raleigh
+  state: NC
+  zip_code: "27605"
+
+---
+position: 991
+voter_info:
+  last_name: Miguet
+  first_name: Renata
+  street_address: 5 Rigney Place
+  city: Pittsburgh
+  state: PA
+  zip_code: "15215"
+
+---
+position: 992
+voter_info:
+  last_name: Skevington
+  first_name: Rudy
+  street_address: 66 Holmberg Hill
+  city: Harrisburg
+  state: PA
+  zip_code: "17121"
+
+---
+position: 993
+voter_info:
+  last_name: Blackleech
+  first_name: Aldrich
+  street_address: 97058 Lakeland Crossing
+  city: New Orleans
+  state: LA
+  zip_code: "70129"
+
+---
+position: 994
+voter_info:
+  last_name: Krollman
+  first_name: Florry
+  street_address: 35972 Loeprich Alley
+  city: Kingsport
+  state: TN
+  zip_code: "37665"
+
+---
+position: 995
+voter_info:
+  last_name: Le feaver
+  first_name: Noland
+  street_address: 9 Marcy Hill
+  city: Honolulu
+  state: HI
+  zip_code: "96845"
+
+---
+position: 996
+voter_info:
+  last_name: Jowitt
+  first_name: Phedra
+  street_address: 8 Vermont Plaza
+  city: Katy
+  state: TX
+  zip_code: "77493"
+
+---
+position: 997
+voter_info:
+  last_name: New
+  first_name: Alain
+  street_address: 613 Eastwood Junction
+  city: Chattanooga
+  state: TN
+  zip_code: "37410"
+
+---
+position: 998
+voter_info:
+  last_name: Colombier
+  first_name: Gerri
+  street_address: 7 Del Sol Lane
+  city: Philadelphia
+  state: PA
+  zip_code: "19160"
+
+---
+position: 999
+voter_info:
+  last_name: Matthessen
+  first_name: Benny
+  street_address: 380 Truax Court
+  city: Charlotte
+  state: NC
+  zip_code: "28289"
+

@@ -2,4 +2,4 @@
 **/*.rs.bk
 **/*.secure
 
-**/xxn_config.yaml
+**/xxn.yaml
