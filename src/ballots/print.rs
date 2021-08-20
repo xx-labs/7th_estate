@@ -92,7 +92,7 @@ fn make_dir() -> Result<(), std::io::Error>{
     }
 }
 
-pub fn print_ballot(ballot: &Ballot, question: &str) -> () {
+pub fn print_ballot(ballot: &Ballot, question: &str, option1: &str, option2: &str) -> () {
 
     // Create ballots dir
     make_dir().unwrap();
@@ -178,14 +178,14 @@ pub fn print_ballot(ballot: &Ballot, question: &str) -> () {
     // End text section
 
     // Add choices
-    make_choice(ballot.choice1, &current_layer, &font_text);
-    make_choice(ballot.choice2, &current_layer, &font_text);
+    make_choice(ballot.choice1, &current_layer, &font_text, option1);
+    make_choice(ballot.choice2, &current_layer, &font_text, option2);
 
     // Save document
     doc.save(&mut file_writer).unwrap()
 }
 
-fn make_choice(choice: BallotChoice, layer: &PdfLayerReference, font: &IndirectFontRef){
+fn make_choice(choice: BallotChoice, layer: &PdfLayerReference, font: &IndirectFontRef, option: &str){
     let votecode: String = string_from_votecode(&choice.votecode);
     let width = BALLOT_SIZE.width/2.0 - Mm(20.0);
     let height: Mm = match choice.choice {
@@ -207,7 +207,7 @@ fn make_choice(choice: BallotChoice, layer: &PdfLayerReference, font: &IndirectF
     dash_pattern.dash_1 = None;
     layer.set_fill_color(Color::Greyscale(Greyscale::new(0.0, None)));
     let choice: Text = Text {
-        text: string_from_choicevalue(&choice.choice), 
+        text: option.to_owned(), 
         size: 15, 
         startx: width + Mm(40.0), 
         starty: height,

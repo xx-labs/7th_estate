@@ -7,3 +7,5 @@ poll_trustees:
 num_ballots: 100
 num_decoys: 10
 question: "Are you vaccinated for Covid19?"
+option1: "Yes"
+option2: "No"

@@ -48,6 +48,8 @@ pub fn create_new_poll(pollconf_filename: &str) -> Result<()> {
         num_ballots: new_poll_configuration.num_ballots,
         num_decoys: new_poll_configuration.num_decoys,
         question: new_poll_configuration.question,
+        option1: new_poll_configuration.option1,
+        option2: new_poll_configuration.option2,
         voter_roster: None,
         voter_roster_size: 0,
         voter_privacy: true,

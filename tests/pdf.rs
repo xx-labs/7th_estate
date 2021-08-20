@@ -38,7 +38,7 @@ fn test_pdf() {
     let filename = BALLOTS_PATH.to_string() + &ballot.serial.to_string()  + ".pdf";
 
     // Test if file was created
-    assert_eq!((), print_ballot(&ballot));
+    assert_eq!((), print_ballot(&ballot, "Test Question", "Yes", "No"));
     assert_eq!(true, Path::new(&(filename)).exists());
 
 
