@@ -83,7 +83,7 @@ pub fn transaction_to_votecode(transaction: Transaction) -> Option<SubmittedVote
 }
 
 // Count the votes found in the blockchain
-pub fn count_votes(mut choices: HashMap<VoteCode, ChoiceValue>, transactions: Vec<Transaction>) -> Result<()> {
+pub fn count_votes(mut choices: HashMap<VoteCode, ChoiceValue>, transactions: Vec<Transaction>, option1: &str, option2: &str) -> Result<()> {
 
     let mut vote_for: u64 = 0;
     let mut vote_against: u64 = 0;
@@ -97,7 +97,7 @@ pub fn count_votes(mut choices: HashMap<VoteCode, ChoiceValue>, transactions: Ve
                     
                 // Get ChoiceValue of vote
                 if let Some(choice) = choices.remove(&votecode) {
-                    println!("{:?}: {:?}", vote, choice);
+                    // println!("{:?}: {:?}", vote, choice);
                     // If both votecodes are submitted, they cancel eachother
                     // Increment the correct counter
                     match choice {
@@ -109,7 +109,7 @@ pub fn count_votes(mut choices: HashMap<VoteCode, ChoiceValue>, transactions: Ve
             }
         });
     
-    println!("Votes for: {}, votes against: {}", vote_for, vote_against);
+    println!("\"{}\": {},  \"{}\": {}", option1, vote_for, option2, vote_against);
     Ok(())
 }
 
@@ -171,7 +171,7 @@ pub fn audit_votes(ballots: Vec<Ballot>, pollconf: PollConfiguration, xxn_config
     let data: Vec<Transaction> = get_data(pub_addr, config.api, pollconf.start_date, pollconf.end_date)?;
 
     // Count the votes
-    count_votes(choices, data)
+    count_votes(choices, data, &pollconf.option1, &pollconf.option2)
 }
 
 // Load blockchain network configurations
