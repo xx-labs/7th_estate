@@ -2,6 +2,6 @@
 **/*.rs.bk
 **/*.secure
 
-**/xxn.yaml
+**/xxn*.yaml
 
 seventh-estate

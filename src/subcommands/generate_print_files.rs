@@ -115,7 +115,7 @@ pub fn generate_print_files(pollconf_filename: &str, addresses_filename: &str, b
     let mut csvwriter = csv::Writer::from_path(ballots_path)?;
     ballots.iter()
         .for_each(|ballot| {
-            print::print_ballot(&ballot, &pollconf.question); 
+            print::print_ballot(&ballot, &pollconf.question, &pollconf.option1, &pollconf.option2); 
             let record = CompleteBallotRow {
                 serial: string_from_ballotserial(&ballot.serial, pollconf.num_ballots),
                 choice1_votecode: string_from_votecode(&ballot.choice1.votecode),

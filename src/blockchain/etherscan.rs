@@ -40,11 +40,19 @@ pub struct Response {
     message: String,
     pub result: Vec<Transaction>
 }
+
+#[derive(Debug, Deserialize)]
+pub struct ResponseBlockNumber {
+    status: String,
+    message: String,
+    pub result: String
+}
+
 #[derive(Debug, Deserialize)]
 #[serde(rename_all = "camelCase")]
 pub struct Transaction {
     block_number: String,
-    time_stamp: String,
+    pub time_stamp: String,
     hash: String,
     nonce: String,
     block_hash: String,

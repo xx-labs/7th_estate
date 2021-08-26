@@ -31,5 +31,5 @@ pub fn blockchain_audit(pollconf_filename: &str, xxn_filename: &str) -> Result <
 
     // Regenerate ballots
     let ballots = generate_ballots(&serials, &votecodes);
-    audit_votes(ballots, xxn_filename)
+    audit_votes(ballots, pollconf, xxn_filename)
 }

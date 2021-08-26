@@ -19,7 +19,8 @@ use serde::{Serialize, Deserialize};
 use crate::untagged::*;
 use crate::untagged::{Ballot};
 use std::collections::HashMap;
-use crate::blockchain::etherscan::{Transaction, Response, SubmittedVote};
+use crate::blockchain::etherscan::{Transaction, Response, SubmittedVote, ResponseBlockNumber};
+use chrono::NaiveDateTime;
 
 // Imports to interact with blockchain (web3)
 use web3::types::{BlockNumber, Address, TransactionParameters, U256, CallRequest};
@@ -82,21 +83,21 @@ pub fn transaction_to_votecode(transaction: Transaction) -> Option<SubmittedVote
 }
 
 // Count the votes found in the blockchain
-pub fn count_votes(mut choices: HashMap<VoteCode, ChoiceValue>, transactions: Vec<Transaction>) -> Result<()> {
+pub fn count_votes(mut choices: HashMap<VoteCode, ChoiceValue>, transactions: Vec<Transaction>, option1: &str, option2: &str) -> Result<()> {
 
     let mut vote_for: u64 = 0;
     let mut vote_against: u64 = 0;
 
     // Run through all transactions
     transactions.into_iter()
-        .for_each(|transaction| {
-            // Get vote from transaction
+        .for_each(|transaction| {     
+           // Get vote from transaction
             if let Some(vote) = transaction_to_votecode(transaction) {
                     let votecode = vote.to_votecode().unwrap();
                     
                 // Get ChoiceValue of vote
                 if let Some(choice) = choices.remove(&votecode) {
-                    println!("{:?}: {:?}", vote, choice);
+                    // println!("{:?}: {:?}", vote, choice);
                     // If both votecodes are submitted, they cancel eachother
                     // Increment the correct counter
                     match choice {
@@ -108,14 +109,37 @@ pub fn count_votes(mut choices: HashMap<VoteCode, ChoiceValue>, transactions: Ve
             }
         });
     
-    println!("Votes for: {}, votes against: {}", vote_for, vote_against);
+    println!("\"{}\": {},  \"{}\": {}", option1, vote_for, option2, vote_against);
     Ok(())
 }
 
+fn get_block_by_timestamp(timestamp: String, api: &String) -> Result<String> {
+    let url = format!("https://api-ropsten.etherscan.io/api?module=block&action=getblocknobytime&timestamp={}&closest=before&apikey={}", timestamp, api);
+
+    let response = async {
+        let resp = reqwest::get(&url).await.expect("Error requesting data");
+        let text = resp.text().await.expect("Error retrieving data form request");
+        let data: ResponseBlockNumber = serde_json::from_str(&text).expect("Problem parsing response from etherscan");
+        data.result
+    };
+    
+    Ok(web3::block_on(response))
+
+}
+
 // Get data associated with address
-pub fn get_data(addr: Address, api: String) -> Result <Vec<Transaction>> {
+pub fn get_data(addr: Address, api: String, start_date: String, end_date: String) -> Result <Vec<Transaction>> {
     let addr = String::from("0x") + &hex::encode(addr.0);
-    let url = format!("https://api-ropsten.etherscan.io/api?module=account&action=txlist&address={}&startblock=0&endblock=99999999&sort=asc&apikey={}", addr, api);
+    
+    let start = NaiveDateTime::parse_from_str(&format!("{} 00:00:00", start_date), "%Y-%m-%d %H:%M:%S")?;
+    let end = NaiveDateTime::parse_from_str(&format!("{} 00:00:00", end_date), "%Y-%m-%d %H:%M:%S")?;
+
+    let start_block = get_block_by_timestamp(start.timestamp().to_string(), &api)?;
+    let end_block = get_block_by_timestamp(end.timestamp().to_string(), &api)?;
+
+    debug!("Looking for blocks from {} ({}) to {} ({})",start_date, start_block, end_date, end_block);
+
+    let url = format!("https://api-ropsten.etherscan.io/api?module=account&action=txlist&address={}&startblock={}&endblock={}&sort=asc&apikey={}", addr, start_block, end_block, api);
 
     let response = async {
         let resp = reqwest::get(&url).await.expect("Error requesting data");
@@ -129,7 +153,7 @@ pub fn get_data(addr: Address, api: String) -> Result <Vec<Transaction>> {
 
 // Audit blockchain for votecodes
 // Count votes
-pub fn audit_votes(ballots: Vec<Ballot>, xxn_config: &str) -> Result<()> {
+pub fn audit_votes(ballots: Vec<Ballot>, pollconf: PollConfiguration, xxn_config: &str) -> Result<()> {
     // Load configuration file
     let config = load_xxn(xxn_config)?;
     
@@ -144,10 +168,10 @@ pub fn audit_votes(ballots: Vec<Ballot>, xxn_config: &str) -> Result<()> {
     let choices: HashMap<VoteCode, ChoiceValue> = map_votes(ballots)?;
 
     // Get data associated with poll addr -> votes submited via web interface
-    let data: Vec<Transaction> = get_data(pub_addr, config.api)?;
+    let data: Vec<Transaction> = get_data(pub_addr, config.api, pollconf.start_date, pollconf.end_date)?;
 
     // Count the votes
-    count_votes(choices, data)
+    count_votes(choices, data, &pollconf.option1, &pollconf.option2)
 }
 
 // Load blockchain network configurations
