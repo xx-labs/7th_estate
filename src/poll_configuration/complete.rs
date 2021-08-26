@@ -30,7 +30,9 @@ pub struct PollConfiguration {
     pub votes: Option<Vec<VoteCode>>,
     pub question: String,
     pub option1: String,
-    pub option2: String
+    pub option2: String,
+    pub start_date: String,
+    pub end_date: String
 }
 
 #[derive(Debug, Clone, Serialize, Deserialize)]

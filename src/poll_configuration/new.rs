@@ -16,5 +16,7 @@ pub struct NewPollConfiguration {
     pub num_decoys: usize,
     pub question: String,
     pub option1: String,
-    pub option2: String
+    pub option2: String,
+    pub start_date: String,
+    pub end_date: String
 }

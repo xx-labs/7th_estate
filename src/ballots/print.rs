@@ -15,7 +15,7 @@ use std::result::Result;
 use printpdf::*;
 use std::fs::File;
 use std::io::BufWriter;
-use super::untagged::{Ballot, BallotChoice, ChoiceValue, string_from_votecode, string_from_choicevalue};
+use super::untagged::{Ballot, BallotChoice, ChoiceValue, string_from_votecode};
 
 struct Text<'a> {
     pub text: String,

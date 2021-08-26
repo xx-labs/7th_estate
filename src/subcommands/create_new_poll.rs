@@ -50,6 +50,8 @@ pub fn create_new_poll(pollconf_filename: &str) -> Result<()> {
         question: new_poll_configuration.question,
         option1: new_poll_configuration.option1,
         option2: new_poll_configuration.option2,
+        start_date: new_poll_configuration.start_date,
+        end_date: new_poll_configuration.end_date,
         voter_roster: None,
         voter_roster_size: 0,
         voter_privacy: true,
