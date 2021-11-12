@@ -98,7 +98,7 @@ pub fn transaction_to_votecode(transaction: Transaction) -> Option<SubmittedVote
 }
 
 // Count the votes found in the blockchain
-pub fn count_votes(mut choices: HashMap<VoteCode, ChoiceValue>, serials: HashMap<VoteCode, BallotSerial>, transactions: Vec<Transaction>, pollconf: PollConfiguration) -> Result<()> {
+pub fn count_votes(mut choices: HashMap<VoteCode, ChoiceValue>, serials: HashMap<VoteCode, BallotSerial>, transactions: Vec<Transaction>, pollconf: PollConfiguration, decoys: Vec<usize>) -> Result<()> {
 
     let mut vote_for: u64 = 0;
     let mut vote_against: u64 = 0;
@@ -112,7 +112,7 @@ pub fn count_votes(mut choices: HashMap<VoteCode, ChoiceValue>, serials: HashMap
             .map(|serial| usize::from_str_radix(serial, 10).unwrap())
             .collect()
     };
-
+    println!("{:?}", decoys);
     // Run through all transactions
     transactions.into_iter()
         .for_each(|transaction| {     
@@ -122,9 +122,9 @@ pub fn count_votes(mut choices: HashMap<VoteCode, ChoiceValue>, serials: HashMap
 
                     // Get vote serial number
                     if let Some(vote_serial) = serials.get(&votecode) {
-
-                        // If vote is not audit, count vote
-                        if !audited_ballots.contains(vote_serial) {
+                        println!("{:?}", vote_serial);
+                        // If vote is not audit and not decoy, count vote
+                        if !audited_ballots.contains(vote_serial) && !decoys.contains(vote_serial) {
 
                             // Get ChoiceValue of vote
                             if let Some(choice) = choices.remove(&votecode) {
@@ -186,7 +186,7 @@ pub fn get_data(addr: Address, api: String, start_date: &str, end_date: &str) ->
 
 // Audit blockchain for votecodes
 // Count votes
-pub fn audit_votes(ballots: Vec<Ballot>, pollconf: PollConfiguration, xxn_config: &str) -> Result<()> {
+pub fn audit_votes(ballots: Vec<Ballot>, pollconf: PollConfiguration, xxn_config: &str, decoys: Vec<usize>) -> Result<()> {
     // Load configuration file
     let config = load_xxn(xxn_config)?;
     
@@ -205,7 +205,7 @@ pub fn audit_votes(ballots: Vec<Ballot>, pollconf: PollConfiguration, xxn_config
     let data: Vec<Transaction> = get_data(pub_addr, config.api, &pollconf.start_date, &pollconf.end_date)?;
 
     // Count the votes
-    count_votes(choices, serials, data, pollconf)
+    count_votes(choices, serials, data, pollconf, decoys)
 }
 
 // Load blockchain network configurations
