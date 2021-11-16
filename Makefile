@@ -34,7 +34,7 @@ run:
 	${SEVENTH_ESTATE_BINARY} step4 --config ${OUTFOLDER}/example.yaml.secure --serial-file ${OUTFOLDER}/serials.csv --xxn ${OUTFOLDER}/xxn.yaml
 	cp ${OUTFOLDER}/example.yaml.secure ${OUTFOLDER}/example.yaml.secure.step4
 
-finnish:
+finish:
 	cp ${INFOLDER}/votes.csv ${OUTFOLDER}/votes.csv
 
 	${SEVENTH_ESTATE_BINARY} step5

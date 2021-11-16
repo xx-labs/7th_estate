@@ -43,7 +43,7 @@ pub fn retrieve_from_chain(value: Vec<u8>) -> u64 {
 
 // Map votecodes to choice value
 // More efficient for vote count
-pub fn map_votes(ballots: Vec<Ballot>) -> Result<HashMap<VoteCode, ChoiceValue>> {
+pub fn map_votes(ballots: &Vec<Ballot>) -> Result<HashMap<VoteCode, ChoiceValue>> {
     let mut choices = HashMap::new();
     
     // Each votecode is maped to its corresponding Choice value
@@ -56,6 +56,21 @@ pub fn map_votes(ballots: Vec<Ballot>) -> Result<HashMap<VoteCode, ChoiceValue>>
     });
 
     Ok(choices)
+}
+
+pub fn map_serials(ballots: &Vec<Ballot>) -> Result<HashMap<VoteCode, BallotSerial>> {
+    let mut serials = HashMap::new();
+    
+    // Each votecode is maped to its corresponding Choice value
+    // p.e 1234-1234-1234-1234 => ChoiceValue::For
+    ballots.into_iter()
+            .for_each(|ballot| {
+                // println!("{} {:?} {:?}", ballot.serial, ballot.choice1.votecode, ballot.choice2.votecode);
+                serials.insert(ballot.choice1.votecode, ballot.serial);
+                serials.insert(ballot.choice2.votecode, ballot.serial);
+    });
+
+    Ok(serials)
 }
 
 // Decode the vote from the transcation input
@@ -83,29 +98,47 @@ pub fn transaction_to_votecode(transaction: Transaction) -> Option<SubmittedVote
 }
 
 // Count the votes found in the blockchain
-pub fn count_votes(mut choices: HashMap<VoteCode, ChoiceValue>, transactions: Vec<Transaction>, option1: &str, option2: &str) -> Result<()> {
+pub fn count_votes(mut choices: HashMap<VoteCode, ChoiceValue>, serials: HashMap<VoteCode, BallotSerial>, transactions: Vec<Transaction>, pollconf: PollConfiguration, decoys: Vec<usize>) -> Result<()> {
 
     let mut vote_for: u64 = 0;
     let mut vote_against: u64 = 0;
 
+    let option1 = pollconf.option1;
+    let option2 = pollconf.option2;
+    
+    // Re-construct the audited ballots.
+    let audited_ballots: Vec<BallotSerial> = {
+        pollconf.audited_ballots.clone().unwrap().iter()
+            .map(|serial| usize::from_str_radix(serial, 10).unwrap())
+            .collect()
+    };
+    println!("{:?}", decoys);
     // Run through all transactions
     transactions.into_iter()
         .for_each(|transaction| {     
            // Get vote from transaction
             if let Some(vote) = transaction_to_votecode(transaction) {
                     let votecode = vote.to_votecode().unwrap();
-                    
-                // Get ChoiceValue of vote
-                if let Some(choice) = choices.remove(&votecode) {
-                    // println!("{:?}: {:?}", vote, choice);
-                    // If both votecodes are submitted, they cancel eachother
-                    // Increment the correct counter
-                    match choice {
-                        ChoiceValue::For => vote_for += 1,
-                        ChoiceValue::Against => vote_against += 1,
+
+                    // Get vote serial number
+                    if let Some(vote_serial) = serials.get(&votecode) {
+                        println!("{:?}", vote_serial);
+                        // If vote is not audit and not decoy, count vote
+                        if !audited_ballots.contains(vote_serial) && !decoys.contains(vote_serial) {
+
+                            // Get ChoiceValue of vote
+                            if let Some(choice) = choices.remove(&votecode) {
+                                
+                                // println!("{:?}: {:?}", vote, choice);
+                                // If both votecodes are submitted, they cancel eachother
+                                // Increment the correct counter
+                                match choice {
+                                    ChoiceValue::For => vote_for += 1,
+                                    ChoiceValue::Against => vote_against += 1,
+                                }
+                            }
+                        }
                     }
-                }
-            
             }
         });
     
@@ -128,7 +161,7 @@ fn get_block_by_timestamp(timestamp: String, api: &String) -> Result<String> {
 }
 
 // Get data associated with address
-pub fn get_data(addr: Address, api: String, start_date: String, end_date: String) -> Result <Vec<Transaction>> {
+pub fn get_data(addr: Address, api: String, start_date: &str, end_date: &str) -> Result <Vec<Transaction>> {
     let addr = String::from("0x") + &hex::encode(addr.0);
     
     let start = NaiveDateTime::parse_from_str(&format!("{} 00:00:00", start_date), "%Y-%m-%d %H:%M:%S")?;
@@ -153,7 +186,7 @@ pub fn get_data(addr: Address, api: String, start_date: String, end_date: String
 
 // Audit blockchain for votecodes
 // Count votes
-pub fn audit_votes(ballots: Vec<Ballot>, pollconf: PollConfiguration, xxn_config: &str) -> Result<()> {
+pub fn audit_votes(ballots: Vec<Ballot>, pollconf: PollConfiguration, xxn_config: &str, decoys: Vec<usize>) -> Result<()> {
     // Load configuration file
     let config = load_xxn(xxn_config)?;
     
@@ -165,13 +198,14 @@ pub fn audit_votes(ballots: Vec<Ballot>, pollconf: PollConfiguration, xxn_config
     let pub_addr: Address = key.address();
     
     // Map vote codes to choices values
-    let choices: HashMap<VoteCode, ChoiceValue> = map_votes(ballots)?;
+    let choices: HashMap<VoteCode, ChoiceValue> = map_votes(&ballots)?;
+    let serials: HashMap<VoteCode, BallotSerial> = map_serials(&ballots)?;
 
     // Get data associated with poll addr -> votes submited via web interface
-    let data: Vec<Transaction> = get_data(pub_addr, config.api, pollconf.start_date, pollconf.end_date)?;
+    let data: Vec<Transaction> = get_data(pub_addr, config.api, &pollconf.start_date, &pollconf.end_date)?;
 
     // Count the votes
-    count_votes(choices, data, &pollconf.option1, &pollconf.option2)
+    count_votes(choices, serials, data, pollconf, decoys)
 }
 
 // Load blockchain network configurations
