@@ -226,6 +226,53 @@ async fn main() -> Result<(), Exception> {
                 .value_name("FILE")
                 .help("XX Network configuration file")
                 .required(true)))
+        .subcommand(SubCommand::with_name("start")
+            .about("Start an election process. Perform all steps up to step4")
+            .arg(Arg::with_name("poll_configuration")
+                .short("c")
+                .long("config")
+                .value_name("FILE")
+                .help("Poll configuration YAML file.")
+                .required(true))
+            .arg(Arg::with_name("roster_file")
+                .short("r")
+                .long("roster")
+                .value_name("FILE")
+                .help("Voter roster CSV file.")
+                .required(true))
+            .arg(Arg::with_name("disable_voter_privacy")
+                .long("disable-voter-privacy")
+                .help("Commit roster with full voter name and address information.")
+                .required(false))
+            .arg(Arg::with_name("drawn_summands_seed")
+                .short("s")
+                .long("seed")
+                .value_name("HEX")
+                .help("Seed value as hexadecimal string of bytes.")
+                .required(true))
+            .arg(Arg::with_name("address_label")
+                .short("a")
+                .long("addresses")
+                .value_name("FILE")
+                .help("Address label CSV file.")
+                .required(true))
+            .arg(Arg::with_name("ballot_information")
+                .short("b")
+                .long("ballots")
+                .value_name("FILE")
+                .help("Ballot information CSV file.")
+                .required(true))
+            .arg(Arg::with_name("audited_ballots")
+                .long("serial-file")
+                .value_name("FILE")
+                .help("Ballot serials LIST file.")
+                .required(true))
+            .arg(Arg::with_name("xxn_config")
+                .short("x")
+                .long("xxn")
+                .value_name("FILE")
+                .help("XX Network configuration file")
+                .required(true)))
         .get_matches();
 
     stderrlog::new().verbosity(4).init().unwrap();
@@ -301,6 +348,17 @@ async fn main() -> Result<(), Exception> {
         ("audit", Some(arguments)) => {
             blockchain_audit(
                 arguments.value_of("poll_configuration").unwrap(),
+                arguments.value_of("xxn_config").unwrap())?;
+        },
+        ("start", Some(arguments)) => {
+            start(
+                arguments.value_of("poll_configuration").unwrap(),
+                arguments.value_of("roster_file").unwrap(),
+                0 < arguments.occurrences_of("disable_voter_privacy"),
+                arguments.value_of("drawn_summands_seed").unwrap(),
+                arguments.value_of("address_label").unwrap(),
+                arguments.value_of("ballot_information").unwrap(),
+                arguments.value_of("audited_ballots").unwrap(),
                 arguments.value_of("xxn_config").unwrap())?;
         }
         _ => ()

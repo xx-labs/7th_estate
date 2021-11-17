@@ -6,6 +6,7 @@
 
 use super::*;
 
+#[derive(Clone)]
 pub struct PollMasterKey(pub Vec<u8>);
 
 pub struct PollMasterKeyShare(pub Vec<u8>);
