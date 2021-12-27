@@ -51,7 +51,20 @@ finish:
 
 	${SEVENTH_ESTATE_BINARY} audit --config ${OUTFOLDER}/example.yaml.secure  --xxn ${OUTFOLDER}/xxn.yaml
 	cp ${OUTFOLDER}/example.yaml.secure ${OUTFOLDER}/example.yaml.secure.audit
-	
+
+
+start:
+	mkdir ${OUTFOLDER} 2>/dev/null
+	cp ${INFOLDER}/newpoll.yaml ${OUTFOLDER}/example.yaml
+	cp ${INFOLDER}/roster.csv ${OUTFOLDER}/roster.csv
+	cp ${INFOLDER}/xxn.yaml ${OUTFOLDER}/xxn.yaml
+	cp ${INFOLDER}/serials.csv ${OUTFOLDER}/serials.csv
+
+	${SEVENTH_ESTATE_BINARY} start -a ${OUTFOLDER}/addresses.csv --serial-file ${OUTFOLDER}/serials.csv -b ${OUTFOLDER}/ballots.csv -s `openssl rand ${SIZE} | xxd -ps -c ${SIZE}` -c ${OUTFOLDER}/example.yaml -r ${OUTFOLDER}/roster.csv -x ${OUTFOLDER}/xxn.yaml
+
+end:
+	${SEVENTH_ESTATE_BINARY} finish -c ${OUTFOLDER}/example.yaml -s `openssl rand ${SIZE} | xxd -ps -c ${SIZE}` -x ${OUTFOLDER}/xxn.yaml -v ${OUTFOLDER}/votes.csv
+
 clean:
 	rm -rf data
 	rm -rf merkle.yaml

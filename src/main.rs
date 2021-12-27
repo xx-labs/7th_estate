@@ -273,6 +273,31 @@ async fn main() -> Result<(), Exception> {
                 .value_name("FILE")
                 .help("XX Network configuration file")
                 .required(true)))
+        .subcommand(SubCommand::with_name("finish")
+            .arg(Arg::with_name("poll_configuration")
+                .short("c")
+                .long("config")
+                .value_name("FILE")
+                .help("Poll configuration YAML file.")
+                .required(true))
+            .arg(Arg::with_name("xxn_config")
+                .short("x")
+                .long("xxn")
+                .value_name("FILE")
+                .help("XX Network configuration file")
+                .required(true))
+            .arg(Arg::with_name("votes_file")
+                .short("v")
+                .long("votes")
+                .value_name("FILE")
+                .help("Votes recorded CSV file.")
+                .required(true))
+            .arg(Arg::with_name("tally_audit_seed")
+                .short("s")
+                .long("seed")
+                .value_name("HEX")
+                .help("Seed value as hexadecimal string of bytes.")
+                .required(true)))
         .get_matches();
 
     stderrlog::new().verbosity(4).init().unwrap();
@@ -360,7 +385,14 @@ async fn main() -> Result<(), Exception> {
                 arguments.value_of("ballot_information").unwrap(),
                 arguments.value_of("audited_ballots").unwrap(),
                 arguments.value_of("xxn_config").unwrap())?;
-        }
+        },
+        ("finish", Some(arguments)) => {
+            finish(
+                arguments.value_of("poll_configuration").unwrap(),
+                arguments.value_of("xxn_config").unwrap(),
+                arguments.value_of("votes_file").unwrap(),
+                arguments.value_of("tally_audit_seed").unwrap())?;
+        },
         _ => ()
     }
 
