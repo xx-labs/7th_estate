@@ -112,17 +112,19 @@ pub fn count_votes(mut choices: HashMap<VoteCode, ChoiceValue>, serials: HashMap
             .map(|serial| usize::from_str_radix(serial, 10).unwrap())
             .collect()
     };
-    println!("{:?}", decoys);
+    
     // Run through all transactions
     transactions.into_iter()
         .for_each(|transaction| {     
            // Get vote from transaction
             if let Some(vote) = transaction_to_votecode(transaction) {
                     let votecode = vote.to_votecode().unwrap();
+                    // println!("{:?}", votecode);
 
                     // Get vote serial number
                     if let Some(vote_serial) = serials.get(&votecode) {
-                        println!("{:?}", vote_serial);
+                        //println!("{:?}", vote_serial);
+
                         // If vote is not audit and not decoy, count vote
                         if !audited_ballots.contains(vote_serial) && !decoys.contains(vote_serial) {
 

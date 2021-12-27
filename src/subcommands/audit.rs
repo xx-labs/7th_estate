@@ -35,6 +35,32 @@ pub fn blockchain_audit(pollconf_filename: &str, xxn_filename: &str) -> Result <
     audit_votes(ballots, pollconf, xxn_filename, decoys)
 }
 
+pub fn blockchain_audit_run (xxn_filename: &str, secured_poll_configuration: SecuredPollConfiguration, poll_master_key: PollMasterKey, aead_pmk: AEADKey) -> Result<()> {
+
+    // Decrypt poll configuration state.
+    let pollconf_aead_values = secured_poll_configuration.encrypted_poll_configuration.values()?;
+    let serialized_pollconf = aead_decrypt(&aead_pmk, &pollconf_aead_values)?;
+    let pollconf: PollConfiguration = serde_yaml::from_slice(&serialized_pollconf).unwrap();
+
+    assert!(pollconf.poll_state.summands_drawn,
+        "Summands must be drawn to generate voters and print content for public audit.");
+
+    // Derive the poll secrets.
+    let poll_secrets: PollSecrets = PollSecrets::derive(&poll_master_key);
+
+    // Generate the Ballots.
+    let serials: Vec<BallotSerial> = (0..pollconf.num_ballots).collect();
+    let votecodes: Vec<VoteCode> = generate_votecodes(
+        poll_secrets.votecode_root,
+        2 * pollconf.num_ballots);
+
+    // Regenerate ballots
+    let ballots = generate_ballots(&serials, &votecodes);
+    let decoys = get_decoys(&pollconf, poll_master_key)?;
+    audit_votes(ballots, pollconf, xxn_filename, decoys)
+}
+
+
 pub fn get_decoys(pollconf: &PollConfiguration, poll_master_key: PollMasterKey) -> Result<Vec<usize>>{
     // Derive the poll secrets.
     let poll_secrets: PollSecrets = PollSecrets::derive(&poll_master_key);
