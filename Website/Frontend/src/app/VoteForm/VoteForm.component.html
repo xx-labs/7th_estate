@@ -1,0 +1,39 @@
+<div class="container" id="VoteForm">
+    <div [hidden]="!error" class="alert alert-danger">
+        {{ error }}
+    </div>
+
+    <div [hidden]="!success" class="alert alert-success">
+        {{ success }}
+    </div>
+
+    <div *ngIf="hash; then StatusBlock else NoStatusBlock"></div>
+
+        <ng-template #StatusBlock>
+            <div class="alert alert-info">
+                <app-waiting-receipt [hash]="hash" [status]="status"></app-waiting-receipt>
+            </div>
+        </ng-template>
+    <ng-template #NoStatusBlock>
+        <form (ngSubmit)="postVote();" #LoginForm="ngForm">
+            <input type="hidden" name="_csrf" value="{{ csrf }}">
+            <div class="form-group">
+                <input type="tel" placeholder="Insert your vote code here..." size="{{ validatecode.TOTAL_VOTE_LENGTH }}" id="votecode" name="votecode" autocomplete="disabled" class="form-control" required maxlength="{{ validatecode.TOTAL_VOTE_LENGTH }}"  minlength="{{ validatecode.TOTAL_VOTE_LENGTH }}" [(ngModel)]="votecode" #checkvotecode="ngModel" (keyup)="keyup($event)">
+                <div *ngIf="checkvotecode.invalid && checkvotecode.touched" class="alert alert-danger">
+                    <div *ngIf="checkvotecode.errors.required; then requiredError else wrongError"></div>
+		    <ng-template #requiredError>
+                        Vote code is required.
+                    </ng-template>
+		    <ng-template #wrongError>
+			Vote code is wrong.
+		    </ng-template>
+
+                </div>
+                <button type="submit" class="btn btn-success btn-block" [disabled]="checkvotecode.invalid">
+                    Vote
+                </button>
+            </div>
+
+        </form>
+    </ng-template>
+</div>
