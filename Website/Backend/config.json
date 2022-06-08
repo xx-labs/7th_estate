@@ -1,0 +1,5 @@
+{
+    "host": "localhost",
+    "port": 9098,
+    "apipath": "/vote"
+}

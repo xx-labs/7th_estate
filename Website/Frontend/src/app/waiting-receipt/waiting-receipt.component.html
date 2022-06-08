@@ -1,0 +1,16 @@
+<div class="alert alert-info">
+  {{ status }}
+  <div *ngIf="receipt; then receiptBlock else noReceipt"></div>
+  <ng-template #receiptBlock>
+    <pre>{{ receipt | json }}</pre>
+  </ng-template>
+  <ng-template #noReceipt>
+    <div *ngIf="hash; then hashBlock else noHash"></div>
+      <ng-template #hashBlock>
+        {{ hash }}
+      </ng-template>
+      <ng-template #noHash>
+        No hash available...
+      </ng-template>
+  </ng-template>
+</div>
